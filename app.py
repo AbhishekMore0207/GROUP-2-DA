@@ -131,6 +131,20 @@ with tabs[1]:
     cat_cols_X = X.select_dtypes(include="object").columns.tolist()
     num_cols_X = X.select_dtypes(include=["int64", "float64"]).columns.tolist()
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
+
+    # ---- Dynamic detection of positive class ----
+    from collections import Counter
+    y_labels = sorted(list(set(y_train) | set(y_test)))
+    if len(y_labels) == 2:
+        # Binary: Use less frequent label as positive
+        counter = Counter(list(y_train) + list(y_test))
+        pos_label = min(counter, key=counter.get) if min(counter.values()) != max(counter.values()) else y_labels[1]
+        metrics_average = None
+    else:
+        # Multiclass: use 'weighted' average and skip pos_label
+        pos_label = None
+        metrics_average = "weighted"
+
     pre = ColumnTransformer([
         ("cat", OrdinalEncoder(handle_unknown="use_encoded_value", unknown_value=-1), cat_cols_X),
         ("num", StandardScaler(), num_cols_X)
@@ -146,35 +160,46 @@ with tabs[1]:
         pipe = Pipeline([("prep", pre), ("clf", clf)])
         pipe.fit(X_train, y_train)
         y_pred = pipe.predict(X_test)
-        probs = pipe.predict_proba(X_test)[:,1] if hasattr(clf, "predict_proba") else None
-        metric_rows.append([
-            name,
-            accuracy_score(y_test, y_pred),
-            precision_score(y_test, y_pred, pos_label="Yes"),
-            recall_score(y_test, y_pred, pos_label="Yes"),
-            f1_score(y_test, y_pred, pos_label="Yes")
-        ])
-        if probs is not None:
-            fpr, tpr, _ = roc_curve((y_test=="Yes").astype(int), probs)
-            roc_info[name] = (fpr, tpr, auc(fpr, tpr))
+        probs = pipe.predict_proba(X_test)[:,1] if hasattr(clf, "predict_proba") and len(y_labels) == 2 else None
+        if len(y_labels) == 2:
+            metric_rows.append([
+                name,
+                accuracy_score(y_test, y_pred),
+                precision_score(y_test, y_pred, pos_label=pos_label, zero_division=0),
+                recall_score(y_test, y_pred, pos_label=pos_label, zero_division=0),
+                f1_score(y_test, y_pred, pos_label=pos_label, zero_division=0)
+            ])
+            if probs is not None:
+                fpr, tpr, _ = roc_curve([1 if val == pos_label else 0 for val in y_test], probs)
+                roc_info[name] = (fpr, tpr, auc(fpr, tpr))
+        else:
+            metric_rows.append([
+                name,
+                accuracy_score(y_test, y_pred),
+                precision_score(y_test, y_pred, average=metrics_average, zero_division=0),
+                recall_score(y_test, y_pred, average=metrics_average, zero_division=0),
+                f1_score(y_test, y_pred, average=metrics_average, zero_division=0)
+            ])
         st.session_state[f"pipe_{name}"] = pipe
     met_df = pd.DataFrame(metric_rows, columns=["Model","Accuracy","Precision","Recall","F1"])
     st.dataframe(met_df.style.format("{:.2%}"))
     sel = st.selectbox("Show Confusion Matrix for:", list(models.keys()))
     pipe = st.session_state[f"pipe_{sel}"]
     y_cm_pred = pipe.predict(X_test)
-    cm = confusion_matrix(y_test, y_cm_pred, labels=["No","Yes"])
+    cm_labels = sorted(list(set(y_test) | set(y_cm_pred)))
+    cm = confusion_matrix(y_test, y_cm_pred, labels=cm_labels)
     fig, ax = plt.subplots()
-    ConfusionMatrixDisplay(cm, display_labels=["No","Yes"]).plot(ax=ax)
+    ConfusionMatrixDisplay(cm, display_labels=cm_labels).plot(ax=ax)
     st.pyplot(fig)
-    fig, ax = plt.subplots()
-    for name, (fpr, tpr, auc_score) in roc_info.items():
-        ax.plot(fpr, tpr, label=f"{name} (AUC={auc_score:.2f})")
-    ax.plot([0,1],[0,1],"--")
-    ax.set_xlabel("False Positive Rate"); ax.set_ylabel("True Positive Rate")
-    ax.set_title("ROC Curves (all models)")
-    ax.legend()
-    st.pyplot(fig)
+    if len(y_labels) == 2 and any(roc_info.values()):
+        fig, ax = plt.subplots()
+        for name, (fpr, tpr, auc_score) in roc_info.items():
+            ax.plot(fpr, tpr, label=f"{name} (AUC={auc_score:.2f})")
+        ax.plot([0,1],[0,1],"--")
+        ax.set_xlabel("False Positive Rate"); ax.set_ylabel("True Positive Rate")
+        ax.set_title("ROC Curves (all models)")
+        ax.legend()
+        st.pyplot(fig)
     rf_imp = st.session_state["pipe_Random Forest"].named_steps["clf"].feature_importances_
     feats = pd.DataFrame({"Feature": cat_cols_X + num_cols_X, "Importance": rf_imp})
     top5 = feats.sort_values("Importance", ascending=False).head(5)
@@ -196,7 +221,6 @@ with tabs[1]:
 with tabs[2]:
     st.header("Customer Segmentation (K-means)")
     cluster_num_cols = df.select_dtypes(include=["int64", "float64"]).columns.tolist()
-    # -- Drop rows with any NaN in numeric columns --
     cluster_df = df.dropna(subset=cluster_num_cols).copy()
     k = st.slider("Number of clusters", 2, 10, 4)
     inertias = []
@@ -234,7 +258,6 @@ with tabs[3]:
     min_sup = st.slider("Min support (%)", 1, 20, 5) / 100
     min_conf = st.slider("Min confidence (%)", 5, 80, 30) / 100
     if cols:
-        # dropna on selected columns only for association rule mining
         ar_df = df.dropna(subset=cols)
         basket = pd.get_dummies(ar_df[cols])
         freq = apriori(basket, min_support=min_sup, use_colnames=True)
@@ -256,7 +279,6 @@ with tabs[4]:
     feature_cols_reg = [col for col in df.columns if col != target_reg]
     y_reg = df[target_reg]
     X_reg = df[feature_cols_reg]
-    # dropna on both features and target for regression
     reg_df = pd.concat([X_reg, y_reg], axis=1).dropna(subset=feature_cols_reg + [target_reg])
     X_reg = reg_df[feature_cols_reg]
     y_reg = reg_df[target_reg]
