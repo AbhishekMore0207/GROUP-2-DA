@@ -1,0 +1,1501 @@
+Age,Generation,Gender,Income_kUSD,Occupation,Drinks_Per_Week,Social_Setting,Taste_Preference,Alcohol_Tolerance,Price_Sensitivity,Preferred_Drink,Support_Local_Store,Purchase_Frequency,Monthly_Spend_USD,Purchase_Channel,Drinking_Occasion,Brand_Loyalty,Access_Problems,Health_Score
+59.0,Baby Boomer,Male,66.87,Other,3.0,Social Event,Bitter,1.71,Low,Beer,Yes,Weekly,144.88,Offline,Celebration,High,No Problems,4.0
+49.0,Gen X,Female,61.19,Other,2.0,Bar,Bitter,1.86,Low,Other,No,Monthly,1190.71,Offline,Celebration,High,Location,3.5
+35.0,Millennial,Female,54.73,Student,1.0,Restaurant,Sour,1.79,High,Wine,No,Monthly,138.45,Offline,Social,Low,Expensive,5.0
+63.0,Baby Boomer,Female,77.39,Retired,2.0,Restaurant,Bitter,2.22,Low,Wine,No,Monthly,210.4,Offline,Social,High,No Problems,4.3
+28.0,Millennial,Female,26.89,Other,2.0,Home,Sour,1.47,Medium,Other,Yes,Monthly,277.52,Online,Stress Relief,Medium,Limited Variety,3.7
+41.0,Gen X,Male,51.31,Other,2.0,Bar,Sour,0.77,Medium,Cider,Yes,Monthly,1075.57,Online,Celebration,Medium,Expensive,4.6
+59.0,Baby Boomer,Male,35.22,Retired,4.0,Bar,Bitter,1.08,Medium,Beer,Yes,Weekly,649.76,Offline,Celebration,Medium,Location,3.0
+39.0,Millennial,Male,67.8,Student,1.0,Other,Bitter,1.82,,Spirits,No,Monthly,455.49,Online,Celebration,High,No Problems,4.4
+43.0,Gen X,Male,13.33,Retired,0.0,Restaurant,,,Low,Beer,No,Rarely,74.46,Both,Social,High,Limited Variety,4.7
+31.0,Millennial,Female,49.44,Student,,Restaurant,Salty,1.56,High,Wine,No,Monthly,468.87,Online,Social,Low,Expensive,3.1
+31.0,Millennial,Male,56.7,Professional,,Bar,Sour,1.87,Medium,Beer,Yes,Monthly,512.9,Offline,Celebration,Medium,Location,5.0
+44.0,Gen X,Male,31.05,Student,,Home,Salty,1.77,High,Cocktails,No,Monthly,221.19,Both,Stress Relief,Low,Location,3.2
+56.0,,,37.48,,,Bar,Sour,2.26,Medium,Cocktails,No,Monthly,244.39,Online,Celebration,Medium,No Problems,3.6
+,,,,Professional,0.0,Home,Sweet,1.67,High,Spirits,Yes,Rarely,200.17,Offline,Stress Relief,Low,Location,5.0
+44.0,Gen X,Female,69.1,,2.0,Restaurant,Sour,2.06,Medium,Cider,Yes,Monthly,293.37,Online,Social,Medium,Expensive,3.7
+23.0,Gen Z,Other,29.34,,,Other,Sour,1.0,High,Beer,Yes,Monthly,157.82,Offline,Social,Low,No Problems,4.1
+42.0,Gen X,Male,32.83,Student,,Social Event,Salty,1.86,Medium,Cocktails,Yes,Monthly,87.16,Offline,Celebration,Medium,Expensive,3.4
+22.0,Gen Z,Male,72.51,Other,,,Sweet,2.3,Medium,Cider,Maybe,Monthly,427.26,Online,Social,Medium,Expensive,3.8
+44.0,Gen X,Female,,Other,5.0,Home,Neutral,1.27,Medium,Cocktails,Yes,Weekly,342.46,Offline,Stress Relief,Medium,Limited Variety,2.6
+64.0,Baby Boomer,Female,34.45,Entrepreneur,5.0,Bar,Neutral,2.06,High,Cider,Yes,Weekly,223.76,Both,Celebration,Low,Limited Variety,2.0
+50.0,,Male,64.57,Professional,1.0,Restaurant,Neutral,1.95,High,Cider,No,Monthly,358.0,Online,Social,Low,Expensive,5.0
+58.0,Baby Boomer,,,,4.0,Other,Sweet,0.62,Medium,Cocktails,Yes,Weekly,921.92,Online,Daily Habit,Medium,Location,2.7
+22.0,Gen Z,Male,70.55,,,Home,Bitter,1.66,Medium,Other,Yes,Monthly,691.13,Both,Stress Relief,Medium,Limited Variety,4.7
+41.0,Gen X,,,Entrepreneur,,Bar,Sweet,0.76,Low,Wine,Yes,Monthly,140.5,Offline,Celebration,High,Limited Variety,3.9
+53.0,Gen X,Female,46.81,Student,,Social Event,Salty,2.43,Medium,Cider,Maybe,Monthly,176.64,Both,Celebration,Medium,No Problems,3.2
+32.0,Millennial,Female,68.9,Entrepreneur,3.0,Home,Sour,2.12,Low,Other,No,Weekly,833.71,Offline,Stress Relief,High,Limited Variety,2.9
+42.0,Gen X,Female,45.47,Professional,2.0,Bar,Sour,0.72,Medium,Beer,Yes,Monthly,172.2,Both,Celebration,Medium,Expensive,4.1
+64.0,Baby Boomer,,65.12,Student,2.0,Social Event,Salty,0.74,High,Other,Maybe,Monthly,360.24,Offline,Celebration,Low,Expensive,4.5
+45.0,Gen X,Female,48.69,,2.0,Bar,Salty,1.69,Low,Cocktails,No,Monthly,396.77,Both,Celebration,High,No Problems,4.9
+47.0,Gen X,Male,89.63,Other,2.0,Social Event,Sour,1.19,Medium,Other,Yes,Monthly,341.85,Both,Celebration,Medium,Expensive,4.1
+62.0,Baby Boomer,Male,81.38,Other,0.0,Social Event,Bitter,0.57,Medium,Wine,No,Rarely,355.91,Offline,Celebration,Medium,Limited Variety,4.4
+48.0,Gen X,Female,23.44,Entrepreneur,4.0,Social Event,Bitter,1.58,Low,Cocktails,Yes,Weekly,111.08,Online,Celebration,High,Location,3.1
+36.0,Millennial,,60.44,Student,4.0,Bar,Bitter,1.28,Medium,Spirits,Yes,Weekly,413.15,Online,Celebration,Medium,Limited Variety,2.6
+35.0,Millennial,Female,33.67,Retired,1.0,Social Event,Salty,0.7,Medium,Beer,No,Monthly,200.21,Online,Celebration,Medium,Expensive,4.7
+64.0,Baby Boomer,Female,53.83,Student,3.0,Home,Sour,2.1,Low,Spirits,No,Weekly,183.49,Offline,Stress Relief,High,Location,3.0
+23.0,Gen Z,Female,51.37,Other,0.0,Other,Sour,2.33,High,Other,No,Rarely,265.64,Online,Social,Low,Expensive,4.0
+57.0,Baby Boomer,Female,28.89,Student,2.0,Other,Sour,2.01,High,Cider,Yes,Monthly,177.07,Offline,Social,Low,No Problems,4.7
+27.0,Millennial,Male,71.17,Retired,0.0,Social Event,Sweet,2.14,Low,Other,Yes,Rarely,389.23,Offline,Celebration,High,Expensive,4.9
+41.0,Gen X,Male,,Entrepreneur,3.0,Other,Sweet,0.93,Low,Cider,No,Weekly,420.91,Offline,Daily Habit,High,Limited Variety,3.5
+29.0,Millennial,Male,44.31,Professional,2.0,Other,Neutral,1.03,Medium,Spirits,Maybe,Monthly,542.47,Offline,Social,Medium,Limited Variety,4.5
+59.0,Baby Boomer,Male,41.24,,1.0,Social Event,Sweet,0.92,Medium,Spirits,Yes,Monthly,222.49,Online,Celebration,Medium,Limited Variety,5.0
+38.0,Millennial,Female,52.8,Professional,0.0,Social Event,Bitter,2.03,Low,Cider,No,Rarely,176.74,Online,Celebration,High,Location,5.0
+24.0,Gen Z,Female,58.16,Other,0.0,Home,Bitter,2.4,Low,Wine,Yes,Rarely,256.52,Online,Stress Relief,High,Limited Variety,5.0
+45.0,Gen X,Male,47.5,Entrepreneur,4.0,Restaurant,Bitter,1.93,Medium,Beer,No,Weekly,575.49,Offline,Social,Medium,Expensive,3.2
+34.0,Millennial,Male,-6.65,Entrepreneur,2.0,Bar,Bitter,2.26,High,Cocktails,Yes,Monthly,-42.18,Online,Celebration,Low,Location,3.9
+29.0,Millennial,Female,50.34,Student,2.0,Social Event,Neutral,1.78,Medium,Spirits,No,Monthly,317.97,Online,Celebration,Medium,Limited Variety,4.0
+46.0,Gen X,Male,21.17,Entrepreneur,3.0,Social Event,Bitter,1.28,Medium,Beer,Yes,Weekly,112.67,Offline,Celebration,Medium,Limited Variety,3.6
+22.0,Gen Z,Female,45.81,Student,5.0,Other,Salty,1.35,High,Cocktails,Yes,Weekly,370.89,Both,Social,Low,Expensive,2.1
+40.0,Millennial,Female,21.91,Student,3.0,Home,Salty,0.65,Medium,Other,Maybe,Weekly,82.15,Online,Stress Relief,Medium,Expensive,3.5
+48.0,Gen X,Female,21.67,Professional,0.0,Other,Salty,0.56,Medium,Cocktails,Yes,Rarely,215.63,Offline,Daily Habit,Medium,Expensive,5.0
+27.0,Millennial,Female,74.7,Entrepreneur,0.0,Social Event,Sweet,1.89,Medium,Spirits,No,Rarely,166.4,Offline,Celebration,Medium,Expensive,5.0
+64.0,Baby Boomer,Female,43.6,Student,2.0,Social Event,Sour,1.38,High,Wine,No,Monthly,190.84,Offline,Celebration,Low,Limited Variety,4.2
+28.0,Millennial,Male,42.07,Professional,2.0,Other,Neutral,1.6,Medium,Wine,No,Monthly,181.81,Both,Social,Medium,No Problems,3.3
+55.0,Gen X,Female,59.65,Retired,2.0,Social Event,Salty,1.62,High,Beer,No,Monthly,577.56,Online,Celebration,Low,Expensive,4.6
+34.0,Millennial,Female,42.59,Professional,3.0,Restaurant,Salty,1.05,Medium,Other,Maybe,Weekly,277.83,Online,Social,Medium,Limited Variety,4.1
+37.0,Millennial,Male,92.08,Professional,0.0,Bar,Bitter,1.45,Medium,Beer,No,Rarely,712.93,Both,Celebration,Medium,Expensive,5.0
+56.0,Gen X,Female,44.54,Student,0.0,Bar,Salty,1.44,Low,Cider,Yes,Rarely,131.96,Offline,Celebration,High,Limited Variety,5.0
+60.0,Baby Boomer,Female,57.3,Other,3.0,Bar,Bitter,1.28,Medium,Wine,Yes,Weekly,498.02,Offline,Celebration,Medium,Expensive,3.4
+24.0,Gen Z,Female,69.42,Other,2.0,Restaurant,Bitter,2.14,Medium,Beer,Yes,Monthly,282.97,Offline,Social,Medium,No Problems,4.4
+22.0,Gen Z,Female,82.05,Other,3.0,Social Event,Sour,1.4,Low,Cider,Yes,Weekly,1813.03,Offline,Celebration,High,Location,3.1
+26.0,Millennial,Female,35.16,Professional,1.0,Other,Sweet,1.71,Medium,Other,Maybe,Monthly,98.39,Both,Social,Medium,No Problems,5.0
+62.0,Baby Boomer,Female,41.64,Student,3.0,Home,Bitter,2.29,Low,Cocktails,Yes,Weekly,367.54,Both,Stress Relief,High,No Problems,3.9
+24.0,Gen Z,Female,75.49,Entrepreneur,3.0,Social Event,Bitter,2.23,High,Beer,No,Weekly,783.47,Both,Celebration,Low,Limited Variety,3.9
+49.0,Gen X,Female,66.2,Professional,1.0,Restaurant,Sour,2.28,Low,Cider,Maybe,Monthly,412.58,Online,Social,High,Location,4.4
+38.0,Millennial,Female,71.5,Professional,3.0,Restaurant,Bitter,1.04,High,Wine,Yes,Weekly,492.7,Both,Social,Low,Expensive,2.8
+46.0,Gen X,Female,22.63,Student,4.0,Bar,Neutral,0.57,Medium,Cocktails,Maybe,Weekly,195.82,Online,Celebration,Medium,Limited Variety,3.4
+64.0,Baby Boomer,Female,80.96,Retired,2.0,Social Event,Sweet,1.02,Low,Beer,Yes,Monthly,512.2,Offline,Celebration,High,No Problems,5.0
+54.0,Gen X,Male,34.77,Professional,1.0,Bar,Neutral,1.06,Medium,Wine,No,Monthly,163.71,Both,Celebration,Medium,Expensive,4.9
+30.0,Millennial,Female,53.85,Retired,4.0,Home,Salty,2.32,Low,Cocktails,Yes,Weekly,805.12,Online,Stress Relief,High,No Problems,2.6
+56.0,Gen X,Female,47.04,Retired,1.0,Bar,Sweet,1.8,Medium,Spirits,No,Monthly,719.9,Online,Celebration,Medium,Limited Variety,3.7
+34.0,Millennial,Male,32.43,Other,1.0,Home,Salty,0.66,Medium,Wine,No,Monthly,124.36,Online,Stress Relief,Medium,No Problems,4.5
+51.0,Gen X,Female,21.75,Student,3.0,Restaurant,Bitter,0.77,Low,Spirits,Yes,Weekly,82.89,Both,Social,High,No Problems,4.1
+35.0,Millennial,Male,15.12,Retired,1.0,Bar,Sour,0.81,High,Other,Yes,Monthly,73.31,Offline,Celebration,Low,Location,4.0
+28.0,Millennial,Male,52.38,Student,4.0,Bar,Neutral,1.76,Low,Beer,No,Weekly,1756.76,Offline,Celebration,High,Location,3.8
+34.0,Millennial,Female,19.49,Other,3.0,Other,Salty,1.97,Medium,Cider,No,Weekly,98.58,Online,Daily Habit,Medium,Limited Variety,3.8
+43.0,Gen X,Male,27.32,Student,0.0,Restaurant,Bitter,2.22,Medium,Beer,No,Rarely,257.24,Both,Social,Medium,No Problems,5.0
+60.0,Baby Boomer,Female,45.64,Professional,2.0,Other,Neutral,2.38,Medium,Wine,No,Monthly,653.59,Offline,Daily Habit,Medium,No Problems,3.8
+41.0,Gen X,Female,-2.78,Retired,3.0,Home,Neutral,0.9,Medium,Spirits,Yes,Weekly,-15.93,Offline,Stress Relief,Medium,Location,3.3
+36.0,Millennial,Female,65.58,Student,2.0,Home,Salty,1.12,Medium,Spirits,Yes,Monthly,539.48,Online,Stress Relief,Medium,Location,4.2
+65.0,Baby Boomer,Male,1.8,Entrepreneur,1.0,Restaurant,Bitter,0.98,Medium,Cocktails,Yes,Monthly,20.59,Offline,Social,Medium,Location,4.9
+38.0,Millennial,Male,48.45,Student,4.0,Home,Sour,1.22,Medium,Beer,No,Weekly,370.12,Both,Stress Relief,Medium,No Problems,2.7
+44.0,Gen X,Female,50.3,Retired,1.0,Restaurant,Salty,2.33,Low,Beer,No,Monthly,230.23,Offline,Social,High,Location,4.1
+46.0,Gen X,Other,60.76,Other,1.0,Home,Neutral,1.65,Medium,Wine,Yes,Monthly,230.2,Both,Stress Relief,Medium,No Problems,4.4
+45.0,Gen X,Female,49.17,Other,0.0,Social Event,Neutral,1.98,Low,Spirits,Yes,Rarely,122.82,Offline,Celebration,High,Location,5.0
+65.0,Baby Boomer,Male,90.36,Retired,3.0,Bar,Sweet,1.48,Low,Wine,Yes,Weekly,493.74,Offline,Celebration,High,Expensive,2.9
+61.0,Baby Boomer,Female,54.33,Professional,0.0,Social Event,Bitter,0.56,Medium,Wine,Maybe,Rarely,122.24,Offline,Celebration,Medium,Limited Variety,5.0
+49.0,Gen X,Female,71.07,Professional,2.0,Restaurant,Sweet,0.63,Medium,Other,No,Monthly,447.45,Offline,Social,Medium,Limited Variety,4.0
+35.0,Millennial,Female,35.53,Other,1.0,Restaurant,Sour,1.58,Medium,Spirits,No,Monthly,122.52,Both,Social,Medium,Expensive,3.7
+65.0,Baby Boomer,Male,52.42,Other,1.0,Social Event,Salty,1.94,Medium,Wine,No,Monthly,298.58,Offline,Celebration,Medium,Expensive,4.3
+21.0,Gen Z,Female,80.95,Retired,2.0,Bar,Neutral,0.93,Medium,Spirits,Maybe,Monthly,230.15,Online,Celebration,Medium,Limited Variety,4.3
+45.0,Gen X,Female,45.25,Professional,4.0,Bar,Bitter,1.94,Medium,Wine,Yes,Weekly,492.99,Offline,Celebration,Medium,Expensive,3.9
+27.0,Millennial,Other,53.84,Other,4.0,Other,Neutral,2.12,Low,Cider,No,Weekly,754.18,Both,Celebration,High,Limited Variety,2.3
+29.0,Millennial,Male,69.62,Professional,3.0,Home,Sweet,1.32,Medium,Wine,No,Weekly,194.23,Offline,Stress Relief,Medium,Location,2.1
+44.0,Gen X,Female,35.16,Other,4.0,Other,Sweet,1.99,Medium,Wine,Maybe,Weekly,391.42,Online,Social,Medium,No Problems,2.3
+21.0,Gen Z,Female,6.77,Student,1.0,Bar,Salty,1.31,Medium,Cider,No,Monthly,63.38,Offline,Celebration,Medium,Location,5.0
+64.0,Baby Boomer,Male,55.11,Entrepreneur,2.0,Social Event,Bitter,1.86,Medium,Beer,Maybe,Monthly,186.3,Offline,Celebration,Medium,No Problems,3.1
+28.0,Millennial,Female,69.77,Student,1.0,Home,Bitter,2.03,Medium,Spirits,No,Monthly,815.94,Online,Stress Relief,Medium,Location,5.0
+44.0,Gen X,Female,22.97,Other,1.0,Social Event,Salty,2.48,Medium,Cocktails,Maybe,Monthly,143.53,Offline,Celebration,Medium,Expensive,5.0
+31.0,Millennial,Male,63.4,Entrepreneur,4.0,Other,Sweet,1.19,Medium,Cider,Yes,Weekly,411.5,Both,Celebration,Medium,Location,3.1
+37.0,Millennial,Male,63.54,Entrepreneur,2.0,Restaurant,Sweet,1.32,Medium,Beer,Yes,Monthly,382.46,Online,Social,Medium,Location,3.7
+28.0,Millennial,Female,4.53,Other,0.0,Social Event,Sweet,0.83,Medium,Wine,Yes,Rarely,24.85,Online,Celebration,Medium,Limited Variety,5.0
+55.0,Gen X,Male,31.27,Other,3.0,Other,Neutral,0.91,Low,Other,No,Weekly,245.55,Online,Celebration,High,Expensive,3.8
+55.0,Gen X,Female,42.08,Professional,1.0,Other,Sour,1.89,Low,Beer,Yes,Monthly,279.16,Online,Daily Habit,High,Location,4.7
+53.0,Gen X,Male,46.41,Other,2.0,Other,Sweet,2.33,Low,Cider,Maybe,Monthly,181.28,Both,Social,High,Expensive,4.9
+25.0,Millennial,Female,35.14,Retired,2.0,Restaurant,Sour,1.29,Medium,Other,No,Monthly,236.72,Both,Social,Medium,Location,3.9
+62.0,Baby Boomer,Male,34.06,Other,0.0,Restaurant,Sour,0.86,High,Wine,Yes,Rarely,69.69,Offline,Social,Low,Expensive,4.3
+59.0,Baby Boomer,Female,83.43,Retired,2.0,Restaurant,Bitter,1.07,Medium,Beer,Maybe,Monthly,488.45,Offline,Social,Medium,Limited Variety,3.3
+61.0,Baby Boomer,Other,47.85,Other,5.0,Home,Salty,1.41,Low,Cocktails,No,Weekly,343.42,Both,Stress Relief,High,Location,1.7
+48.0,Gen X,Other,36.1,Professional,2.0,Restaurant,Neutral,1.08,Medium,Spirits,Yes,Monthly,154.68,Both,Social,Medium,Expensive,4.1
+27.0,Millennial,Female,49.18,Retired,3.0,Restaurant,Sour,0.97,High,Spirits,Yes,Weekly,689.79,Online,Social,Low,Expensive,3.4
+29.0,Millennial,Male,60.74,Student,0.0,Restaurant,Neutral,1.97,High,Cider,Yes,Rarely,434.9,Both,Social,Low,Location,5.0
+28.0,Millennial,Female,51.03,Retired,2.0,Social Event,Bitter,0.52,Medium,Wine,Yes,Monthly,428.3,Online,Celebration,Medium,No Problems,3.7
+32.0,Millennial,Male,45.89,Professional,1.0,Restaurant,Sweet,1.58,High,Wine,No,Monthly,134.69,Online,Social,Low,No Problems,3.9
+54.0,Gen X,Male,37.0,Retired,3.0,Home,Sour,2.09,Low,Spirits,No,Weekly,238.78,Online,Stress Relief,High,Limited Variety,3.8
+53.0,Gen X,Male,36.76,Other,2.0,Other,Salty,1.03,Low,Beer,No,Monthly,417.3,Offline,Social,High,Location,2.8
+43.0,Gen X,Female,38.04,Other,1.0,Social Event,Bitter,1.71,Low,Wine,No,Monthly,206.92,Online,Celebration,High,Limited Variety,4.1
+44.0,Gen X,Female,56.78,Professional,2.0,Bar,Neutral,1.84,Medium,Cocktails,No,Monthly,1120.69,Online,Celebration,Medium,Limited Variety,4.4
+57.0,Baby Boomer,Female,30.12,Entrepreneur,1.0,Restaurant,Sweet,1.81,Low,Cocktails,Yes,Monthly,185.8,Offline,Social,High,Expensive,5.0
+55.0,Gen X,Male,57.87,Other,2.0,Other,Neutral,1.39,Medium,Wine,No,Monthly,394.28,Both,Daily Habit,Medium,Limited Variety,4.2
+64.0,Baby Boomer,Male,78.26,Student,5.0,Other,Salty,1.19,Medium,Wine,Yes,Weekly,756.22,Both,Celebration,Medium,Limited Variety,2.1
+60.0,Baby Boomer,Other,56.51,Professional,3.0,Social Event,Sour,2.17,Medium,Spirits,No,Weekly,456.7,Offline,Celebration,Medium,Expensive,3.3
+42.0,Gen X,Male,42.61,Retired,4.0,Bar,Salty,2.02,High,Cider,No,Weekly,364.56,Both,Celebration,Low,Location,3.3
+47.0,Gen X,Male,24.04,Retired,2.0,Home,Neutral,1.14,Low,Spirits,Yes,Monthly,212.01,Both,Stress Relief,High,Location,3.4
+55.0,Gen X,Male,81.56,Student,2.0,Other,Neutral,0.71,Medium,Cider,Yes,Monthly,814.47,Both,Daily Habit,Medium,Limited Variety,4.4
+21.0,Gen Z,Female,26.6,Other,0.0,Other,Salty,0.64,Medium,Cocktails,Yes,Rarely,74.5,Online,Social,Medium,Expensive,5.0
+55.0,Gen X,Female,66.97,Professional,2.0,Other,Salty,0.69,Low,Cider,Maybe,Monthly,213.04,Offline,Daily Habit,High,Limited Variety,4.6
+57.0,Baby Boomer,Male,62.77,Student,1.0,Other,Salty,1.67,Medium,Spirits,No,Monthly,127.0,Both,Social,Medium,Limited Variety,4.6
+34.0,Millennial,Male,45.26,Other,1.0,Social Event,Sweet,0.6,High,Wine,No,Monthly,295.68,Offline,Celebration,Low,Location,4.0
+23.0,Gen Z,Female,44.74,Professional,2.0,Bar,Neutral,1.17,High,Cider,Yes,Monthly,159.5,Online,Celebration,Low,Expensive,4.9
+21.0,Gen Z,Female,13.29,Retired,3.0,Other,Bitter,2.01,High,Spirits,Maybe,Weekly,34.24,Offline,Celebration,Low,Location,3.0
+25.0,Millennial,Male,56.6,Professional,1.0,Home,Sweet,1.09,Medium,Cocktails,Maybe,Monthly,348.33,Offline,Stress Relief,Medium,No Problems,4.4
+46.0,Gen X,Female,62.4,Entrepreneur,2.0,Home,Sweet,2.03,Medium,Other,Yes,Monthly,1343.34,Offline,Stress Relief,Medium,Expensive,4.5
+34.0,Millennial,Male,28.22,Professional,1.0,Restaurant,Sweet,1.99,Low,Cider,Yes,Monthly,142.57,Online,Social,High,No Problems,3.6
+59.0,Baby Boomer,Male,46.88,Entrepreneur,2.0,Other,Bitter,0.99,Low,Cocktails,Yes,Monthly,441.28,Offline,Social,High,Limited Variety,4.7
+47.0,Gen X,Female,50.76,Professional,1.0,Other,Salty,1.96,Low,Cocktails,No,Monthly,267.97,Both,Celebration,High,Limited Variety,3.9
+29.0,Millennial,Male,,Entrepreneur,1.0,Other,Neutral,2.0,Medium,Beer,Yes,Monthly,240.09,Both,Celebration,Medium,Limited Variety,4.3
+35.0,Millennial,Female,50.08,Retired,3.0,Other,Sour,1.29,High,Other,Maybe,Weekly,599.45,Online,Social,Low,Expensive,3.6
+35.0,Millennial,Male,17.47,Other,3.0,Other,Sour,0.92,Medium,Cider,No,Weekly,114.23,Both,Social,Medium,Expensive,1.0
+46.0,Gen X,,39.4,Entrepreneur,1.0,Home,Neutral,1.54,Medium,Spirits,Maybe,Monthly,228.22,Offline,Stress Relief,Medium,Limited Variety,4.9
+62.0,Baby Boomer,Other,54.49,Entrepreneur,0.0,,Bitter,2.34,Medium,Cider,No,Rarely,265.53,Offline,Celebration,Medium,Location,4.2
+33.0,Millennial,Male,66.83,Retired,3.0,Bar,Sour,1.78,Medium,Cider,No,Weekly,361.75,Both,Celebration,Medium,No Problems,3.9
+52.0,Gen X,Female,37.65,Entrepreneur,3.0,Restaurant,Sweet,0.85,High,Other,Yes,Weekly,467.41,Both,Social,Low,Location,3.9
+59.0,Baby Boomer,Male,93.75,Student,3.0,Home,Sour,1.87,Low,Cocktails,Maybe,Weekly,649.37,Both,Stress Relief,High,Expensive,4.0
+52.0,Gen X,Male,,Retired,0.0,Other,Neutral,1.35,Medium,Cocktails,Maybe,Rarely,141.54,Offline,Daily Habit,Medium,Location,4.2
+24.0,Gen Z,Male,38.73,Student,0.0,Bar,Sweet,1.68,Medium,Cocktails,Yes,Rarely,210.13,Both,Celebration,Medium,Location,4.3
+50.0,Gen X,Female,48.34,Retired,0.0,Social Event,Sour,1.97,Low,Cocktails,Yes,Rarely,127.98,Online,Celebration,High,No Problems,4.8
+57.0,Baby Boomer,Male,45.99,Entrepreneur,4.0,Social Event,Neutral,1.53,Medium,Other,Maybe,Weekly,430.68,Offline,Celebration,Medium,No Problems,2.3
+43.0,Gen X,Female,25.36,Student,1.0,Social Event,Bitter,2.13,High,Spirits,No,Monthly,127.93,Both,Celebration,Low,No Problems,3.6
+59.0,Baby Boomer,Male,58.96,Entrepreneur,3.0,Other,Neutral,1.94,Low,Wine,Yes,Weekly,767.13,Offline,Social,High,Limited Variety,3.3
+65.0,Baby Boomer,Other,57.42,Retired,0.0,Other,Bitter,1.73,Low,Beer,Yes,Rarely,302.05,Offline,Celebration,High,Location,5.0
+35.0,Millennial,Male,50.96,Entrepreneur,0.0,Restaurant,Sweet,0.8,Low,Cocktails,No,Rarely,208.8,Both,Social,High,Limited Variety,5.0
+63.0,Baby Boomer,Female,56.64,Student,4.0,Restaurant,Neutral,2.17,Medium,Cocktails,Yes,Weekly,787.17,Online,Social,Medium,No Problems,3.3
+49.0,Gen X,Female,41.52,,1.0,Restaurant,Salty,2.37,Medium,Beer,Yes,Monthly,421.63,Online,Social,Medium,Expensive,5.0
+56.0,Gen X,Female,17.65,Entrepreneur,2.0,Social Event,Salty,0.77,Medium,Cocktails,Maybe,Monthly,144.39,Both,Celebration,Medium,Expensive,4.0
+33.0,Millennial,Female,35.67,Professional,4.0,Other,Salty,1.48,Medium,Wine,No,Weekly,331.07,Online,Celebration,Medium,Expensive,3.3
+52.0,Gen X,Female,,Retired,1.0,Social Event,Salty,1.02,High,Cider,Yes,Monthly,130.91,Both,Celebration,Low,Location,4.4
+27.0,Millennial,Female,53.25,Retired,0.0,Restaurant,Salty,2.01,Medium,Beer,No,Rarely,129.71,Online,Social,Medium,Limited Variety,5.0
+42.0,Gen X,Male,50.83,Entrepreneur,1.0,Other,Bitter,1.94,High,Spirits,No,Monthly,221.12,Online,Daily Habit,Low,Limited Variety,4.2
+48.0,Gen X,Male,60.97,Professional,2.0,Home,Neutral,0.78,High,Beer,Yes,Monthly,278.24,Both,Stress Relief,Low,No Problems,3.7
+22.0,Gen Z,Female,38.38,Student,1.0,Bar,Sweet,2.25,Medium,Wine,No,Monthly,177.13,Offline,Celebration,Medium,No Problems,4.9
+62.0,Baby Boomer,Female,50.53,Other,1.0,Bar,Salty,0.86,Medium,Other,Maybe,Monthly,263.42,Online,Celebration,Medium,Limited Variety,4.6
+65.0,Baby Boomer,Female,61.44,Other,1.0,Restaurant,Salty,2.09,High,Spirits,No,Monthly,405.76,Offline,Social,Low,Expensive,4.3
+26.0,Millennial,Female,48.3,Entrepreneur,3.0,Social Event,Sweet,1.41,High,Cider,No,Weekly,352.49,Offline,Celebration,Low,No Problems,4.0
+48.0,Gen X,Male,25.13,Professional,1.0,Home,Sweet,1.16,Low,Cocktails,No,Monthly,162.42,Offline,Stress Relief,High,No Problems,4.5
+48.0,Gen X,Male,30.77,Professional,1.0,Other,Salty,0.82,Low,Beer,Yes,Monthly,161.04,Offline,Social,High,Location,4.5
+64.0,Baby Boomer,Female,66.62,Retired,3.0,Social Event,Bitter,0.84,High,Spirits,No,Weekly,187.56,Both,Celebration,Low,Location,3.6
+64.0,Baby Boomer,Male,77.85,Student,1.0,Restaurant,Sweet,1.82,Low,Beer,Yes,Monthly,246.65,Both,Social,High,Limited Variety,3.6
+40.0,Millennial,Male,73.51,Professional,2.0,Social Event,Neutral,1.6,High,Cider,Yes,Monthly,423.36,Both,Celebration,Low,No Problems,3.2
+50.0,Gen X,Female,54.64,Other,0.0,Restaurant,Neutral,0.74,Medium,Beer,Yes,Rarely,123.81,Online,Social,Medium,Location,5.0
+31.0,Millennial,Male,25.94,Student,1.0,Bar,Bitter,0.73,Low,Spirits,No,Monthly,177.43,Both,Celebration,High,Location,4.2
+48.0,Gen X,Female,49.87,Student,3.0,Bar,Sour,0.64,Low,Wine,No,Weekly,810.49,Offline,Celebration,High,Expensive,3.4
+45.0,Gen X,Male,81.25,Entrepreneur,1.0,Social Event,Bitter,1.99,Low,Other,Yes,Monthly,757.3,Offline,Celebration,High,No Problems,5.0
+59.0,Baby Boomer,Female,62.37,Professional,4.0,Home,Salty,1.92,Low,Spirits,Maybe,Weekly,517.6,Offline,Stress Relief,High,Location,3.0
+53.0,Gen X,Male,45.85,Entrepreneur,2.0,Other,Sour,0.62,Medium,Beer,Yes,Monthly,598.0,Both,Celebration,Medium,Expensive,3.9
+21.0,Gen Z,Male,,Professional,0.0,Restaurant,Salty,1.62,Medium,Cider,No,Rarely,222.47,Both,Social,Medium,Location,5.0
+47.0,Gen X,Male,24.61,Retired,4.0,Other,Neutral,0.67,High,Cocktails,Yes,Weekly,1665.537427482921,Online,Daily Habit,Low,Location,5.0
+33.0,Millennial,Male,36.09,Entrepreneur,2.0,Bar,Sweet,2.31,Medium,Cocktails,No,Monthly,164.38,Online,Celebration,Medium,Limited Variety,4.6
+61.0,Baby Boomer,Male,28.32,Entrepreneur,1.0,Home,Salty,2.31,Medium,Cider,Maybe,Monthly,123.37,Both,Stress Relief,Medium,Location,4.9
+23.0,Gen Z,Male,59.39,Other,1.0,Home,Neutral,1.9,Medium,Beer,No,Monthly,247.87,Online,Stress Relief,Medium,Limited Variety,5.0
+59.0,Baby Boomer,Female,64.28,Entrepreneur,2.0,Other,Bitter,2.35,Medium,Other,Yes,Monthly,433.25,Both,Celebration,Medium,No Problems,3.7
+26.0,Millennial,Male,46.92,Professional,1.0,Bar,Salty,2.12,Medium,Cider,Yes,Monthly,257.64,Offline,Celebration,Medium,Expensive,5.0
+28.0,Millennial,Female,32.54,Other,2.0,Other,Neutral,2.16,Low,Beer,Yes,Monthly,201.71,Offline,Social,High,Expensive,4.3
+47.0,Gen X,Female,49.61,Entrepreneur,2.0,Social Event,Sweet,1.64,Low,Spirits,No,Monthly,382.03,Online,Celebration,High,Expensive,3.3
+29.0,Millennial,Female,40.27,Entrepreneur,1.0,Home,Salty,1.11,Low,Other,No,Monthly,370.1,Online,Stress Relief,High,Location,3.2
+57.0,Baby Boomer,Male,34.08,Retired,1.0,Home,Neutral,0.94,Low,Wine,Yes,Monthly,277.64,Both,Stress Relief,High,Location,4.1
+53.0,Gen X,Female,56.78,Entrepreneur,5.0,Social Event,Salty,1.15,Medium,Beer,Maybe,Weekly,304.78,Online,Celebration,Medium,No Problems,2.6
+62.0,Baby Boomer,Male,34.84,Student,1.0,Bar,Sweet,1.76,Low,Cocktails,No,Monthly,49.24,Offline,Celebration,High,Location,4.7
+64.0,Baby Boomer,Male,18.67,Other,6.0,Home,Salty,0.85,High,Cocktails,Yes,Weekly,410.32,Offline,Stress Relief,Low,Limited Variety,2.0
+44.0,Gen X,Other,23.12,Student,4.0,Restaurant,Salty,1.02,High,Other,Maybe,Weekly,107.78,Online,Social,Low,No Problems,3.0
+35.0,Millennial,Male,17.93,Other,2.0,Restaurant,Neutral,1.44,High,Wine,Yes,Monthly,99.18,Online,Social,Low,Expensive,3.9
+52.0,Gen X,Female,54.95,Retired,1.0,Bar,Sour,0.97,High,Beer,Yes,Monthly,155.12,Offline,Celebration,Low,No Problems,5.0
+52.0,Gen X,Female,53.01,Entrepreneur,1.0,Social Event,Salty,1.68,Low,Wine,No,Monthly,109.11,Both,Celebration,High,Limited Variety,3.8
+44.0,Gen X,Female,52.01,Entrepreneur,3.0,Other,Sour,2.35,Medium,Spirits,No,Weekly,515.44,Offline,Daily Habit,Medium,Location,3.6
+61.0,Baby Boomer,Female,61.75,Entrepreneur,2.0,Bar,Bitter,2.0,Low,Wine,No,Monthly,558.65,Offline,Celebration,High,Location,3.6
+32.0,Millennial,Male,73.84,Other,1.0,Other,Salty,1.83,High,Spirits,Yes,Monthly,280.48,Online,Celebration,Low,Location,4.0
+59.0,Baby Boomer,Male,38.15,Entrepreneur,4.0,Bar,Sour,1.67,High,Cocktails,Yes,Weekly,96.43,Offline,Celebration,Low,Expensive,3.6
+22.0,Gen Z,Female,58.13,Student,2.0,Restaurant,Bitter,1.48,High,Spirits,No,Monthly,273.8,Online,Social,Low,Limited Variety,3.5
+23.0,Gen Z,Male,18.41,Entrepreneur,1.0,Social Event,Neutral,0.87,Medium,Beer,No,Monthly,113.48,Both,Celebration,Medium,Limited Variety,4.4
+57.0,Baby Boomer,Male,77.57,Retired,3.0,Restaurant,Salty,2.29,Medium,Other,No,Weekly,279.94,Offline,Social,Medium,No Problems,4.5
+37.0,Millennial,Male,25.1,Student,2.0,Social Event,Neutral,1.0,Low,Other,No,Monthly,170.27,Offline,Celebration,High,Limited Variety,4.4
+22.0,Gen Z,Male,35.8,Entrepreneur,4.0,Other,Bitter,0.68,Low,Beer,Maybe,Weekly,328.04,Online,Daily Habit,High,No Problems,2.8
+22.0,Gen Z,Male,38.05,Entrepreneur,4.0,Bar,Neutral,2.0,Medium,Beer,Yes,Weekly,469.37,Both,Celebration,Medium,Limited Variety,2.8
+48.0,Gen X,Male,19.47,Professional,1.0,Home,Neutral,0.85,Medium,Beer,Yes,Monthly,104.74,Online,Stress Relief,Medium,Limited Variety,3.9
+43.0,Gen X,Female,50.65,Other,4.0,Home,Sweet,1.24,High,Cider,No,Weekly,287.51,Online,Stress Relief,Low,Location,3.7
+57.0,Baby Boomer,Female,54.28,Student,0.0,Social Event,Bitter,0.56,Low,Spirits,No,Rarely,409.64,Offline,Celebration,High,Location,5.0
+52.0,Gen X,Female,46.21,Professional,3.0,Social Event,Neutral,0.77,High,Beer,Yes,Weekly,322.72,Offline,Celebration,Low,No Problems,3.8
+53.0,Gen X,Male,19.2,Retired,3.0,Restaurant,Sour,0.85,Medium,Other,Yes,Weekly,143.18,Offline,Social,Medium,Location,3.9
+21.0,Gen Z,Male,89.67,Other,2.0,Home,Bitter,0.61,High,Wine,No,Monthly,348.05,Online,Stress Relief,Low,Limited Variety,3.6
+39.0,Millennial,Male,60.98,Student,3.0,Restaurant,Sweet,1.81,High,Wine,Yes,Weekly,369.35,Both,Social,Low,Expensive,2.7
+22.0,Gen Z,Female,102.68,Entrepreneur,1.0,Other,Salty,2.17,High,Cider,Yes,Monthly,334.31,Online,Social,Low,Limited Variety,4.8
+64.0,Baby Boomer,Female,33.9,Student,4.0,Home,Neutral,1.25,Low,Spirits,Maybe,Weekly,287.09,Both,Stress Relief,High,Limited Variety,3.4
+46.0,Gen X,Male,69.16,Entrepreneur,3.0,Other,Sour,2.25,High,Spirits,No,Weekly,1230.44,Offline,Daily Habit,Low,Location,4.3
+52.0,Gen X,Female,65.59,Other,0.0,Bar,Sweet,0.93,Low,Spirits,No,Rarely,137.05,Offline,Celebration,High,Limited Variety,4.9
+26.0,Millennial,Male,44.19,Entrepreneur,2.0,Restaurant,Bitter,1.15,Low,Other,Yes,Monthly,122.07,Online,Social,High,Limited Variety,3.8
+52.0,Gen X,Female,78.22,Retired,1.0,Social Event,Neutral,0.8,Medium,Other,No,Monthly,827.13,Online,Celebration,Medium,Expensive,4.4
+24.0,Gen Z,Female,41.89,Entrepreneur,0.0,Home,Sweet,1.74,High,Cider,Yes,Rarely,156.53,Both,Stress Relief,Low,Expensive,5.0
+31.0,Millennial,Female,42.78,Retired,3.0,Restaurant,Sweet,1.34,Medium,Spirits,Yes,Weekly,231.45,Offline,Social,Medium,Limited Variety,3.4
+37.0,Millennial,Female,-19.43,Other,1.0,Social Event,Sour,1.73,High,Spirits,No,Monthly,-165.61,Online,Celebration,Low,No Problems,4.5
+58.0,Baby Boomer,Female,58.18,Other,1.0,Bar,Salty,2.02,Medium,Beer,No,Monthly,217.8,Offline,Celebration,Medium,Location,4.9
+44.0,Gen X,Male,23.49,Student,1.0,Home,Salty,1.59,Low,Spirits,No,Monthly,296.61,Both,Stress Relief,High,Location,4.2
+25.0,Millennial,Female,38.99,Retired,4.0,Other,Salty,1.76,High,Other,No,Weekly,505.28,Online,Social,Low,Location,3.7
+54.0,Gen X,Male,29.48,Retired,3.0,Bar,Bitter,2.37,Low,Beer,Maybe,Weekly,174.62,Both,Celebration,High,Limited Variety,3.8
+26.0,Millennial,Female,42.68,Professional,0.0,Social Event,Sweet,1.1,High,Beer,Yes,Rarely,520.73,Online,Celebration,Low,No Problems,4.1
+42.0,Gen X,Female,58.88,Professional,1.0,Home,Bitter,1.22,Medium,Spirits,Maybe,Monthly,220.41,Online,Stress Relief,Medium,Expensive,4.2
+31.0,Millennial,Female,50.22,Professional,4.0,Home,Sweet,1.94,Medium,Wine,Yes,Weekly,672.03,Online,Stress Relief,Medium,Limited Variety,2.0
+36.0,Millennial,Male,64.19,Entrepreneur,2.0,Bar,Sour,1.72,Medium,Cocktails,Yes,Monthly,461.44,Online,Celebration,Medium,Limited Variety,3.9
+53.0,Gen X,Female,75.31,Professional,1.0,Home,Sour,0.86,Low,Other,No,Monthly,731.67,Online,Stress Relief,High,Expensive,4.3
+29.0,Millennial,Female,42.62,Retired,2.0,Social Event,Bitter,1.25,Medium,Wine,Yes,Monthly,575.9,Online,Celebration,Medium,Location,4.4
+26.0,Millennial,Female,40.43,Entrepreneur,1.0,Bar,Bitter,1.44,Low,Spirits,No,Monthly,1764.2767019241785,Both,Celebration,High,Limited Variety,4.1
+36.0,Millennial,Male,69.15,Other,3.0,Other,Sour,1.34,Low,Spirits,No,Weekly,358.68,Both,Celebration,High,Location,3.7
+49.0,Gen X,Male,70.74,Student,3.0,Bar,Neutral,0.86,Low,Wine,No,Weekly,673.07,Both,Celebration,High,Limited Variety,3.8
+23.0,Gen Z,Male,64.81,Professional,6.0,Bar,Salty,2.35,Medium,Spirits,Yes,Weekly,636.16,Online,Celebration,Medium,Expensive,2.1
+40.0,Millennial,Male,30.96,Other,1.0,Other,Salty,2.02,Medium,Other,No,Monthly,429.34,Online,Social,Medium,Location,5.0
+56.0,Gen X,Female,58.45,Retired,3.0,Social Event,Sour,1.46,Medium,Beer,Maybe,Weekly,473.09,Online,Celebration,Medium,Expensive,4.5
+39.0,Millennial,Male,52.19,Student,1.0,Restaurant,Salty,1.86,High,Cider,Yes,Monthly,220.32,Both,Social,Low,Limited Variety,4.6
+46.0,Gen X,Other,71.05,Other,4.0,Restaurant,Neutral,2.29,Medium,Spirits,No,Weekly,719.51,Both,Social,Medium,Expensive,3.2
+23.0,Gen Z,Male,38.54,Student,2.0,Other,Neutral,0.77,Medium,Spirits,Yes,Monthly,121.63,Online,Celebration,Medium,Location,3.6
+39.0,Millennial,Male,16.67,Professional,3.0,Social Event,Sweet,1.0,Medium,Wine,Yes,Weekly,77.53,Online,Celebration,Medium,Location,1.0
+40.0,Millennial,Female,63.8,Retired,1.0,Home,Bitter,1.59,Medium,Beer,No,Monthly,589.23,Offline,Stress Relief,Medium,Limited Variety,5.0
+52.0,Gen X,Female,-1.17,Student,2.0,Other,Salty,2.1,Medium,Wine,Yes,Monthly,-5.21,Offline,Celebration,Medium,No Problems,4.5
+27.0,Millennial,Female,35.37,Other,2.0,Restaurant,Neutral,0.57,Low,Other,No,Monthly,129.7,Online,Social,High,No Problems,3.5
+61.0,Baby Boomer,Female,29.54,Professional,2.0,Social Event,Bitter,2.47,High,Wine,No,Monthly,239.11,Offline,Celebration,Low,Location,1.0
+53.0,Gen X,Female,29.4,Professional,1.0,Bar,Bitter,1.41,Medium,Spirits,No,Monthly,269.53,Both,Celebration,Medium,Location,4.2
+60.0,Baby Boomer,Male,35.02,Other,4.0,Social Event,Sweet,1.22,Low,Beer,Yes,Weekly,463.24,Online,Celebration,High,Limited Variety,2.9
+59.0,Baby Boomer,Other,74.35,Other,1.0,Social Event,Bitter,1.09,Medium,Other,Yes,Monthly,619.96,Online,Celebration,Medium,Location,4.3
+38.0,Millennial,Other,66.41,Student,1.0,Restaurant,Bitter,0.85,Low,Spirits,No,Monthly,230.51,Both,Social,High,Expensive,4.6
+60.0,Baby Boomer,Female,44.97,Entrepreneur,2.0,Restaurant,Sour,2.08,Low,Other,Maybe,Monthly,136.72,Offline,Social,High,Expensive,4.5
+21.0,Gen Z,Male,72.67,Professional,2.0,Home,Sweet,2.41,Low,Spirits,No,Monthly,952.84,Online,Stress Relief,High,No Problems,5.0
+31.0,Millennial,Female,28.75,Student,5.0,Home,Sweet,1.33,Medium,Spirits,No,Weekly,275.93,Online,Stress Relief,Medium,Location,2.8
+48.0,Gen X,Male,26.03,Other,0.0,Other,Salty,2.4,Medium,Spirits,No,Rarely,95.27,Online,Social,Medium,Limited Variety,3.8
+45.0,Gen X,Male,67.27,Student,0.0,Bar,Bitter,2.15,High,Cider,Yes,Rarely,542.21,Offline,Celebration,Low,Expensive,4.2
+43.0,Gen X,Male,61.59,Other,2.0,Home,Salty,1.46,Low,Cocktails,Yes,Monthly,503.44,Both,Stress Relief,High,Location,3.6
+51.0,Gen X,Male,40.79,Retired,1.0,Restaurant,Neutral,1.85,Medium,Beer,No,Monthly,259.62,Offline,Social,Medium,Expensive,4.2
+50.0,Gen X,Female,27.29,Other,4.0,Social Event,Bitter,1.37,Medium,Cider,Yes,Weekly,743.87,Offline,Celebration,Medium,Expensive,3.4
+62.0,Baby Boomer,Female,79.19,Other,4.0,Other,Neutral,1.62,Low,Cocktails,Yes,Weekly,530.03,Offline,Celebration,High,Expensive,2.6
+55.0,Gen X,Female,15.6,Other,2.0,Home,Sour,0.62,Medium,Other,No,Monthly,153.55,Offline,Stress Relief,Medium,Limited Variety,4.3
+27.0,Millennial,Male,38.03,Entrepreneur,1.0,Social Event,Bitter,1.89,Low,Cocktails,No,Monthly,198.29,Both,Celebration,High,Location,4.1
+36.0,Millennial,Male,54.57,Other,1.0,Social Event,Salty,0.61,Low,Cocktails,No,Monthly,316.28,Both,Celebration,High,Expensive,3.9
+46.0,Gen X,Male,86.04,Professional,4.0,Home,Salty,2.13,Medium,Cider,Maybe,Weekly,1705.98,Online,Stress Relief,Medium,Location,2.4
+22.0,Gen Z,Other,57.66,Professional,1.0,Bar,Bitter,2.15,Medium,Beer,Yes,Monthly,376.66,Both,Celebration,Medium,Expensive,5.0
+21.0,Gen Z,Male,59.61,Student,8.0,Bar,Salty,0.97,Low,Wine,Maybe,Daily,1603.3,Online,Celebration,High,Location,1.0
+32.0,Millennial,Female,38.61,Entrepreneur,0.0,Other,Bitter,1.15,Low,Cocktails,No,Rarely,273.86,Both,Daily Habit,High,No Problems,5.0
+25.0,Millennial,Female,61.37,Student,1.0,Bar,Sweet,1.46,Low,Wine,Yes,Monthly,259.12,Online,Celebration,High,Location,3.7
+57.0,Baby Boomer,Male,52.11,Professional,3.0,Other,Salty,1.69,Low,Wine,Maybe,Weekly,258.94,Both,Celebration,High,No Problems,4.2
+52.0,Gen X,Female,18.23,Professional,1.0,Restaurant,Bitter,1.07,Low,Spirits,No,Monthly,54.79,Both,Social,High,No Problems,4.7
+29.0,Millennial,Female,65.86,Retired,3.0,Home,Bitter,1.68,Medium,Wine,No,Weekly,186.27,Online,Stress Relief,Medium,Limited Variety,3.6
+61.0,Baby Boomer,Female,69.41,Other,2.0,Social Event,Salty,1.1,Medium,Other,No,Monthly,1201.09,Offline,Celebration,Medium,Location,4.2
+55.0,Gen X,Female,66.07,Professional,2.0,Other,Sweet,0.61,Medium,Other,No,Monthly,235.56,Both,Social,Medium,No Problems,4.3
+39.0,Millennial,Male,50.67,Student,1.0,Bar,Salty,0.51,Medium,Spirits,Maybe,Monthly,229.88,Both,Celebration,Medium,Limited Variety,4.9
+36.0,Millennial,Male,30.88,Student,2.0,Other,Bitter,0.7,Medium,Beer,Yes,Monthly,166.43,Online,Daily Habit,Medium,Expensive,3.7
+23.0,Gen Z,Female,3.82,Other,0.0,Other,Sweet,2.08,Low,Beer,No,Rarely,18.48,Both,Daily Habit,High,No Problems,4.7
+40.0,Millennial,Female,53.14,Other,1.0,Bar,Neutral,2.42,Low,Other,No,Monthly,404.9,Online,Celebration,High,Location,4.5
+44.0,Gen X,Male,71.64,Retired,0.0,Bar,Sour,1.35,High,Spirits,No,Rarely,457.03,Online,Celebration,Low,Expensive,5.0
+53.0,Gen X,Female,69.91,Entrepreneur,5.0,Home,Salty,1.53,Low,Beer,No,Weekly,589.05,Offline,Stress Relief,High,Limited Variety,2.5
+44.0,Gen X,Female,66.32,Student,4.0,Social Event,Bitter,0.79,Low,Cocktails,Maybe,Weekly,563.28,Online,Celebration,High,Location,3.4
+31.0,Millennial,Female,48.52,Other,3.0,Home,Sweet,1.6,Low,Beer,Maybe,Weekly,422.47,Both,Stress Relief,High,Location,3.8
+28.0,Millennial,Male,71.75,Student,1.0,Home,Sweet,0.79,Medium,Spirits,No,Monthly,321.08,Online,Stress Relief,Medium,Location,4.4
+56.0,Gen X,Female,68.48,Other,2.0,Bar,Neutral,1.72,Medium,Other,No,Monthly,946.78,Both,Celebration,Medium,Location,3.1
+58.0,Baby Boomer,Female,41.55,Professional,1.0,Bar,Salty,2.37,High,Cocktails,No,Monthly,269.14,Online,Celebration,Low,Location,4.2
+60.0,Baby Boomer,Male,63.53,Student,4.0,Social Event,Sweet,0.89,High,Wine,No,Weekly,847.08,Offline,Celebration,Low,Limited Variety,3.9
+40.0,Millennial,Male,39.28,Professional,1.0,Other,Neutral,2.03,Medium,Wine,No,Monthly,277.27,Online,Celebration,Medium,Location,4.7
+55.0,Gen X,Other,60.8,Student,0.0,Home,Bitter,0.55,Medium,Wine,Maybe,Rarely,453.58,Online,Stress Relief,Medium,Location,4.7
+45.0,Gen X,Male,24.02,Entrepreneur,3.0,Social Event,Neutral,1.25,Low,Other,Yes,Weekly,198.79,Online,Celebration,High,Location,3.6
+55.0,Gen X,Female,25.56,Retired,1.0,Home,Salty,0.72,Low,Spirits,Yes,Monthly,67.73,Online,Stress Relief,High,Limited Variety,4.8
+45.0,Gen X,Female,71.16,Professional,3.0,Other,Neutral,1.2,Low,Wine,Maybe,Weekly,656.96,Offline,Celebration,High,Limited Variety,3.2
+49.0,Gen X,Male,68.75,Other,0.0,Home,Sweet,0.85,Low,Beer,Yes,Rarely,205.95,Online,Stress Relief,High,No Problems,5.0
+38.0,Millennial,Female,62.67,Entrepreneur,2.0,Restaurant,Sweet,1.25,Low,Wine,Maybe,Monthly,297.8,Online,Social,High,Expensive,4.2
+38.0,Millennial,Male,51.76,Student,2.0,Social Event,Sour,1.34,Low,Cider,Maybe,Monthly,429.51,Online,Celebration,High,Limited Variety,3.5
+22.0,Gen Z,Female,2.17,Professional,1.0,Bar,Neutral,1.1,Medium,Other,Yes,Monthly,20.42,Both,Celebration,Medium,Limited Variety,4.9
+55.0,Gen X,Male,48.5,Student,3.0,Home,Bitter,1.81,High,Cider,Maybe,Weekly,370.57,Both,Stress Relief,Low,No Problems,3.3
+36.0,Millennial,Female,59.08,Student,3.0,Social Event,Salty,2.34,Medium,Wine,Yes,Weekly,521.21,Online,Celebration,Medium,Expensive,3.4
+61.0,Baby Boomer,Male,39.31,Student,1.0,Social Event,Sour,1.3,High,Wine,Yes,Monthly,466.58,Offline,Celebration,Low,Expensive,4.0
+56.0,Gen X,Male,35.75,Retired,1.0,Home,Neutral,0.88,Medium,Cider,No,Monthly,204.34,Online,Stress Relief,Medium,Expensive,4.8
+53.0,Gen X,Other,78.89,Retired,3.0,Bar,Bitter,1.04,Medium,Other,Yes,Weekly,2190.19,Both,Celebration,Medium,Location,3.4
+24.0,Gen Z,Male,48.79,Other,1.0,Bar,Sour,2.21,Medium,Other,Yes,Monthly,328.04,Online,Celebration,Medium,Expensive,4.8
+53.0,Gen X,Female,59.1,Professional,0.0,Home,Sweet,1.64,Low,Wine,No,Rarely,101.67,Online,Stress Relief,High,Limited Variety,4.7
+34.0,Millennial,Male,65.48,Entrepreneur,1.0,Social Event,Salty,1.41,Low,Other,No,Monthly,483.6,Online,Celebration,High,Limited Variety,4.2
+41.0,Gen X,Female,29.97,Entrepreneur,3.0,Bar,Neutral,0.8,High,Cocktails,Yes,Weekly,274.14,Offline,Celebration,Low,No Problems,3.1
+40.0,Millennial,Male,53.86,Entrepreneur,4.0,Home,Bitter,1.4,High,Other,Maybe,Weekly,947.77,Online,Stress Relief,Low,Limited Variety,3.2
+28.0,Millennial,Other,76.39,Student,2.0,Home,Sweet,1.06,Low,Cider,Yes,Monthly,662.02,Both,Stress Relief,High,Expensive,3.7
+27.0,Millennial,Male,86.38,Retired,0.0,Home,Sour,2.39,Low,Spirits,Yes,Rarely,334.41,Online,Stress Relief,High,Location,4.9
+23.0,Gen Z,Male,50.8,Professional,2.0,Social Event,Salty,2.27,Medium,Cider,Maybe,Monthly,170.48,Offline,Celebration,Medium,No Problems,3.7
+37.0,Millennial,Male,45.24,Student,1.0,Bar,Sour,0.67,Low,Beer,No,Monthly,206.5,Online,Celebration,High,Location,4.7
+53.0,Gen X,Male,55.38,Retired,3.0,Social Event,Sour,1.53,Medium,Cocktails,No,Weekly,273.64,Online,Celebration,Medium,No Problems,2.6
+32.0,Millennial,Female,54.87,Retired,2.0,Restaurant,Bitter,0.95,Low,Spirits,No,Monthly,254.06,Both,Social,High,No Problems,4.1
+42.0,Gen X,Male,77.74,Professional,2.0,Bar,Sweet,1.32,Medium,Wine,No,Monthly,645.81,Online,Celebration,Medium,Expensive,4.9
+42.0,Gen X,Female,30.07,Professional,2.0,Social Event,Neutral,2.25,Low,Beer,Maybe,Monthly,428.95,Both,Celebration,High,Location,4.6
+50.0,Gen X,Male,44.4,Professional,0.0,Bar,Bitter,1.56,Medium,Beer,Maybe,Rarely,224.4,Offline,Celebration,Medium,Expensive,4.7
+58.0,Baby Boomer,Male,27.66,Student,3.0,Restaurant,Salty,1.17,Low,Cocktails,No,Weekly,115.0,Online,Social,High,Location,3.7
+58.0,Baby Boomer,Female,29.76,Other,2.0,Other,Sour,0.92,Medium,Spirits,Yes,Monthly,230.05,Both,Social,Medium,Expensive,4.2
+65.0,Baby Boomer,Female,57.53,Professional,0.0,Home,Salty,2.1,High,Beer,Maybe,Rarely,434.19,Offline,Stress Relief,Low,Expensive,5.0
+28.0,Millennial,Male,66.2,Other,2.0,Social Event,Bitter,1.75,Medium,Spirits,Yes,Monthly,302.06,Both,Celebration,Medium,No Problems,2.7
+47.0,Gen X,Male,37.01,Student,2.0,Restaurant,Bitter,1.44,High,Spirits,Yes,Monthly,214.23,Online,Social,Low,Expensive,4.6
+47.0,Gen X,Male,65.44,Other,2.0,Restaurant,Neutral,0.93,High,Other,No,Monthly,408.02,Both,Social,Low,No Problems,3.9
+54.0,Gen X,Female,72.23,Entrepreneur,2.0,Bar,Sour,1.17,High,Beer,No,Monthly,301.95,Online,Celebration,Low,Expensive,5.0
+41.0,Gen X,Female,88.69,Other,3.0,Bar,Bitter,2.42,Medium,Spirits,No,Weekly,927.17,Offline,Celebration,Medium,Expensive,3.1
+50.0,Gen X,Male,51.39,Professional,1.0,Home,Salty,1.54,Medium,Cocktails,Maybe,Monthly,245.14,Both,Stress Relief,Medium,No Problems,3.9
+53.0,Gen X,Female,37.2,Student,2.0,Bar,Neutral,1.3,High,Beer,Yes,Monthly,283.99,Both,Celebration,Low,Location,3.7
+48.0,Gen X,Female,29.95,Professional,2.0,Social Event,Salty,1.54,Low,Cocktails,Yes,Monthly,118.94,Both,Celebration,High,Location,3.5
+53.0,Gen X,Female,27.96,Entrepreneur,3.0,Social Event,Sour,2.06,Medium,Cocktails,Yes,Weekly,169.85,Both,Celebration,Medium,Expensive,3.6
+25.0,Millennial,Female,75.0,Professional,2.0,Social Event,Neutral,1.18,High,Spirits,Maybe,Monthly,666.16,Both,Celebration,Low,Limited Variety,4.3
+39.0,Millennial,Male,19.7,Professional,4.0,Other,Neutral,0.86,Medium,Spirits,No,Weekly,150.97,Online,Daily Habit,Medium,Location,2.9
+24.0,Gen Z,Male,74.35,Professional,2.0,Social Event,Neutral,1.67,High,Other,No,Monthly,1091.29,Online,Celebration,Low,Location,4.7
+55.0,Gen X,Male,32.63,Retired,1.0,Bar,Sweet,1.83,Medium,Other,Yes,Monthly,135.4,Online,Celebration,Medium,Limited Variety,4.2
+37.0,Millennial,Male,36.3,Entrepreneur,1.0,Bar,Neutral,1.93,High,Beer,No,Monthly,205.82,Online,Celebration,Low,No Problems,4.3
+64.0,Baby Boomer,Female,46.97,Professional,0.0,Social Event,Salty,2.26,Medium,Other,No,Rarely,310.65,Offline,Celebration,Medium,Location,4.8
+48.0,Gen X,Female,35.93,Professional,2.0,Restaurant,Salty,1.24,Medium,Wine,No,Monthly,109.42,Offline,Social,Medium,No Problems,4.3
+50.0,Gen X,Male,68.64,Professional,4.0,Restaurant,Sour,0.65,Medium,Beer,Maybe,Weekly,262.78,Online,Social,Medium,Location,3.3
+49.0,Gen X,Male,86.27,Student,1.0,Restaurant,Bitter,2.42,High,Cocktails,Maybe,Monthly,203.87,Offline,Social,Low,Location,4.7
+26.0,Millennial,Male,36.85,Retired,0.0,Home,Bitter,1.37,High,Other,Yes,Rarely,287.43,Online,Stress Relief,Low,Expensive,4.9
+55.0,Gen X,Female,41.36,Student,2.0,Other,Sweet,1.75,High,Other,Yes,Monthly,194.27,Offline,Social,Low,Expensive,3.3
+61.0,Baby Boomer,Male,46.73,Retired,0.0,Social Event,Neutral,1.83,Medium,Other,No,Rarely,696.69,Offline,Celebration,Medium,No Problems,4.8
+57.0,Baby Boomer,Female,60.82,Professional,0.0,Home,Sweet,1.59,Medium,Spirits,Yes,Rarely,190.31,Offline,Stress Relief,Medium,Expensive,5.0
+44.0,Gen X,Male,46.93,Entrepreneur,3.0,Restaurant,Sour,0.91,Low,Cocktails,Yes,Weekly,389.08,Both,Social,High,Expensive,4.0
+49.0,Gen X,Male,77.75,Other,2.0,Social Event,Sour,2.01,High,Other,Yes,Monthly,1040.44,Offline,Celebration,Low,Expensive,4.1
+51.0,Gen X,Other,72.93,Other,3.0,Home,Bitter,2.11,Medium,Cider,Yes,Weekly,1503.27,Online,Stress Relief,Medium,Expensive,3.3
+55.0,Gen X,Other,26.29,Professional,1.0,Bar,Sour,1.61,Low,Cider,No,Monthly,373.45,Offline,Celebration,High,No Problems,4.5
+53.0,Gen X,Male,60.42,Student,1.0,Restaurant,Neutral,1.48,Low,Cocktails,No,Monthly,560.23,Online,Social,High,No Problems,4.3
+41.0,Gen X,Female,80.41,Entrepreneur,2.0,Home,Salty,0.73,High,Other,Maybe,Monthly,830.49,Offline,Stress Relief,Low,Limited Variety,4.6
+52.0,Gen X,Female,40.1,Retired,4.0,Bar,Sour,0.67,High,Wine,Yes,Weekly,497.94,Offline,Celebration,Low,Expensive,2.6
+43.0,Gen X,Female,44.11,Professional,3.0,Restaurant,Sweet,1.18,High,Wine,Maybe,Weekly,492.12,Online,Social,Low,Location,4.0
+53.0,Gen X,Male,39.44,Entrepreneur,1.0,Other,Neutral,1.12,Medium,Beer,Maybe,Monthly,151.72,Online,Celebration,Medium,Location,4.2
+23.0,Gen Z,Female,39.86,Entrepreneur,4.0,Restaurant,Sour,2.41,Medium,Beer,Yes,Weekly,244.48,Both,Social,Medium,No Problems,3.7
+38.0,Millennial,Female,16.63,Retired,1.0,Other,Sour,2.07,Medium,Other,Maybe,Monthly,84.13,Both,Daily Habit,Medium,Limited Variety,4.7
+45.0,Gen X,Female,23.43,Entrepreneur,3.0,Other,Neutral,1.82,Low,Beer,Yes,Weekly,162.68,Offline,Social,High,Limited Variety,3.1
+62.0,Baby Boomer,Male,51.55,Student,1.0,Other,Sour,1.54,High,Spirits,No,Monthly,208.26,Online,Social,Low,Limited Variety,4.3
+51.0,Gen X,Male,80.27,Student,1.0,Social Event,Salty,0.83,Low,Wine,No,Monthly,576.19,Online,Celebration,High,No Problems,1.0
+23.0,Gen Z,Male,37.73,Student,2.0,Social Event,Bitter,2.46,Medium,Cocktails,Yes,Monthly,376.51,Online,Celebration,Medium,Location,3.8
+60.0,Baby Boomer,Female,37.14,Entrepreneur,3.0,Other,Neutral,1.25,Medium,Other,Yes,Weekly,293.46,Both,Social,Medium,Location,3.5
+44.0,Gen X,Male,84.03,Student,1.0,Bar,Sweet,0.71,Medium,Other,No,Monthly,891.39,Online,Celebration,Medium,Expensive,4.2
+52.0,Gen X,Female,27.83,Retired,3.0,Other,Sour,1.49,High,Cider,Maybe,Weekly,118.88,Both,Social,Low,Location,4.4
+42.0,Gen X,Other,16.78,Entrepreneur,2.0,Home,Bitter,2.25,Low,Wine,No,Monthly,94.27,Online,Stress Relief,High,Location,5.0
+43.0,Gen X,Male,33.43,Other,2.0,Other,Sweet,2.27,Medium,Wine,No,Monthly,144.59,Both,Social,Medium,Limited Variety,4.7
+22.0,Gen Z,Female,36.74,Entrepreneur,2.0,Social Event,Sweet,0.52,Low,Wine,Yes,Monthly,89.43,Online,Celebration,High,Limited Variety,3.9
+47.0,Gen X,Male,15.05,Retired,0.0,Social Event,Salty,2.27,Low,Beer,Yes,Rarely,59.91,Both,Celebration,High,Limited Variety,4.8
+62.0,Baby Boomer,Female,47.44,Other,5.0,Home,Bitter,1.04,Medium,Spirits,Maybe,Weekly,503.43,Offline,Stress Relief,Medium,Expensive,2.1
+22.0,Gen Z,Male,68.97,Entrepreneur,2.0,Home,Neutral,0.58,Low,Cocktails,Yes,Monthly,909.82,Offline,Stress Relief,High,Expensive,4.8
+46.0,Gen X,Female,24.28,Student,2.0,Restaurant,Bitter,2.2,Medium,Beer,No,Monthly,206.01,Online,Social,Medium,Expensive,4.5
+37.0,Millennial,Female,51.75,Professional,0.0,Bar,Bitter,2.23,Medium,Spirits,No,Rarely,128.66,Online,Celebration,Medium,Limited Variety,5.0
+60.0,Baby Boomer,Female,57.92,Professional,4.0,Bar,Sweet,1.69,Low,Wine,Maybe,Weekly,1351.48,Both,Celebration,High,Expensive,2.9
+53.0,Gen X,Female,48.33,Student,1.0,Bar,Salty,1.65,Low,Spirits,Maybe,Monthly,450.98,Both,Celebration,High,Limited Variety,3.6
+29.0,Millennial,Female,53.71,Professional,1.0,Social Event,Salty,2.13,Medium,Beer,No,Monthly,364.12,Both,Celebration,Medium,No Problems,3.7
+63.0,Baby Boomer,Female,53.95,Professional,5.0,Bar,Bitter,2.07,High,Wine,Yes,Weekly,543.3,Offline,Celebration,Low,Limited Variety,2.5
+59.0,Baby Boomer,Female,33.75,Student,0.0,Restaurant,Bitter,2.28,Medium,Beer,No,Rarely,86.67,Both,Social,Medium,Location,4.7
+49.0,Gen X,Female,79.97,Student,2.0,Restaurant,Sour,1.61,Medium,Cocktails,No,Monthly,410.92,Online,Social,Medium,Limited Variety,3.7
+62.0,Baby Boomer,Male,74.96,Entrepreneur,1.0,Bar,Sweet,2.44,Medium,Wine,Maybe,Monthly,654.7,Offline,Celebration,Medium,Location,5.0
+46.0,Gen X,Female,73.8,Entrepreneur,3.0,Home,Neutral,2.49,Medium,Spirits,No,Weekly,1431.53,Offline,Stress Relief,Medium,Expensive,4.0
+55.0,Gen X,Female,70.27,Student,2.0,Restaurant,Neutral,0.73,Low,Beer,No,Monthly,940.88,Offline,Social,High,No Problems,3.6
+45.0,Gen X,Female,18.5,Retired,5.0,Home,Salty,2.2,Medium,Cider,Yes,Weekly,163.4,Offline,Stress Relief,Medium,Expensive,1.8
+44.0,Gen X,Male,68.52,Professional,3.0,Social Event,Sweet,1.5,Medium,Spirits,Yes,Weekly,295.94,Online,Celebration,Medium,Location,3.2
+33.0,Millennial,Female,63.11,Entrepreneur,2.0,Restaurant,Salty,1.28,Medium,Spirits,Yes,Monthly,419.13,Offline,Social,Medium,Limited Variety,3.5
+27.0,Millennial,Male,19.27,Professional,2.0,Home,Neutral,1.73,Medium,Wine,Yes,Monthly,49.26,Both,Stress Relief,Medium,Location,4.3
+56.0,Gen X,Female,45.7,Other,1.0,Bar,Bitter,0.61,High,Other,Yes,Monthly,272.2,Offline,Celebration,Low,Limited Variety,4.5
+65.0,Baby Boomer,Male,55.54,Student,0.0,Social Event,Sweet,1.51,Low,Spirits,No,Rarely,214.04,Online,Celebration,High,Limited Variety,5.0
+40.0,Millennial,Female,83.29,Retired,1.0,Other,Sweet,2.24,High,Beer,Yes,Monthly,334.34,Online,Daily Habit,Low,Expensive,4.9
+21.0,Gen Z,Other,64.49,Other,3.0,Other,Sour,0.93,Medium,Cider,Yes,Weekly,219.64,Online,Social,Medium,Location,4.4
+28.0,Millennial,Male,32.71,Other,1.0,Bar,Bitter,1.35,Medium,Cocktails,No,Monthly,214.29,Online,Celebration,Medium,No Problems,3.8
+36.0,Millennial,Other,83.91,Other,1.0,Social Event,Bitter,2.38,Low,Cider,Yes,Monthly,325.79,Offline,Celebration,High,No Problems,2.9
+34.0,Millennial,Male,50.88,Student,0.0,Social Event,Salty,1.36,Medium,Beer,No,Rarely,117.61,Offline,Celebration,Medium,Expensive,5.0
+32.0,Millennial,Female,44.88,Entrepreneur,2.0,Social Event,Sweet,1.22,Medium,Wine,Yes,Monthly,66.07,Offline,Celebration,Medium,Limited Variety,4.1
+43.0,Gen X,Female,43.46,Student,3.0,Social Event,Salty,1.38,Medium,Beer,Yes,Weekly,324.06,Offline,Celebration,Medium,No Problems,3.4
+35.0,Millennial,Female,17.53,Entrepreneur,4.0,Other,Bitter,1.54,Low,Other,No,Weekly,392.64,Both,Daily Habit,High,Location,3.0
+48.0,Gen X,Female,47.8,Other,2.0,Home,Sour,1.76,Medium,Other,No,Monthly,678.92,Online,Stress Relief,Medium,Location,3.4
+54.0,Gen X,Female,59.95,Other,3.0,Social Event,Sweet,2.1,Low,Other,No,Weekly,360.62,Offline,Celebration,High,No Problems,3.8
+22.0,Gen Z,Male,42.29,Retired,3.0,Home,Bitter,1.4,High,Spirits,No,Weekly,236.58,Both,Stress Relief,Low,No Problems,3.9
+52.0,Gen X,Male,58.41,Entrepreneur,2.0,Social Event,Sour,2.13,High,Wine,No,Monthly,457.02,Online,Celebration,Low,Limited Variety,3.4
+43.0,Gen X,Female,32.71,Other,3.0,Restaurant,Neutral,1.57,Low,Other,Yes,Weekly,150.11,Online,Social,High,Limited Variety,3.3
+42.0,Gen X,Female,47.18,Professional,0.0,Restaurant,Bitter,1.18,High,Cocktails,Yes,Rarely,227.63,Both,Social,Low,Expensive,4.9
+45.0,Gen X,Female,56.33,Retired,2.0,Restaurant,Neutral,1.82,High,Cocktails,No,Monthly,511.38,Offline,Social,Low,Location,3.7
+42.0,Gen X,Female,53.79,Student,2.0,Social Event,Salty,1.94,Medium,Beer,No,Monthly,614.87,Offline,Celebration,Medium,Expensive,3.4
+42.0,Gen X,Male,17.89,Retired,4.0,Home,Neutral,1.62,Medium,Other,No,Weekly,157.12,Online,Stress Relief,Medium,Expensive,3.0
+62.0,Baby Boomer,Female,41.22,Professional,2.0,Other,Bitter,0.61,Medium,Spirits,Maybe,Monthly,230.43,Offline,Social,Medium,Limited Variety,4.1
+26.0,Millennial,Male,83.55,Entrepreneur,2.0,Bar,Neutral,0.84,Medium,Cocktails,Yes,Monthly,333.39,Online,Celebration,Medium,Expensive,3.7
+35.0,Millennial,Female,40.15,Student,2.0,Other,Sweet,1.07,Medium,Cider,No,Monthly,1288.0818779074614,Online,Celebration,Medium,Location,3.5
+63.0,Baby Boomer,Male,50.32,Student,2.0,Social Event,Bitter,1.07,Medium,Wine,Yes,Monthly,1753.7094205279768,Offline,Celebration,Medium,Location,4.2
+57.0,Baby Boomer,Male,48.26,Entrepreneur,1.0,Restaurant,Sour,1.85,Medium,Cider,No,Monthly,293.87,Offline,Social,Medium,Limited Variety,4.1
+53.0,Gen X,Male,81.36,Retired,2.0,Restaurant,Neutral,0.54,Low,Cocktails,No,Monthly,795.15,Offline,Social,High,Limited Variety,3.8
+28.0,Millennial,Male,75.81,Other,3.0,Home,Sweet,2.01,High,Cocktails,Yes,Weekly,383.56,Online,Stress Relief,Low,No Problems,3.3
+64.0,Baby Boomer,Female,66.15,Retired,1.0,Social Event,Salty,1.03,Medium,Beer,No,Monthly,707.06,Online,Celebration,Medium,Expensive,5.0
+64.0,Baby Boomer,Male,30.54,Professional,3.0,Other,Salty,1.12,Medium,Beer,No,Weekly,201.61,Offline,Celebration,Medium,Location,3.1
+25.0,Millennial,Male,57.18,Other,3.0,Social Event,Neutral,1.56,High,Other,Yes,Weekly,427.68,Online,Celebration,Low,No Problems,4.4
+59.0,Baby Boomer,Male,61.36,Retired,1.0,Social Event,Salty,0.93,Medium,Wine,No,Monthly,1212.5615335705334,Both,Celebration,Medium,Limited Variety,4.9
+24.0,Gen Z,Male,36.03,Entrepreneur,1.0,Restaurant,Sour,2.27,Medium,Other,No,Monthly,54.33,Online,Social,Medium,Limited Variety,5.0
+26.0,Millennial,Male,32.59,Professional,4.0,Other,Bitter,0.67,High,Beer,No,Weekly,468.19,Online,Social,Low,No Problems,3.3
+65.0,Baby Boomer,Male,84.1,Professional,2.0,Bar,Sweet,1.39,High,Spirits,Yes,Monthly,752.41,Online,Celebration,Low,Expensive,3.9
+52.0,Gen X,Female,43.98,Professional,1.0,Restaurant,Neutral,2.2,Low,Wine,No,Monthly,193.62,Offline,Social,High,Location,4.0
+50.0,Gen X,Female,82.3,Other,1.0,Other,Salty,1.73,Medium,Spirits,Maybe,Monthly,431.26,Both,Celebration,Medium,Limited Variety,4.3
+55.0,Gen X,Female,69.94,Student,0.0,Home,Bitter,1.08,High,Other,Yes,Rarely,375.57,Online,Stress Relief,Low,Expensive,5.0
+60.0,Baby Boomer,Male,58.16,Other,2.0,Restaurant,Sour,1.34,Medium,Beer,No,Monthly,164.81,Both,Social,Medium,No Problems,4.0
+36.0,Millennial,Male,59.05,Retired,3.0,Home,Salty,1.91,Medium,Wine,Yes,Weekly,342.65,Online,Stress Relief,Medium,No Problems,3.8
+33.0,Millennial,Female,21.99,Student,2.0,Restaurant,Salty,2.45,Low,Other,Yes,Monthly,202.47,Both,Social,High,Location,4.1
+62.0,Baby Boomer,Female,54.14,Retired,1.0,Social Event,Sweet,2.29,Low,Cocktails,No,Monthly,146.54,Offline,Celebration,High,Expensive,4.6
+50.0,Gen X,Male,78.34,Student,1.0,Other,Sour,1.18,Medium,Other,No,Monthly,459.75,Both,Daily Habit,Medium,Expensive,4.6
+39.0,Millennial,Male,63.63,Other,4.0,Home,Sour,2.5,Medium,Cider,Maybe,Weekly,298.16,Offline,Stress Relief,Medium,Location,3.2
+37.0,Millennial,Male,53.09,Professional,1.0,Restaurant,Neutral,0.51,High,Cocktails,No,Monthly,339.7,Offline,Social,Low,Expensive,4.1
+39.0,Millennial,Male,84.24,Entrepreneur,1.0,Home,Sweet,0.56,Medium,Spirits,Maybe,Monthly,419.35,Online,Stress Relief,Medium,Location,4.4
+48.0,Gen X,Male,46.3,Professional,3.0,Restaurant,Neutral,2.15,Low,Cocktails,Yes,Weekly,156.09,Online,Social,High,Location,3.7
+46.0,Gen X,Female,37.61,Other,1.0,Restaurant,Sweet,0.9,Low,Other,Yes,Monthly,341.21,Both,Social,High,Location,4.6
+57.0,Baby Boomer,Female,53.08,Student,1.0,Bar,Sour,0.62,High,Cocktails,No,Monthly,186.3,Offline,Celebration,Low,Limited Variety,4.3
+46.0,Gen X,Female,65.33,Professional,3.0,Bar,Sweet,0.97,Medium,Cider,No,Weekly,329.37,Offline,Celebration,Medium,Limited Variety,3.7
+43.0,Gen X,Female,15.64,Other,2.0,Bar,Sweet,1.35,Medium,Other,No,Monthly,107.01,Both,Celebration,Medium,Expensive,3.6
+29.0,Millennial,Female,55.7,Retired,2.0,Home,Sweet,1.96,High,Cider,No,Monthly,612.25,Online,Stress Relief,Low,Expensive,3.4
+32.0,Millennial,Female,66.21,Entrepreneur,2.0,Social Event,Bitter,1.75,Medium,Cocktails,Yes,Monthly,246.6,Both,Celebration,Medium,Limited Variety,4.1
+21.0,Gen Z,Female,44.61,Professional,2.0,Restaurant,Bitter,0.98,Low,Cider,Maybe,Monthly,284.76,Both,Social,High,Location,3.4
+21.0,Gen Z,Male,72.14,Student,3.0,Other,Sour,1.51,High,Cocktails,Yes,Weekly,675.78,Offline,Social,Low,Location,3.6
+54.0,Gen X,Male,62.82,Retired,3.0,Bar,Sweet,2.35,High,Wine,Maybe,Weekly,671.61,Both,Celebration,Low,Location,2.5
+52.0,Gen X,Male,92.83,Other,5.0,Home,Sour,2.13,Low,Cocktails,Yes,Weekly,1143.49,Online,Stress Relief,High,No Problems,2.1
+45.0,Gen X,Female,34.99,Entrepreneur,1.0,Home,Bitter,1.15,High,Beer,No,Monthly,147.58,Online,Stress Relief,Low,Expensive,4.3
+60.0,Baby Boomer,Female,66.61,Student,3.0,Home,Sweet,2.46,Medium,Cider,Yes,Weekly,332.92,Offline,Stress Relief,Medium,Expensive,2.7
+65.0,Baby Boomer,Male,29.65,Other,1.0,Other,Neutral,1.92,Medium,Cider,Yes,Monthly,156.86,Offline,Daily Habit,Medium,Limited Variety,4.3
+21.0,Gen Z,Female,17.69,Other,0.0,Other,Bitter,0.62,High,Spirits,Yes,Rarely,42.94,Both,Social,Low,Location,5.0
+36.0,Millennial,Male,9.29,Professional,2.0,Bar,Bitter,0.57,High,Spirits,No,Monthly,13.34,Both,Celebration,Low,Limited Variety,3.4
+59.0,Baby Boomer,Female,60.77,Professional,3.0,Other,Bitter,0.84,Low,Beer,No,Weekly,571.48,Offline,Celebration,High,No Problems,3.3
+25.0,Millennial,Male,53.68,Student,1.0,Bar,Sweet,1.96,Low,Cider,Yes,Monthly,427.46,Online,Celebration,High,Location,5.0
+42.0,Gen X,Male,40.42,Other,4.0,Other,Salty,0.87,Low,Cider,Yes,Weekly,114.52,Both,Daily Habit,High,No Problems,2.5
+49.0,Gen X,Female,14.53,Professional,1.0,Other,Neutral,1.52,Medium,Spirits,No,Monthly,44.44,Offline,Celebration,Medium,No Problems,5.0
+23.0,Gen Z,Male,36.19,Entrepreneur,0.0,Other,Neutral,0.69,Low,Spirits,Yes,Rarely,204.63,Online,Celebration,High,Expensive,4.9
+32.0,Millennial,Male,50.08,Entrepreneur,2.0,Bar,Sour,2.34,Medium,Cocktails,No,Monthly,867.16,Online,Celebration,Medium,Limited Variety,4.1
+46.0,Gen X,Male,65.86,Other,0.0,Restaurant,Sweet,1.19,Low,Other,No,Rarely,276.1,Both,Social,High,Location,5.0
+36.0,Millennial,Female,49.67,Professional,4.0,Bar,Bitter,2.32,Medium,Cider,Yes,Weekly,318.7,Offline,Celebration,Medium,Expensive,2.8
+57.0,Baby Boomer,Female,55.04,Student,1.0,Restaurant,Salty,2.39,Low,Cider,Yes,Monthly,254.54,Offline,Social,High,Limited Variety,4.8
+42.0,Gen X,Male,42.48,Student,2.0,Home,Sweet,0.51,High,Cocktails,No,Monthly,522.86,Both,Stress Relief,Low,Location,4.4
+49.0,Gen X,Female,84.98,Student,1.0,Home,Sweet,1.43,Low,Cider,Maybe,Monthly,311.78,Offline,Stress Relief,High,Limited Variety,4.2
+34.0,Millennial,Female,29.64,Entrepreneur,1.0,Bar,Salty,0.55,Medium,Beer,Maybe,Monthly,100.72,Online,Celebration,Medium,Location,4.1
+48.0,Gen X,Male,36.02,Professional,1.0,Restaurant,Bitter,2.32,High,Spirits,No,Monthly,143.39,Both,Social,Low,Location,4.4
+25.0,Millennial,Male,40.15,Professional,2.0,Restaurant,Sweet,1.54,Medium,Spirits,No,Monthly,154.29,Online,Social,Medium,Expensive,3.9
+50.0,Gen X,Male,60.85,Entrepreneur,1.0,Restaurant,Neutral,0.65,Low,Other,No,Monthly,327.86,Both,Social,High,Limited Variety,4.0
+25.0,Millennial,Male,29.22,Student,2.0,Home,Neutral,0.72,Low,Spirits,No,Monthly,407.5,Both,Stress Relief,High,Limited Variety,3.7
+32.0,Millennial,Female,52.71,Student,3.0,Bar,Salty,1.27,Medium,Wine,Yes,Weekly,468.34,Offline,Celebration,Medium,Location,1.8
+36.0,Millennial,Male,53.3,Other,4.0,Social Event,Bitter,2.38,Medium,Beer,Yes,Weekly,433.81,Both,Celebration,Medium,Expensive,2.8
+46.0,Gen X,Female,36.11,Retired,2.0,Restaurant,Salty,1.89,Medium,Beer,No,Monthly,193.16,Both,Social,Medium,No Problems,4.4
+46.0,Gen X,Female,56.6,Professional,2.0,Restaurant,Sweet,2.24,Medium,Cocktails,No,Monthly,160.33,Both,Social,Medium,Limited Variety,3.2
+41.0,Gen X,Male,29.84,Professional,3.0,Social Event,Neutral,1.23,Medium,Wine,Yes,Weekly,350.81,Offline,Celebration,Medium,Expensive,3.3
+59.0,Baby Boomer,Female,27.66,Professional,3.0,Bar,Sour,0.59,Medium,Cider,No,Weekly,201.12,Online,Celebration,Medium,Limited Variety,4.7
+56.0,Gen X,Male,51.99,Retired,2.0,Restaurant,Salty,2.45,Medium,Other,Yes,Monthly,294.02,Offline,Social,Medium,Limited Variety,4.0
+53.0,Gen X,Other,16.8,Other,3.0,Bar,Sour,0.53,High,Beer,Maybe,Weekly,626.9,Offline,Celebration,Low,Limited Variety,4.2
+50.0,Gen X,Female,7.1,Retired,1.0,Restaurant,Sour,2.4,Low,Wine,Yes,Monthly,41.78,Offline,Social,High,Location,4.0
+57.0,Baby Boomer,Female,60.66,Student,4.0,Other,Neutral,1.24,Medium,Wine,Yes,Weekly,384.61,Offline,Social,Medium,Limited Variety,3.2
+43.0,Gen X,Female,70.98,Student,0.0,Restaurant,Salty,0.52,Low,Beer,Yes,Rarely,237.95,Offline,Social,High,Expensive,4.4
+30.0,Millennial,Male,40.66,Professional,5.0,Other,Sour,1.88,Medium,Cocktails,Yes,Weekly,814.29,Offline,Daily Habit,Medium,Expensive,2.7
+25.0,Millennial,Female,36.64,Entrepreneur,2.0,Bar,Sweet,2.46,High,Wine,Yes,Monthly,240.0,Online,Celebration,Low,Location,4.4
+56.0,Gen X,Female,70.11,Professional,1.0,Restaurant,Bitter,2.43,Medium,Spirits,No,Monthly,173.08,Both,Social,Medium,Limited Variety,4.8
+54.0,Gen X,Female,27.09,Entrepreneur,1.0,Home,Bitter,0.82,High,Wine,No,Monthly,217.38,Offline,Stress Relief,Low,Expensive,4.3
+51.0,Gen X,Female,22.73,Retired,1.0,Home,Neutral,0.86,Medium,Cider,No,Monthly,82.47,Online,Stress Relief,Medium,No Problems,4.6
+30.0,Millennial,Female,64.15,Student,2.0,Social Event,Salty,1.63,High,Beer,No,Monthly,1013.05,Online,Celebration,Low,Expensive,4.1
+39.0,Millennial,Male,50.18,Entrepreneur,1.0,Home,Salty,1.77,Medium,Cider,Maybe,Monthly,436.37,Both,Stress Relief,Medium,Location,4.8
+52.0,Gen X,Male,71.3,Retired,4.0,Other,Bitter,1.98,Low,Cocktails,Yes,Weekly,526.41,Offline,Celebration,High,Limited Variety,2.9
+21.0,Gen Z,Female,7.19,Student,3.0,Home,Sweet,0.86,Low,Other,No,Weekly,103.14,Online,Stress Relief,High,Expensive,4.0
+25.0,Millennial,Male,21.99,Entrepreneur,0.0,Home,Bitter,2.42,Medium,Spirits,Yes,Rarely,94.38,Both,Stress Relief,Medium,No Problems,5.0
+65.0,Baby Boomer,Female,50.29,Professional,2.0,Home,Bitter,1.78,Low,Beer,No,Monthly,476.77,Offline,Stress Relief,High,Limited Variety,3.8
+24.0,Gen Z,Female,58.35,Professional,0.0,Restaurant,Salty,2.19,Medium,Wine,Yes,Rarely,308.49,Both,Social,Medium,Location,5.0
+36.0,Millennial,Male,66.94,Professional,0.0,Social Event,Sour,1.58,Medium,Spirits,No,Rarely,181.9,Online,Celebration,Medium,Expensive,4.5
+44.0,Gen X,Male,53.5,Retired,2.0,Bar,Sweet,1.33,High,Wine,Yes,Monthly,240.03,Offline,Celebration,Low,Location,4.2
+36.0,Millennial,Female,53.29,Professional,3.0,Social Event,Salty,2.45,Medium,Cocktails,No,Weekly,674.23,Both,Celebration,Medium,No Problems,3.7
+22.0,Gen Z,Male,42.21,Other,2.0,Other,Bitter,1.66,Medium,Other,Maybe,Monthly,220.99,Offline,Social,Medium,Expensive,4.0
+48.0,Gen X,Female,81.82,Student,2.0,Restaurant,Sour,2.23,High,Beer,No,Monthly,413.87,Both,Social,Low,No Problems,4.1
+52.0,Gen X,Male,27.94,Retired,1.0,Restaurant,Sweet,2.41,High,Cocktails,Yes,Monthly,87.83,Online,Social,Low,Limited Variety,5.0
+47.0,Gen X,Female,57.18,Professional,0.0,Home,Neutral,1.85,Low,Cocktails,No,Rarely,293.2,Offline,Stress Relief,High,Location,3.6
+40.0,Millennial,Male,30.24,Student,2.0,Home,Sweet,1.6,Medium,Other,No,Monthly,524.94,Online,Stress Relief,Medium,Limited Variety,3.8
+44.0,Gen X,Female,60.7,Entrepreneur,3.0,Other,Sweet,0.51,Medium,Cocktails,Maybe,Weekly,269.08,Online,Social,Medium,No Problems,3.3
+32.0,Millennial,Male,29.26,Professional,3.0,Restaurant,Bitter,0.58,Medium,Cocktails,No,Weekly,223.9,Online,Social,Medium,Expensive,4.2
+55.0,Gen X,Female,64.88,Student,3.0,Bar,Bitter,0.9,Medium,Wine,No,Weekly,993.76,Online,Celebration,Medium,Expensive,3.7
+53.0,Gen X,Male,52.24,Other,3.0,Social Event,Neutral,0.87,High,Cider,Maybe,Weekly,379.51,Both,Celebration,Low,No Problems,3.7
+53.0,Gen X,Female,84.89,Entrepreneur,0.0,Restaurant,Neutral,1.01,Medium,Wine,No,Rarely,441.59,Online,Social,Medium,Location,5.0
+63.0,Baby Boomer,Female,44.38,Other,1.0,Bar,Neutral,1.11,Medium,Other,No,Monthly,132.22,Offline,Celebration,Medium,Expensive,4.4
+57.0,Baby Boomer,Male,58.5,Student,2.0,Bar,Salty,1.22,High,Spirits,No,Monthly,448.55,Both,Celebration,Low,Limited Variety,1.0
+32.0,Millennial,Male,34.41,Other,1.0,Social Event,Salty,1.34,Low,Other,Yes,Monthly,158.8,Offline,Celebration,High,Location,4.2
+23.0,Gen Z,Male,44.24,Student,4.0,Bar,Bitter,0.7,Medium,Other,Yes,Weekly,668.7,Online,Celebration,Medium,Limited Variety,2.5
+21.0,Gen Z,Female,52.11,Student,0.0,Other,Bitter,0.58,Medium,Other,No,Rarely,391.47,Both,Social,Medium,Expensive,5.0
+53.0,Gen X,Female,19.46,Other,1.0,Bar,Neutral,1.85,Low,Other,No,Monthly,359.96,Offline,Celebration,High,Location,4.7
+60.0,Baby Boomer,Female,21.65,Student,4.0,Other,Salty,1.57,Medium,Cocktails,Yes,Weekly,267.11,Offline,Celebration,Medium,Expensive,3.3
+30.0,Millennial,Male,62.0,Professional,1.0,Bar,Sour,1.39,Low,Other,No,Monthly,369.77,Both,Celebration,High,Location,4.0
+63.0,Baby Boomer,Male,47.08,Student,2.0,Home,Salty,1.77,High,Spirits,Yes,Monthly,321.14,Both,Stress Relief,Low,No Problems,4.3
+64.0,Baby Boomer,Female,38.14,Retired,4.0,Bar,Bitter,2.16,Medium,Other,Yes,Weekly,295.16,Offline,Celebration,Medium,Limited Variety,3.9
+49.0,Gen X,Female,35.26,Student,2.0,Other,Salty,1.36,Medium,Wine,Maybe,Monthly,258.49,Offline,Social,Medium,Expensive,3.9
+33.0,Millennial,Other,36.03,Retired,3.0,Bar,Bitter,1.78,Medium,Cocktails,Yes,Weekly,234.98,Offline,Celebration,Medium,Expensive,2.9
+32.0,Millennial,Male,52.25,Student,1.0,Bar,Neutral,2.41,Low,Wine,No,Monthly,288.05,Online,Celebration,High,Limited Variety,4.6
+51.0,Gen X,Female,58.9,Student,2.0,Bar,Neutral,2.18,Low,Cocktails,Yes,Monthly,704.5,Both,Celebration,High,Location,3.5
+22.0,Gen Z,Male,8.16,Other,1.0,Other,Neutral,1.35,Medium,Wine,No,Monthly,25.0,Online,Daily Habit,Medium,Limited Variety,3.7
+55.0,Gen X,Male,78.26,Professional,3.0,Bar,Sour,1.79,Medium,Beer,No,Weekly,1046.1,Offline,Celebration,Medium,Location,3.1
+43.0,Gen X,Female,76.83,Professional,3.0,Social Event,Sour,0.85,Medium,Cider,No,Weekly,1122.15,Both,Celebration,Medium,Limited Variety,3.3
+37.0,Millennial,Female,3.39,Entrepreneur,1.0,Social Event,Bitter,1.62,Medium,Cider,No,Monthly,16.19,Offline,Celebration,Medium,Limited Variety,4.0
+46.0,Gen X,Other,71.72,Other,3.0,Other,Sweet,2.46,Medium,Cocktails,Yes,Weekly,187.67,Offline,Daily Habit,Medium,Expensive,4.2
+28.0,Millennial,Male,71.1,Other,3.0,Home,Sour,1.54,Medium,Beer,No,Weekly,396.64,Online,Stress Relief,Medium,Expensive,4.4
+49.0,Gen X,Male,50.01,Professional,3.0,Social Event,Bitter,2.36,Medium,Spirits,No,Weekly,723.12,Both,Celebration,Medium,Expensive,3.8
+46.0,Gen X,Female,24.06,Other,2.0,Restaurant,Salty,1.31,Low,Beer,Yes,Monthly,147.23,Offline,Social,High,Limited Variety,5.0
+30.0,Millennial,Female,70.3,Professional,0.0,Social Event,Neutral,2.5,Medium,Cocktails,No,Rarely,176.97,Both,Celebration,Medium,No Problems,4.9
+46.0,Gen X,Male,45.18,Other,4.0,Restaurant,Neutral,1.66,High,Beer,No,Weekly,324.12,Online,Social,Low,Location,2.6
+54.0,Gen X,Male,60.98,Student,1.0,Other,Neutral,0.58,Low,Spirits,No,Monthly,470.46,Both,Celebration,High,Limited Variety,5.0
+61.0,Baby Boomer,Male,94.38,Professional,2.0,Home,Bitter,1.67,Medium,Cocktails,No,Monthly,767.81,Both,Stress Relief,Medium,Expensive,4.0
+27.0,Millennial,Female,55.04,Professional,2.0,Restaurant,Neutral,1.05,Medium,Cider,No,Monthly,302.31,Online,Social,Medium,Expensive,3.8
+24.0,Gen Z,Male,31.66,Retired,1.0,Restaurant,Sour,0.56,Medium,Other,Maybe,Monthly,133.55,Online,Social,Medium,Limited Variety,5.0
+65.0,Baby Boomer,Male,43.29,Other,2.0,Social Event,Salty,2.14,Medium,Beer,No,Monthly,220.28,Online,Celebration,Medium,Limited Variety,4.0
+31.0,Millennial,Male,34.21,Other,6.0,Restaurant,Neutral,1.05,Low,Cider,No,Weekly,297.13,Both,Social,High,Limited Variety,2.5
+49.0,Gen X,Male,58.67,Professional,0.0,Other,Bitter,2.09,Medium,Cider,Yes,Rarely,545.92,Offline,Daily Habit,Medium,Expensive,4.8
+56.0,Gen X,Male,33.88,Student,4.0,Other,Salty,1.08,Low,Wine,Yes,Weekly,266.27,Offline,Social,High,Expensive,3.5
+45.0,Gen X,Female,40.54,Student,2.0,Other,Neutral,0.89,Medium,Spirits,Yes,Monthly,461.15,Online,Celebration,Medium,Expensive,4.5
+41.0,Gen X,Male,24.31,Student,1.0,Social Event,Sweet,2.45,High,Other,No,Monthly,263.59,Online,Celebration,Low,Expensive,5.0
+56.0,Gen X,Female,47.36,Other,2.0,Home,Neutral,1.22,Medium,Beer,No,Monthly,482.89,Online,Stress Relief,Medium,Location,3.6
+30.0,Millennial,Male,53.54,Retired,4.0,Social Event,Sour,1.7,Low,Cider,Yes,Weekly,398.4,Online,Celebration,High,Limited Variety,3.0
+57.0,Baby Boomer,Female,-3.7,Professional,1.0,Other,Salty,1.72,High,Cider,No,Monthly,-22.94,Offline,Social,Low,Limited Variety,5.0
+29.0,Millennial,Female,55.19,Entrepreneur,2.0,Social Event,Sour,1.62,High,Spirits,Yes,Monthly,337.49,Both,Celebration,Low,Limited Variety,3.9
+44.0,Gen X,Female,49.09,Retired,2.0,Other,Sweet,2.33,Medium,Other,No,Monthly,193.38,Offline,Celebration,Medium,No Problems,4.4
+55.0,Gen X,Female,34.7,Entrepreneur,5.0,Bar,Sweet,1.85,Medium,Other,No,Weekly,460.25,Offline,Celebration,Medium,No Problems,1.0
+55.0,Gen X,Male,90.57,Retired,1.0,Bar,Sour,1.31,Low,Cider,No,Monthly,254.54,Both,Celebration,High,Location,3.6
+56.0,Gen X,Male,69.17,Student,0.0,Restaurant,Salty,2.22,High,Cider,No,Rarely,519.7,Both,Social,Low,Expensive,4.9
+38.0,Millennial,Female,28.07,Other,2.0,Home,Sweet,0.86,Medium,Cider,Maybe,Monthly,137.72,Both,Stress Relief,Medium,Limited Variety,4.0
+59.0,Baby Boomer,Other,66.76,Entrepreneur,1.0,Bar,Sweet,1.59,High,Cider,Yes,Monthly,374.1,Offline,Celebration,Low,Location,3.6
+52.0,Gen X,Female,74.89,Retired,0.0,Other,Neutral,2.4,Medium,Wine,Yes,Rarely,357.99,Online,Celebration,Medium,Expensive,4.8
+44.0,Gen X,Female,52.64,Other,1.0,Social Event,Bitter,1.75,Medium,Wine,No,Monthly,234.36,Online,Celebration,Medium,Limited Variety,4.0
+43.0,Gen X,Female,57.23,Entrepreneur,1.0,Social Event,Sweet,2.13,High,Other,No,Monthly,388.88,Both,Celebration,Low,No Problems,4.9
+52.0,Gen X,Male,56.77,Professional,2.0,Restaurant,Salty,1.81,Medium,Cocktails,No,Monthly,277.11,Online,Social,Medium,Limited Variety,3.1
+57.0,Baby Boomer,Male,8.28,Retired,2.0,Social Event,Salty,2.18,Low,Beer,No,Monthly,79.23,Offline,Celebration,High,Expensive,4.9
+32.0,Millennial,Female,46.26,Professional,2.0,Bar,Neutral,2.39,Low,Spirits,No,Monthly,146.08,Offline,Celebration,High,Expensive,4.3
+33.0,Millennial,Female,45.22,Student,0.0,Social Event,Salty,1.05,Medium,Cocktails,No,Rarely,199.85,Offline,Celebration,Medium,Limited Variety,4.5
+43.0,Gen X,Male,78.6,Professional,3.0,Bar,Neutral,0.84,Low,Wine,No,Weekly,1566.63,Offline,Celebration,High,Expensive,4.0
+45.0,Gen X,Female,56.67,Professional,1.0,Bar,Sweet,1.47,Medium,Wine,No,Monthly,174.15,Online,Celebration,Medium,Location,4.8
+55.0,Gen X,Male,44.05,Retired,1.0,Home,Sweet,1.9,Medium,Wine,Yes,Monthly,159.06,Offline,Stress Relief,Medium,Location,4.5
+61.0,Baby Boomer,Female,48.2,Student,3.0,Restaurant,Sweet,0.95,Medium,Cocktails,Maybe,Weekly,471.14,Offline,Social,Medium,Expensive,3.1
+50.0,Gen X,Male,70.47,Professional,1.0,Other,Sweet,0.51,Medium,Wine,Yes,Monthly,390.66,Both,Social,Medium,No Problems,4.8
+37.0,Millennial,Male,46.31,Other,0.0,Bar,Bitter,1.19,High,Cocktails,No,Rarely,228.95,Both,Celebration,Low,Limited Variety,5.0
+40.0,Millennial,Female,36.04,Entrepreneur,1.0,Restaurant,Bitter,2.44,Low,Wine,No,Monthly,233.24,Both,Social,High,Expensive,4.2
+45.0,Gen X,Male,44.49,Professional,2.0,Other,Sweet,1.89,Medium,Cider,Yes,Monthly,378.22,Both,Daily Habit,Medium,Location,3.3
+42.0,Gen X,Female,68.81,Student,2.0,Social Event,Salty,1.3,Low,Cider,No,Monthly,741.78,Offline,Celebration,High,Location,3.6
+33.0,Millennial,Female,59.92,Professional,1.0,Restaurant,Neutral,0.89,Medium,Beer,No,Monthly,372.7,Online,Social,Medium,Location,4.2
+39.0,Millennial,Female,50.89,Entrepreneur,1.0,Restaurant,Sour,1.21,High,Wine,Maybe,Monthly,1548.4373277002805,Offline,Social,Low,No Problems,5.0
+56.0,Gen X,Male,53.83,Student,4.0,Restaurant,Neutral,0.84,High,Beer,Yes,Weekly,695.73,Offline,Social,Low,Location,3.4
+32.0,Millennial,Male,38.81,Retired,3.0,Social Event,Sour,0.71,Medium,Cocktails,No,Weekly,758.59,Offline,Celebration,Medium,No Problems,3.3
+61.0,Baby Boomer,Male,46.12,Student,0.0,Social Event,Sour,2.31,Medium,Beer,No,Rarely,179.07,Offline,Celebration,Medium,Limited Variety,4.8
+39.0,Millennial,Other,36.73,Retired,1.0,Restaurant,Sweet,2.5,High,Wine,No,Monthly,114.34,Offline,Social,Low,Location,5.0
+32.0,Millennial,Female,44.1,Student,3.0,Home,Sour,0.83,High,Cocktails,Maybe,Weekly,579.9,Online,Stress Relief,Low,No Problems,3.6
+29.0,Millennial,Female,76.92,Entrepreneur,3.0,Bar,Sweet,0.61,High,Cocktails,No,Weekly,547.53,Offline,Celebration,Low,Location,3.6
+27.0,Millennial,Female,28.44,Entrepreneur,1.0,Social Event,Bitter,1.16,Medium,Cider,No,Monthly,48.63,Online,Celebration,Medium,Expensive,4.1
+48.0,Gen X,Female,36.23,Student,2.0,Home,Salty,1.42,High,Cocktails,No,Monthly,342.56,Both,Stress Relief,Low,Limited Variety,3.9
+34.0,Millennial,Female,24.91,Professional,3.0,Social Event,Sour,0.91,Low,Cocktails,No,Weekly,144.09,Online,Celebration,High,Location,3.5
+51.0,Gen X,Male,20.58,Entrepreneur,1.0,Restaurant,Salty,1.1,Low,Beer,Maybe,Monthly,99.67,Online,Social,High,Expensive,4.5
+39.0,Millennial,Female,46.26,Retired,0.0,Home,Sweet,0.9,Low,Other,Yes,Rarely,226.58,Online,Stress Relief,High,No Problems,5.0
+36.0,Millennial,Male,37.65,Retired,2.0,Other,Sour,2.05,Low,Cocktails,Yes,Monthly,256.32,Offline,Daily Habit,High,Expensive,4.4
+25.0,Millennial,Female,85.23,Other,3.0,Bar,Neutral,1.93,Medium,Spirits,No,Weekly,918.67,Online,Celebration,Medium,Expensive,3.0
+55.0,Gen X,Female,44.34,Retired,2.0,Bar,Bitter,1.77,High,Other,No,Monthly,220.74,Online,Celebration,Low,No Problems,3.7
+32.0,Millennial,Female,75.79,Other,3.0,Social Event,Bitter,1.27,Medium,Cider,No,Weekly,740.53,Offline,Celebration,Medium,Limited Variety,3.2
+45.0,Gen X,Male,69.36,Student,0.0,Bar,Sour,2.32,Medium,Cider,Yes,Rarely,252.75,Offline,Celebration,Medium,Expensive,5.0
+41.0,Gen X,Male,45.82,Student,2.0,Other,Bitter,2.44,Medium,Cocktails,Yes,Monthly,410.34,Both,Celebration,Medium,Limited Variety,5.0
+56.0,Gen X,Male,92.2,Student,4.0,Home,Neutral,0.85,Medium,Beer,Yes,Weekly,1158.05,Both,Stress Relief,Medium,Location,2.8
+43.0,Gen X,Male,55.37,Professional,4.0,Home,Salty,0.95,Medium,Other,Yes,Weekly,320.27,Offline,Stress Relief,Medium,Expensive,2.9
+36.0,Millennial,Male,80.26,Professional,2.0,Restaurant,Neutral,1.55,High,Cider,No,Monthly,855.01,Online,Social,Low,No Problems,4.4
+59.0,Baby Boomer,Female,77.93,Other,2.0,Home,Bitter,0.68,Medium,Cider,Yes,Monthly,368.96,Offline,Stress Relief,Medium,Limited Variety,3.6
+65.0,Baby Boomer,Female,58.29,Retired,1.0,Social Event,Salty,1.37,Medium,Spirits,Maybe,Monthly,442.44,Online,Celebration,Medium,Limited Variety,4.9
+62.0,Baby Boomer,Male,65.02,Retired,1.0,Other,Neutral,1.66,Medium,Cocktails,No,Monthly,395.91,Offline,Social,Medium,Limited Variety,4.5
+59.0,Baby Boomer,Male,62.48,Student,0.0,Restaurant,Sweet,1.54,High,Other,Maybe,Rarely,649.88,Offline,Social,Low,Location,4.1
+34.0,Millennial,Male,27.11,Entrepreneur,2.0,Social Event,Sweet,1.16,Low,Cider,Maybe,Monthly,150.06,Both,Celebration,High,Limited Variety,3.3
+51.0,Gen X,Female,51.15,Professional,0.0,Social Event,Salty,1.58,Medium,Cider,No,Rarely,178.21,Online,Celebration,Medium,Expensive,4.8
+25.0,Millennial,Female,71.48,Professional,1.0,Social Event,Salty,2.42,Medium,Cider,Maybe,Monthly,358.73,Offline,Celebration,Medium,Limited Variety,5.0
+55.0,Gen X,Female,80.52,Student,3.0,Bar,Salty,0.91,Medium,Cider,No,Weekly,523.1,Both,Celebration,Medium,No Problems,3.1
+43.0,Gen X,Female,35.59,Professional,0.0,Social Event,Sweet,1.81,High,Beer,No,Rarely,220.28,Offline,Celebration,Low,Expensive,4.7
+49.0,Gen X,Other,60.58,Student,2.0,Bar,Neutral,0.59,Medium,Wine,No,Monthly,167.11,Online,Celebration,Medium,Location,4.1
+63.0,Baby Boomer,Female,53.02,Other,1.0,Home,Salty,0.63,Medium,Spirits,Yes,Monthly,158.65,Both,Stress Relief,Medium,No Problems,3.7
+31.0,Millennial,Male,47.64,Retired,2.0,Bar,Sweet,1.6,High,Beer,No,Monthly,172.88,Offline,Celebration,Low,Expensive,4.1
+38.0,Millennial,Female,57.12,Entrepreneur,0.0,Social Event,Salty,0.71,Medium,Spirits,No,Rarely,381.14,Offline,Celebration,Medium,Expensive,4.2
+32.0,Millennial,Male,54.36,Retired,2.0,Other,Salty,0.54,Medium,Cider,Yes,Monthly,791.38,Online,Social,Medium,Limited Variety,4.3
+29.0,Millennial,Female,60.83,Retired,1.0,Other,Salty,0.84,Medium,Spirits,Maybe,Monthly,292.57,Online,Celebration,Medium,Limited Variety,4.1
+30.0,Millennial,Male,78.83,Other,3.0,Home,Sweet,1.63,Low,Cocktails,No,Weekly,547.7,Online,Stress Relief,High,Expensive,3.0
+64.0,Baby Boomer,Female,65.68,Professional,3.0,Social Event,Neutral,1.91,Medium,Cocktails,Maybe,Weekly,514.23,Online,Celebration,Medium,Limited Variety,3.6
+37.0,Millennial,Female,56.21,Entrepreneur,2.0,Bar,Sweet,0.9,Low,Wine,Yes,Monthly,621.96,Online,Celebration,High,Location,4.4
+58.0,Baby Boomer,Female,87.29,Professional,2.0,Other,Sweet,1.84,High,Wine,No,Monthly,339.82,Both,Daily Habit,Low,Limited Variety,4.2
+27.0,Millennial,Female,72.2,Retired,2.0,Restaurant,Salty,0.86,Medium,Spirits,Yes,Monthly,503.44,Online,Social,Medium,Expensive,4.1
+33.0,Millennial,Male,48.15,Student,0.0,Social Event,Sour,1.73,Low,Beer,Yes,Rarely,325.31,Online,Celebration,High,Limited Variety,5.0
+60.0,Baby Boomer,Male,25.66,Retired,2.0,Social Event,Sour,1.32,Medium,Beer,Yes,Monthly,204.04,Offline,Celebration,Medium,Location,4.2
+62.0,Baby Boomer,Male,30.24,Professional,2.0,Restaurant,Sour,1.81,Medium,Cider,Yes,Monthly,205.78,Offline,Social,Medium,No Problems,4.2
+29.0,Millennial,Male,68.66,Retired,1.0,Other,Sweet,2.49,Low,Beer,Yes,Monthly,573.95,Online,Social,High,No Problems,4.3
+47.0,Gen X,Female,37.39,Student,3.0,Restaurant,Salty,2.38,Low,Wine,Yes,Weekly,73.16,Offline,Social,High,Location,3.8
+22.0,Gen Z,Male,29.84,Other,1.0,Home,Sour,0.51,Medium,Beer,No,Monthly,212.22,Online,Stress Relief,Medium,Limited Variety,4.1
+25.0,Millennial,Other,34.84,Professional,1.0,Bar,Bitter,2.27,Medium,Cider,Yes,Monthly,127.3,Online,Celebration,Medium,Limited Variety,5.0
+49.0,Gen X,Female,36.25,Retired,2.0,Bar,Bitter,0.63,Medium,Cocktails,Yes,Monthly,89.83,Online,Celebration,Medium,Expensive,4.4
+57.0,Baby Boomer,Female,67.01,Professional,1.0,Other,Bitter,2.41,Medium,Beer,No,Monthly,438.47,Both,Daily Habit,Medium,Expensive,5.0
+58.0,Baby Boomer,Male,46.87,Other,1.0,Restaurant,Neutral,1.06,Medium,Beer,Maybe,Monthly,472.04,Online,Social,Medium,Location,4.8
+39.0,Millennial,Female,22.55,Retired,0.0,Social Event,Salty,1.26,Medium,Wine,No,Rarely,87.34,Online,Celebration,Medium,Expensive,5.0
+28.0,Millennial,Female,50.62,Retired,3.0,Social Event,Sweet,0.68,Medium,Spirits,Yes,Weekly,616.24,Online,Celebration,Medium,Expensive,1.0
+65.0,Baby Boomer,Female,54.45,Professional,2.0,Social Event,Sweet,0.72,Medium,Cocktails,Yes,Monthly,754.66,Both,Celebration,Medium,No Problems,4.5
+21.0,Gen Z,Female,40.41,Professional,2.0,Home,Salty,1.95,Medium,Spirits,Yes,Monthly,482.69,Online,Stress Relief,Medium,Expensive,4.6
+42.0,Gen X,Female,73.12,Student,4.0,Home,Neutral,2.39,High,Cider,Yes,Weekly,1532.92,Offline,Stress Relief,Low,Expensive,3.8
+37.0,Millennial,Male,41.58,Other,1.0,Social Event,Salty,1.72,Medium,Cider,Yes,Monthly,305.37,Online,Celebration,Medium,Expensive,4.6
+27.0,Millennial,Female,72.17,Student,3.0,Other,Neutral,1.93,High,Spirits,Yes,Weekly,566.56,Online,Daily Habit,Low,Limited Variety,3.3
+45.0,Gen X,Male,61.94,Retired,2.0,Home,Sour,2.02,Medium,Wine,Yes,Monthly,172.09,Offline,Stress Relief,Medium,Location,5.0
+65.0,Baby Boomer,Male,68.53,Professional,2.0,Home,Sour,1.03,Low,Other,Yes,Monthly,375.06,Offline,Stress Relief,High,Limited Variety,3.5
+24.0,Gen Z,Male,28.03,Retired,1.0,Bar,Neutral,0.59,Medium,Wine,Maybe,Monthly,93.18,Online,Celebration,Medium,Limited Variety,4.5
+56.0,Gen X,Male,51.97,Retired,3.0,Bar,Salty,0.5,Medium,Other,Yes,Weekly,1163.27,Offline,Celebration,Medium,Location,2.6
+26.0,Millennial,Male,48.94,Entrepreneur,1.0,Other,Sour,1.2,Medium,Other,Maybe,Monthly,227.13,Online,Celebration,Medium,No Problems,4.1
+51.0,Gen X,Male,21.56,Entrepreneur,2.0,Home,Salty,0.98,Medium,Wine,Maybe,Monthly,141.92,Offline,Stress Relief,Medium,No Problems,4.0
+39.0,Millennial,Other,72.1,Retired,1.0,Home,Sour,0.62,High,Other,No,Monthly,481.37,Online,Stress Relief,Low,No Problems,4.5
+64.0,Baby Boomer,Female,33.65,Professional,3.0,Restaurant,Salty,0.86,Medium,Other,Yes,Weekly,260.0,Offline,Social,Medium,Limited Variety,3.0
+59.0,Baby Boomer,Other,37.81,Retired,3.0,Other,Salty,0.75,Medium,Other,No,Weekly,667.11,Both,Celebration,Medium,Expensive,2.9
+47.0,Gen X,Male,29.73,Entrepreneur,1.0,Other,Bitter,2.33,Low,Cocktails,No,Monthly,110.35,Both,Daily Habit,High,Expensive,4.0
+30.0,Millennial,Male,64.02,Professional,2.0,Restaurant,Neutral,0.78,High,Cider,Yes,Monthly,436.74,Both,Social,Low,Expensive,3.9
+46.0,Gen X,Female,19.48,Retired,0.0,Restaurant,Sweet,1.58,High,Other,No,Rarely,55.76,Offline,Social,Low,Location,5.0
+39.0,Millennial,Male,62.36,Other,2.0,Bar,Neutral,1.69,Medium,Cider,No,Monthly,199.49,Both,Celebration,Medium,No Problems,4.5
+59.0,Baby Boomer,Male,70.89,Other,2.0,Other,Salty,1.59,Medium,Cider,Yes,Monthly,323.14,Offline,Social,Medium,Limited Variety,4.1
+23.0,Gen Z,Female,60.74,Retired,0.0,Other,Salty,0.7,Medium,Cocktails,Yes,Rarely,247.38,Offline,Social,Medium,Expensive,5.0
+65.0,Baby Boomer,Male,64.25,Professional,3.0,Restaurant,Neutral,1.14,Low,Cider,No,Weekly,391.89,Offline,Social,High,Location,4.0
+33.0,Millennial,Female,65.19,Retired,4.0,Social Event,Salty,0.6,Medium,Spirits,No,Weekly,425.79,Online,Celebration,Medium,No Problems,3.3
+48.0,Gen X,Female,31.01,Retired,0.0,Social Event,Sour,1.29,Low,Beer,Yes,Rarely,63.69,Both,Celebration,High,Location,4.8
+40.0,Millennial,Male,78.69,Entrepreneur,3.0,Bar,Salty,0.88,Medium,Cocktails,Yes,Weekly,570.67,Online,Celebration,Medium,No Problems,3.1
+48.0,Gen X,Male,40.8,Other,1.0,Social Event,Neutral,1.62,Medium,Beer,Maybe,Monthly,97.43,Offline,Celebration,Medium,No Problems,4.4
+28.0,Millennial,Female,48.67,Entrepreneur,2.0,Social Event,Neutral,1.89,Medium,Spirits,Maybe,Monthly,440.51,Both,Celebration,Medium,No Problems,4.5
+61.0,Baby Boomer,Male,43.35,Entrepreneur,3.0,Social Event,Neutral,1.56,Medium,Wine,No,Weekly,341.51,Online,Celebration,Medium,Location,3.4
+59.0,Baby Boomer,Male,59.83,Retired,2.0,Home,Bitter,1.37,High,Wine,Yes,Monthly,178.68,Offline,Stress Relief,Low,Location,3.4
+21.0,Gen Z,Other,39.24,Entrepreneur,0.0,Bar,Bitter,1.27,Low,Other,No,Rarely,139.48,Both,Celebration,High,Limited Variety,4.1
+23.0,Gen Z,Male,51.34,Other,0.0,Restaurant,Bitter,2.18,Medium,Wine,No,Rarely,146.24,Offline,Social,Medium,Expensive,4.9
+33.0,Millennial,Female,25.29,Entrepreneur,1.0,Social Event,Bitter,0.94,Low,Cocktails,Yes,Monthly,1350.1465090478935,Offline,Celebration,High,Location,4.0
+48.0,Gen X,Other,73.29,Other,4.0,Home,Bitter,1.97,Low,Wine,Yes,Weekly,1322.79,Online,Stress Relief,High,Expensive,2.8
+45.0,Gen X,Male,63.41,Entrepreneur,1.0,Social Event,Bitter,2.01,Low,Cocktails,No,Monthly,125.82,Offline,Celebration,High,No Problems,5.0
+53.0,Gen X,Male,44.15,Other,0.0,Home,Bitter,1.34,Medium,Cocktails,No,Rarely,194.02,Both,Stress Relief,Medium,Expensive,5.0
+58.0,Baby Boomer,Male,40.62,Entrepreneur,2.0,Bar,Neutral,1.09,Medium,Beer,Maybe,Monthly,232.07,Offline,Celebration,Medium,No Problems,3.6
+26.0,Millennial,Male,62.89,Entrepreneur,0.0,Social Event,Sweet,1.44,High,Wine,No,Rarely,365.0,Offline,Celebration,Low,Expensive,5.0
+64.0,Baby Boomer,Male,35.85,Professional,3.0,Home,Bitter,0.69,Medium,Cider,Yes,Weekly,301.51,Online,Stress Relief,Medium,Limited Variety,4.5
+65.0,Baby Boomer,Female,52.51,Other,3.0,Other,Neutral,0.59,Low,Wine,Yes,Weekly,272.56,Online,Celebration,High,No Problems,3.4
+52.0,Gen X,Male,73.23,Other,2.0,Other,Sweet,0.72,Medium,Wine,Maybe,Monthly,386.42,Both,Daily Habit,Medium,Limited Variety,2.8
+65.0,Baby Boomer,Female,33.77,Other,4.0,Home,Bitter,0.87,Low,Wine,Yes,Weekly,209.43,Offline,Stress Relief,High,Limited Variety,3.3
+41.0,Gen X,Other,57.37,Student,0.0,Social Event,Sweet,1.51,Medium,Other,Yes,Rarely,407.64,Offline,Celebration,Medium,Expensive,5.0
+36.0,Millennial,Female,56.31,Entrepreneur,4.0,Social Event,Sweet,2.2,Low,Cider,Yes,Weekly,525.51,Online,Celebration,High,Location,3.0
+41.0,Gen X,Female,48.05,Other,1.0,Bar,Sour,0.97,Medium,Cider,Yes,Monthly,629.98,Offline,Celebration,Medium,Expensive,4.4
+31.0,Millennial,Male,39.92,Student,2.0,Bar,Salty,2.37,Medium,Cocktails,Yes,Monthly,239.7,Both,Celebration,Medium,Limited Variety,3.6
+57.0,Baby Boomer,Female,74.3,Professional,1.0,Restaurant,Sour,2.41,High,Cider,Yes,Monthly,264.21,Offline,Social,Low,Limited Variety,5.0
+56.0,Gen X,Female,38.05,Other,1.0,Bar,Sweet,2.42,Medium,Cocktails,Yes,Monthly,90.46,Online,Celebration,Medium,Location,3.6
+55.0,Gen X,Male,13.76,Other,4.0,Social Event,Neutral,2.18,High,Beer,Yes,Weekly,51.58,Offline,Celebration,Low,Location,2.8
+39.0,Millennial,Male,62.81,Student,0.0,Restaurant,Bitter,1.23,Low,Cocktails,No,Rarely,118.02,Both,Social,High,Location,4.8
+40.0,Millennial,Female,25.97,Entrepreneur,0.0,Bar,Salty,0.65,High,Wine,No,Rarely,123.14,Online,Celebration,Low,Expensive,5.0
+38.0,Millennial,Male,63.84,Professional,3.0,Home,Bitter,1.64,Medium,Spirits,No,Weekly,622.41,Both,Stress Relief,Medium,No Problems,4.1
+61.0,Baby Boomer,Male,76.7,Other,1.0,Other,Neutral,1.62,Low,Spirits,No,Monthly,176.29,Offline,Social,High,Limited Variety,4.4
+34.0,Millennial,Male,62.59,Entrepreneur,2.0,Bar,Salty,2.2,Medium,Other,Maybe,Monthly,606.06,Both,Celebration,Medium,Limited Variety,4.1
+35.0,Millennial,Male,71.43,Professional,1.0,Bar,Sour,2.49,Low,Wine,Yes,Monthly,284.3,Offline,Celebration,High,Limited Variety,1.0
+51.0,Gen X,Female,90.4,Retired,2.0,Home,Sweet,1.52,Medium,Cocktails,Maybe,Monthly,602.14,Online,Stress Relief,Medium,No Problems,4.5
+21.0,Gen Z,Female,69.34,Retired,3.0,Social Event,Neutral,1.19,Low,Wine,Maybe,Weekly,1173.78,Online,Celebration,High,Limited Variety,4.0
+23.0,Gen Z,Female,56.61,Professional,3.0,Home,Sweet,0.87,Medium,Other,No,Weekly,670.12,Online,Stress Relief,Medium,Limited Variety,3.2
+36.0,Millennial,Male,82.68,Student,1.0,Bar,Sweet,0.51,High,Cider,Maybe,Monthly,366.34,Both,Celebration,Low,Location,4.7
+43.0,Gen X,Male,85.1,Professional,1.0,Social Event,Bitter,1.52,Low,Cocktails,Yes,Monthly,276.19,Both,Celebration,High,Location,4.7
+31.0,Millennial,Female,85.38,Professional,1.0,Restaurant,Neutral,1.61,Medium,Wine,Yes,Monthly,147.53,Offline,Social,Medium,Expensive,4.4
+32.0,Millennial,Male,40.16,Student,2.0,Bar,Sweet,2.15,Medium,Cider,Yes,Monthly,173.49,Online,Celebration,Medium,Limited Variety,4.2
+30.0,Millennial,Male,22.92,Student,2.0,Home,Sour,1.51,High,Other,No,Monthly,127.65,Online,Stress Relief,Low,Location,4.0
+52.0,Gen X,Female,38.94,Entrepreneur,4.0,Restaurant,Salty,2.33,Medium,Cider,Maybe,Weekly,219.48,Both,Social,Medium,No Problems,3.1
+36.0,Millennial,Male,64.07,Entrepreneur,4.0,Other,Neutral,1.76,Medium,Cocktails,Yes,Weekly,554.02,Online,Social,Medium,Location,2.3
+28.0,Millennial,Female,53.18,Student,4.0,Restaurant,Bitter,2.18,Medium,Other,No,Weekly,510.28,Online,Social,Medium,Limited Variety,2.5
+58.0,Baby Boomer,Male,45.87,Retired,2.0,Home,Neutral,0.8,Low,Other,No,Monthly,253.72,Offline,Stress Relief,High,Limited Variety,4.4
+32.0,Millennial,Male,61.21,Retired,2.0,Restaurant,Bitter,2.21,Low,Other,Yes,Monthly,273.73,Online,Social,High,No Problems,3.4
+44.0,Gen X,Male,20.58,Professional,0.0,Home,Salty,1.85,Medium,Beer,Yes,Rarely,92.9,Offline,Stress Relief,Medium,No Problems,5.0
+48.0,Gen X,Other,52.82,Other,2.0,Bar,Sour,0.84,Low,Other,Yes,Monthly,407.77,Offline,Celebration,High,Limited Variety,4.0
+28.0,Millennial,Female,72.37,Professional,1.0,Social Event,Sweet,0.88,Medium,Beer,Yes,Monthly,212.61,Online,Celebration,Medium,Expensive,5.0
+48.0,Gen X,Female,60.99,Professional,2.0,Other,Neutral,2.35,Medium,Cider,Yes,Monthly,764.35,Both,Celebration,Medium,Location,4.3
+56.0,Gen X,Female,63.84,Other,2.0,Social Event,Bitter,0.56,Medium,Beer,Yes,Monthly,2953.1601313251895,Online,Celebration,Medium,Limited Variety,3.8
+46.0,Gen X,Male,81.95,Student,1.0,Social Event,Salty,1.43,Low,Cider,Yes,Monthly,419.21,Online,Celebration,High,Limited Variety,4.4
+28.0,Millennial,Female,48.68,Retired,5.0,Social Event,Sweet,1.13,High,Beer,Yes,Weekly,782.29,Online,Celebration,Low,Expensive,1.5
+48.0,Gen X,Male,36.94,Professional,1.0,Home,Salty,1.83,High,Cider,No,Monthly,210.35,Both,Stress Relief,Low,Expensive,4.4
+48.0,Gen X,Female,73.79,Other,3.0,Home,Sour,2.18,Low,Cider,Yes,Weekly,898.42,Offline,Stress Relief,High,Limited Variety,2.9
+57.0,Baby Boomer,Male,73.42,Entrepreneur,2.0,Other,Sweet,1.22,Medium,Other,Maybe,Monthly,524.58,Offline,Daily Habit,Medium,Location,3.9
+61.0,Baby Boomer,Female,61.17,Professional,3.0,Home,Sweet,1.35,Medium,Other,Yes,Weekly,340.46,Online,Stress Relief,Medium,Limited Variety,3.2
+56.0,Gen X,Male,46.79,Retired,4.0,Home,Sweet,2.46,Low,Cider,No,Weekly,517.63,Online,Stress Relief,High,Limited Variety,2.6
+47.0,Gen X,Male,50.03,Student,1.0,Home,Bitter,2.07,Medium,Other,Yes,Monthly,143.11,Offline,Stress Relief,Medium,Expensive,5.0
+37.0,Millennial,Female,24.46,Professional,0.0,Home,Sweet,2.29,Low,Cider,Maybe,Rarely,107.14,Both,Stress Relief,High,Limited Variety,4.4
+29.0,Millennial,Male,72.26,Professional,4.0,Bar,Salty,1.38,High,Other,No,Weekly,656.23,Both,Celebration,Low,Expensive,2.5
+53.0,Gen X,Male,71.55,Other,3.0,Other,Bitter,0.97,High,Spirits,No,Weekly,487.45,Online,Social,Low,Limited Variety,3.2
+40.0,Millennial,Male,23.77,Entrepreneur,1.0,Home,Sweet,1.32,Medium,Beer,No,Monthly,112.96,Offline,Stress Relief,Medium,Location,4.3
+33.0,Millennial,Male,67.35,Entrepreneur,2.0,Other,Salty,1.93,Medium,Cider,Yes,Monthly,162.69,Both,Celebration,Medium,Expensive,3.6
+48.0,Gen X,Female,58.08,Student,4.0,Restaurant,Salty,0.72,High,Wine,Yes,Weekly,407.61,Offline,Social,Low,Expensive,2.8
+49.0,Gen X,Female,29.56,Retired,3.0,Bar,Neutral,1.04,High,Other,No,Weekly,234.09,Both,Celebration,Low,Expensive,3.7
+33.0,Millennial,Female,25.88,Student,1.0,Home,Salty,0.59,High,Other,No,Monthly,142.06,Online,Stress Relief,Low,Limited Variety,4.8
+55.0,Gen X,Female,57.47,Professional,0.0,Bar,Sour,1.36,Low,Cocktails,No,Rarely,142.63,Both,Celebration,High,No Problems,5.0
+26.0,Millennial,Male,42.05,Professional,4.0,Bar,Sweet,2.15,Low,Wine,Maybe,Weekly,731.11,Both,Celebration,High,Expensive,2.0
+38.0,Millennial,Female,86.4,Entrepreneur,1.0,Restaurant,Sweet,0.55,Medium,Wine,Yes,Monthly,283.94,Both,Social,Medium,No Problems,4.7
+25.0,Millennial,Male,69.05,Retired,1.0,Other,Sweet,1.85,Medium,Spirits,No,Monthly,568.16,Offline,Social,Medium,Expensive,4.7
+45.0,Gen X,Male,59.47,Other,3.0,Bar,Salty,2.36,Low,Beer,Yes,Weekly,556.64,Offline,Celebration,High,No Problems,3.2
+22.0,Gen Z,Female,60.46,Retired,3.0,Social Event,Salty,0.97,Low,Spirits,Yes,Weekly,330.87,Both,Celebration,High,Limited Variety,4.3
+30.0,Millennial,Male,76.62,Professional,2.0,Restaurant,Sweet,1.89,High,Beer,Maybe,Monthly,1152.12,Online,Social,Low,Location,4.5
+50.0,Gen X,Female,66.93,Other,0.0,Social Event,Bitter,2.45,High,Cider,No,Rarely,152.88,Offline,Celebration,Low,Limited Variety,4.9
+65.0,Baby Boomer,Male,60.0,Retired,3.0,Restaurant,Bitter,2.42,Medium,Spirits,Yes,Weekly,718.22,Offline,Social,Medium,Limited Variety,3.2
+25.0,Millennial,Female,30.39,Retired,1.0,Social Event,Sour,0.97,High,Cocktails,Yes,Monthly,253.98,Both,Celebration,Low,No Problems,5.0
+53.0,Gen X,Female,111.24,Other,1.0,Social Event,Neutral,0.7,Medium,Beer,No,Monthly,403.12,Both,Celebration,Medium,Location,4.5
+21.0,Gen Z,Female,27.94,Professional,2.0,Bar,Sour,0.8,High,Spirits,Yes,Monthly,346.94,Online,Celebration,Low,Limited Variety,4.0
+38.0,Millennial,Female,43.75,Retired,1.0,Bar,Sweet,1.9,Medium,Cocktails,No,Monthly,195.65,Both,Celebration,Medium,Expensive,4.5
+52.0,Gen X,Female,16.91,Other,1.0,Restaurant,Sweet,1.95,Low,Wine,Yes,Monthly,99.0,Both,Social,High,Expensive,5.0
+31.0,Millennial,Male,60.78,Professional,2.0,Other,Sweet,1.85,Medium,Other,Maybe,Monthly,428.49,Online,Social,Medium,No Problems,3.9
+41.0,Gen X,Female,53.02,Other,1.0,Bar,Neutral,1.17,Medium,Cider,No,Monthly,251.23,Offline,Celebration,Medium,Limited Variety,4.5
+46.0,Gen X,Male,65.31,Other,3.0,Bar,Salty,0.84,Medium,Cider,Yes,Weekly,740.55,Online,Celebration,Medium,Limited Variety,3.1
+45.0,Gen X,Female,15.22,Retired,1.0,Home,Neutral,1.66,Low,Wine,Yes,Monthly,114.69,Offline,Stress Relief,High,Location,4.3
+42.0,Gen X,Female,72.26,Professional,1.0,Bar,Sour,1.47,High,Spirits,Yes,Monthly,152.76,Both,Celebration,Low,No Problems,4.0
+47.0,Gen X,Female,33.85,Retired,4.0,Other,Salty,1.96,Low,Other,Yes,Weekly,600.02,Offline,Social,High,Location,2.6
+33.0,Millennial,Male,47.02,Student,1.0,Home,Salty,1.38,Low,Wine,No,Monthly,103.77,Both,Stress Relief,High,Location,3.6
+53.0,Gen X,Male,68.63,Student,3.0,Social Event,Sour,1.18,Medium,Cocktails,Yes,Weekly,869.44,Both,Celebration,Medium,Location,3.9
+54.0,Gen X,Female,55.23,Professional,1.0,Social Event,Salty,1.09,Medium,Other,No,Monthly,491.62,Offline,Celebration,Medium,Limited Variety,4.6
+61.0,Baby Boomer,Male,56.64,Other,0.0,Home,Bitter,0.92,Medium,Beer,Yes,Rarely,136.19,Both,Stress Relief,Medium,Expensive,5.0
+55.0,Gen X,Male,65.98,Retired,3.0,Home,Sour,1.03,Medium,Spirits,No,Weekly,406.18,Offline,Stress Relief,Medium,No Problems,3.5
+21.0,Gen Z,Male,58.58,Retired,1.0,Home,Sour,0.69,Medium,Other,No,Monthly,170.78,Both,Stress Relief,Medium,Limited Variety,4.5
+41.0,Gen X,Female,43.18,Professional,0.0,Restaurant,Bitter,1.19,Medium,Beer,No,Rarely,160.9,Online,Social,Medium,No Problems,5.0
+26.0,Millennial,Female,46.67,Professional,3.0,Other,Neutral,0.57,Medium,Wine,Maybe,Weekly,302.46,Both,Celebration,Medium,Expensive,3.1
+48.0,Gen X,Male,54.24,Student,1.0,Other,Neutral,0.87,Low,Cider,Maybe,Monthly,405.9,Online,Daily Habit,High,Expensive,4.6
+37.0,Millennial,Male,32.09,Entrepreneur,1.0,Social Event,Neutral,1.99,Medium,Other,Yes,Monthly,313.11,Online,Celebration,Medium,No Problems,4.6
+25.0,Millennial,Male,69.92,Professional,4.0,Social Event,Salty,1.15,High,Other,No,Weekly,1297.3,Both,Celebration,Low,Location,3.6
+51.0,Gen X,Female,55.77,Entrepreneur,2.0,Social Event,Bitter,1.84,Low,Beer,No,Monthly,260.6,Offline,Celebration,High,Limited Variety,4.2
+25.0,Millennial,Female,51.5,Professional,3.0,Bar,Sour,1.93,Medium,Beer,No,Weekly,350.66,Offline,Celebration,Medium,Location,3.7
+58.0,Baby Boomer,Male,73.85,Other,2.0,Social Event,Sour,1.66,High,Cider,Yes,Monthly,196.99,Offline,Celebration,Low,Location,3.4
+23.0,Gen Z,Male,47.6,Other,1.0,Home,Sour,2.42,Medium,Beer,No,Monthly,161.22,Both,Stress Relief,Medium,Limited Variety,4.1
+43.0,Gen X,Male,46.35,Student,0.0,Social Event,Salty,0.54,Medium,Beer,No,Rarely,311.53,Online,Celebration,Medium,Expensive,5.0
+57.0,Baby Boomer,Female,40.31,Student,2.0,Home,Salty,1.98,High,Other,Yes,Monthly,559.61,Online,Stress Relief,Low,No Problems,2.8
+57.0,Baby Boomer,Female,56.86,Entrepreneur,0.0,Restaurant,Neutral,2.42,Low,Cider,Yes,Rarely,127.26,Offline,Social,High,No Problems,5.0
+30.0,Millennial,Male,56.17,Professional,3.0,Bar,Salty,2.22,Low,Cider,No,Weekly,315.77,Online,Celebration,High,Expensive,3.4
+30.0,Millennial,Male,36.67,Retired,1.0,Bar,Neutral,0.84,High,Other,No,Monthly,183.39,Online,Celebration,Low,No Problems,4.7
+39.0,Millennial,Male,46.45,Student,0.0,Other,Neutral,1.15,High,Wine,No,Rarely,221.7,Online,Celebration,Low,No Problems,5.0
+37.0,Millennial,Other,36.81,Retired,1.0,Restaurant,Sour,0.84,Medium,Wine,Yes,Monthly,124.44,Online,Social,Medium,Limited Variety,4.6
+41.0,Gen X,Male,35.9,Retired,1.0,Home,Salty,1.7,Medium,Other,No,Monthly,224.89,Online,Stress Relief,Medium,Location,5.0
+34.0,Millennial,Female,15.4,Professional,4.0,Restaurant,Neutral,1.92,High,Beer,Yes,Weekly,112.2,Offline,Social,Low,Expensive,3.0
+29.0,Millennial,Female,45.38,Entrepreneur,3.0,Bar,Bitter,1.13,Medium,Spirits,Yes,Weekly,340.59,Both,Celebration,Medium,Expensive,3.8
+21.0,Gen Z,Male,15.96,Professional,3.0,Home,Bitter,1.58,Low,Wine,Yes,Weekly,158.55,Online,Stress Relief,High,Location,3.3
+65.0,Baby Boomer,Male,40.74,Student,1.0,Restaurant,Salty,1.88,Low,Wine,No,Monthly,207.11,Offline,Social,High,No Problems,4.9
+33.0,Millennial,Male,37.75,Retired,2.0,Bar,Sour,1.34,Medium,Other,No,Monthly,187.85,Offline,Celebration,Medium,Location,3.4
+24.0,Gen Z,Female,71.04,Professional,3.0,Home,Sour,2.21,High,Other,Maybe,Weekly,508.41,Online,Stress Relief,Low,Limited Variety,5.0
+21.0,Gen Z,Female,29.7,Professional,3.0,Home,Neutral,2.04,High,Spirits,Yes,Weekly,214.82,Both,Stress Relief,Low,Expensive,4.6
+60.0,Baby Boomer,Female,34.78,Professional,4.0,Bar,Salty,0.63,High,Spirits,No,Weekly,266.9,Offline,Celebration,Low,Expensive,3.9
+52.0,Gen X,Female,42.37,Student,0.0,Home,Bitter,1.74,High,Cider,Maybe,Rarely,154.45,Offline,Stress Relief,Low,Limited Variety,4.0
+54.0,Gen X,Male,38.4,Entrepreneur,0.0,Bar,Neutral,0.97,Medium,Other,No,Rarely,354.33,Online,Celebration,Medium,Expensive,5.0
+48.0,Gen X,Other,77.39,Professional,3.0,Social Event,Neutral,1.62,Medium,Wine,Yes,Weekly,774.46,Offline,Celebration,Medium,Limited Variety,3.6
+51.0,Gen X,Female,27.23,Student,2.0,Social Event,Sweet,2.41,Medium,Cocktails,Yes,Monthly,145.39,Offline,Celebration,Medium,Limited Variety,4.4
+28.0,Millennial,Male,42.41,Retired,1.0,Home,Salty,2.26,Medium,Cocktails,Maybe,Monthly,304.51,Online,Stress Relief,Medium,Location,5.0
+59.0,Baby Boomer,Other,56.64,Other,1.0,Home,Neutral,1.31,Medium,Beer,Yes,Monthly,242.9,Offline,Stress Relief,Medium,Limited Variety,4.0
+46.0,Gen X,Female,67.62,Student,1.0,Bar,Bitter,1.08,Low,Wine,No,Monthly,616.04,Both,Celebration,High,Location,4.0
+54.0,Gen X,Female,42.4,Other,3.0,Home,Sweet,0.97,High,Cocktails,Maybe,Weekly,385.61,Offline,Stress Relief,Low,Limited Variety,3.5
+23.0,Gen Z,Female,11.64,Professional,1.0,Other,Bitter,1.57,Medium,Wine,Yes,Monthly,55.9,Offline,Daily Habit,Medium,Expensive,4.0
+32.0,Millennial,Female,47.0,Professional,0.0,Social Event,Sour,0.73,Medium,Other,No,Rarely,243.92,Both,Celebration,Medium,Expensive,3.6
+21.0,Gen Z,Female,77.04,Student,1.0,Home,Sweet,1.6,Medium,Wine,Maybe,Monthly,177.99,Both,Stress Relief,Medium,Expensive,4.4
+64.0,Baby Boomer,Male,55.64,Other,5.0,Home,Sweet,0.5,Medium,Cocktails,Yes,Weekly,357.23,Offline,Stress Relief,Medium,No Problems,2.9
+25.0,Millennial,Male,54.73,Professional,1.0,Restaurant,Neutral,1.15,Low,Wine,No,Monthly,152.67,Both,Social,High,Expensive,4.5
+50.0,Gen X,Female,28.74,Retired,0.0,Home,Sour,0.94,High,Spirits,No,Rarely,128.07,Both,Stress Relief,Low,Location,5.0
+50.0,Gen X,Male,26.69,Entrepreneur,3.0,Other,Neutral,2.44,Low,Beer,Yes,Weekly,479.81,Offline,Social,High,No Problems,3.7
+37.0,Millennial,Male,50.36,Entrepreneur,2.0,Social Event,Salty,1.95,Low,Cider,No,Monthly,951.17,Online,Celebration,High,Location,3.5
+43.0,Gen X,Male,21.47,Professional,1.0,Restaurant,Bitter,1.2,Medium,Cocktails,No,Monthly,149.68,Offline,Social,Medium,Expensive,4.5
+35.0,Millennial,Male,65.63,Other,1.0,Bar,Bitter,0.69,Medium,Other,Yes,Monthly,427.22,Both,Celebration,Medium,No Problems,3.7
+57.0,Baby Boomer,Female,33.07,Professional,4.0,Bar,Neutral,1.53,High,Cider,Yes,Weekly,124.08,Offline,Celebration,Low,Expensive,2.7
+41.0,Gen X,Female,49.51,Other,1.0,Social Event,Bitter,0.93,High,Beer,No,Monthly,191.27,Online,Celebration,Low,Limited Variety,4.5
+34.0,Millennial,Male,12.28,Retired,2.0,Bar,Bitter,1.57,High,Spirits,No,Monthly,51.26,Both,Celebration,Low,No Problems,4.0
+22.0,Gen Z,Male,42.12,Other,2.0,Other,Salty,2.17,Low,Spirits,Maybe,Monthly,191.13,Online,Daily Habit,High,Location,3.4
+31.0,Millennial,Male,26.28,Professional,1.0,Home,Sour,1.73,Low,Spirits,No,Monthly,122.44,Online,Stress Relief,High,Limited Variety,4.0
+59.0,Baby Boomer,Female,3.56,Retired,4.0,Social Event,Sweet,1.77,Medium,Spirits,No,Weekly,25.96,Offline,Celebration,Medium,Expensive,3.1
+58.0,Baby Boomer,Female,60.84,Student,1.0,Restaurant,Neutral,1.58,Low,Cocktails,Yes,Monthly,114.6,Offline,Social,High,Limited Variety,4.9
+54.0,Gen X,Male,82.82,Entrepreneur,0.0,Home,Neutral,2.35,High,Cocktails,Maybe,Rarely,499.43,Both,Stress Relief,Low,Limited Variety,4.9
+58.0,Baby Boomer,Female,72.59,Professional,2.0,Bar,Salty,2.36,Medium,Wine,Yes,Monthly,262.78,Offline,Celebration,Medium,Limited Variety,3.9
+54.0,Gen X,Female,63.63,Professional,0.0,Bar,Salty,1.53,High,Other,No,Rarely,297.54,Both,Celebration,Low,No Problems,5.0
+38.0,Millennial,Female,41.72,Professional,3.0,Restaurant,Sweet,1.11,Low,Wine,Yes,Weekly,889.69,Offline,Social,High,No Problems,3.1
+50.0,Gen X,Female,66.12,Retired,0.0,Other,Sour,1.42,Medium,Other,No,Rarely,173.23,Online,Social,Medium,No Problems,5.0
+35.0,Millennial,Male,74.48,Student,5.0,Restaurant,Neutral,0.87,Medium,Beer,No,Weekly,237.04,Both,Social,Medium,Limited Variety,1.8
+47.0,Gen X,Female,52.74,Other,3.0,Social Event,Salty,1.77,Low,Wine,No,Weekly,345.58,Offline,Celebration,High,Location,4.0
+54.0,Gen X,Male,26.31,Student,1.0,Restaurant,Neutral,1.5,Medium,Beer,Yes,Monthly,231.2,Online,Social,Medium,No Problems,4.8
+58.0,Baby Boomer,Female,40.01,Retired,2.0,Bar,Bitter,0.71,Medium,Beer,No,Monthly,659.28,Offline,Celebration,Medium,No Problems,5.0
+53.0,Gen X,Female,84.05,Professional,2.0,Other,Neutral,0.9,Medium,Beer,Yes,Monthly,281.32,Both,Social,Medium,Limited Variety,3.4
+44.0,Gen X,Female,48.51,Entrepreneur,2.0,Other,Sour,1.46,Medium,Spirits,No,Monthly,384.89,Offline,Celebration,Medium,Expensive,2.8
+35.0,Millennial,Female,-16.5,Professional,1.0,Restaurant,Sour,2.28,Low,Cider,Yes,Monthly,-66.26,Online,Social,High,Expensive,5.0
+50.0,Gen X,Male,20.62,Other,4.0,Social Event,Neutral,1.63,Medium,Cider,Yes,Weekly,180.57,Online,Celebration,Medium,Limited Variety,2.3
+62.0,Baby Boomer,Female,41.51,Entrepreneur,1.0,Bar,Bitter,1.86,Medium,Cocktails,No,Monthly,789.15,Offline,Celebration,Medium,Location,4.8
+37.0,Millennial,Other,70.72,Professional,4.0,Home,Sour,1.18,Low,Beer,Yes,Weekly,308.0,Both,Stress Relief,High,No Problems,3.6
+25.0,Millennial,Female,44.54,Entrepreneur,0.0,Other,Salty,1.64,Medium,Spirits,Yes,Rarely,209.79,Online,Social,Medium,Expensive,5.0
+49.0,Gen X,Male,71.09,Student,2.0,Restaurant,Neutral,1.39,Low,Wine,No,Monthly,555.93,Online,Social,High,Expensive,4.1
+24.0,Gen Z,Male,39.48,Retired,2.0,Social Event,Bitter,1.82,Medium,Wine,No,Monthly,420.54,Online,Celebration,Medium,Limited Variety,4.2
+30.0,Millennial,Male,10.71,Professional,1.0,Social Event,Salty,0.6,Low,Cocktails,No,Monthly,57.0,Online,Celebration,High,Limited Variety,4.9
+37.0,Millennial,Female,40.17,Other,4.0,Bar,Neutral,1.49,Medium,Cocktails,No,Weekly,432.68,Both,Celebration,Medium,Expensive,3.3
+30.0,Millennial,Female,56.9,Student,2.0,Other,Bitter,1.09,Medium,Beer,Maybe,Monthly,289.55,Online,Celebration,Medium,Location,3.4
+37.0,Millennial,Male,55.24,Professional,4.0,Bar,Salty,1.15,Medium,Beer,Yes,Weekly,583.53,Both,Celebration,Medium,Limited Variety,3.9
+40.0,Millennial,Female,24.9,Student,2.0,Home,Sour,2.42,High,Wine,Yes,Monthly,129.82,Online,Stress Relief,Low,Location,4.0
+44.0,Gen X,Female,42.98,Other,3.0,Home,Neutral,0.87,Medium,Wine,Yes,Weekly,443.35,Online,Stress Relief,Medium,Limited Variety,3.8
+25.0,Millennial,Female,103.69,Professional,3.0,Home,Neutral,1.12,Medium,Wine,No,Weekly,651.61,Both,Stress Relief,Medium,Limited Variety,3.9
+54.0,Gen X,Female,25.33,Other,1.0,Social Event,Sour,1.52,High,Wine,No,Monthly,154.99,Offline,Celebration,Low,Limited Variety,5.0
+26.0,Millennial,Female,63.21,Entrepreneur,0.0,Other,Sweet,2.23,Medium,Cider,Maybe,Rarely,258.44,Both,Daily Habit,Medium,No Problems,5.0
+22.0,Gen Z,Female,8.07,Other,1.0,Bar,Salty,1.33,Medium,Beer,Maybe,Monthly,71.81,Both,Celebration,Medium,Expensive,4.6
+33.0,Millennial,Male,67.28,Entrepreneur,2.0,Bar,Sour,1.99,Medium,Beer,No,Monthly,405.86,Online,Celebration,Medium,No Problems,4.0
+63.0,Baby Boomer,Female,32.15,Professional,2.0,Home,Neutral,2.21,Medium,Wine,Yes,Monthly,82.0,Online,Stress Relief,Medium,Limited Variety,4.2
+63.0,Baby Boomer,Female,58.04,Entrepreneur,4.0,Other,Salty,1.12,Medium,Spirits,Maybe,Weekly,1007.21,Offline,Daily Habit,Medium,No Problems,3.6
+31.0,Millennial,Female,24.17,Professional,1.0,Other,Salty,1.29,Low,Wine,No,Monthly,77.87,Online,Social,High,No Problems,3.9
+43.0,Gen X,Female,55.82,Professional,3.0,Restaurant,Sweet,1.21,Medium,Other,No,Weekly,304.33,Online,Social,Medium,Limited Variety,3.8
+36.0,Millennial,Female,31.83,Retired,4.0,Other,Neutral,2.17,Low,Cocktails,Yes,Weekly,218.2,Online,Celebration,High,Location,2.6
+51.0,Gen X,Male,35.7,Professional,4.0,Other,Bitter,0.59,Medium,Other,No,Weekly,655.38,Online,Social,Medium,Expensive,3.9
+31.0,Millennial,Male,58.84,Entrepreneur,1.0,Bar,Sweet,1.12,Low,Spirits,No,Monthly,102.5,Both,Celebration,High,No Problems,4.7
+36.0,Millennial,Male,41.39,Retired,2.0,Other,Sweet,1.86,Medium,Cocktails,No,Monthly,1229.99,Online,Celebration,Medium,Limited Variety,3.8
+28.0,Millennial,Male,57.61,Retired,3.0,Other,Bitter,1.63,Medium,Spirits,No,Weekly,738.46,Online,Celebration,Medium,Limited Variety,3.7
+24.0,Gen Z,Female,46.18,Professional,0.0,Bar,Bitter,1.37,Medium,Cocktails,No,Rarely,214.22,Offline,Celebration,Medium,Location,5.0
+60.0,Baby Boomer,Other,51.35,Other,1.0,Other,Sweet,1.58,Medium,Wine,No,Monthly,253.17,Offline,Celebration,Medium,No Problems,4.4
+24.0,Gen Z,Male,58.9,Other,2.0,Bar,Salty,0.9,High,Wine,Yes,Monthly,420.51,Online,Celebration,Low,Expensive,3.1
+45.0,Gen X,Male,43.0,Retired,3.0,Restaurant,Sour,1.36,Medium,Spirits,Maybe,Weekly,421.83,Both,Social,Medium,Location,3.0
+23.0,Gen Z,Female,30.08,Professional,2.0,Social Event,Sour,1.5,Medium,Cocktails,No,Monthly,257.06,Online,Celebration,Medium,Limited Variety,3.9
+52.0,Gen X,Male,39.35,Other,1.0,Bar,Sweet,2.3,High,Cider,Maybe,Monthly,263.26,Both,Celebration,Low,Expensive,3.7
+23.0,Gen Z,Female,73.9,Professional,1.0,Bar,Salty,1.02,Medium,Spirits,No,Monthly,391.64,Both,Celebration,Medium,Location,4.2
+47.0,Gen X,Female,52.32,Professional,0.0,Other,Bitter,2.24,Medium,Spirits,No,Rarely,196.68,Offline,Daily Habit,Medium,Limited Variety,4.8
+49.0,Gen X,Female,33.1,Retired,2.0,Bar,Sweet,1.79,Low,Other,No,Monthly,189.95,Offline,Celebration,High,Limited Variety,3.6
+52.0,Gen X,Male,58.03,Retired,2.0,Home,Neutral,0.54,Medium,Beer,Maybe,Monthly,325.82,Offline,Stress Relief,Medium,No Problems,4.4
+39.0,Millennial,Male,59.37,Student,1.0,Home,Salty,1.95,High,Spirits,Yes,Monthly,530.34,Online,Stress Relief,Low,Expensive,4.1
+41.0,Gen X,Female,60.4,Other,2.0,Restaurant,Neutral,0.57,Medium,Cider,No,Monthly,503.01,Both,Social,Medium,Location,4.0
+25.0,Millennial,Female,30.44,Other,3.0,Bar,Neutral,2.49,Medium,Wine,No,Weekly,52.9,Both,Celebration,Medium,Expensive,3.3
+38.0,Millennial,Male,36.35,Other,2.0,Other,Sweet,2.25,Medium,Cocktails,Yes,Monthly,312.31,Online,Celebration,Medium,Expensive,3.9
+48.0,Gen X,Female,36.46,Entrepreneur,2.0,Other,Salty,1.09,High,Beer,No,Monthly,248.75,Offline,Daily Habit,Low,Expensive,4.8
+62.0,Baby Boomer,Male,42.79,Professional,3.0,Social Event,Neutral,1.01,Low,Cocktails,No,Weekly,320.47,Both,Celebration,High,Location,3.6
+42.0,Gen X,Female,60.78,Retired,2.0,Restaurant,Salty,1.26,Medium,Wine,Maybe,Monthly,309.78,Both,Social,Medium,Location,4.2
+41.0,Gen X,Male,55.92,Other,2.0,Other,Sour,1.21,Low,Spirits,No,Monthly,607.18,Offline,Celebration,High,Expensive,3.6
+26.0,Millennial,Female,57.5,Student,1.0,Social Event,Neutral,1.24,Medium,Other,Maybe,Monthly,467.97,Online,Celebration,Medium,Expensive,4.8
+21.0,Gen Z,Male,77.08,Other,4.0,Other,Neutral,1.14,Medium,Cider,Yes,Weekly,483.6,Online,Daily Habit,Medium,No Problems,3.3
+25.0,Millennial,Male,63.78,Professional,5.0,Social Event,Salty,1.74,Low,Beer,Yes,Weekly,7680.542092035368,Both,Celebration,High,Expensive,2.7
+61.0,Baby Boomer,Male,47.16,Professional,1.0,Home,Sour,0.83,Medium,Cider,No,Monthly,147.02,Online,Stress Relief,Medium,No Problems,3.9
+32.0,Millennial,Male,26.32,Retired,1.0,Home,Neutral,2.19,Medium,Cider,Yes,Monthly,66.91,Offline,Stress Relief,Medium,Expensive,4.2
+46.0,Gen X,Female,35.71,Entrepreneur,4.0,Other,Sweet,2.12,Low,Cider,Yes,Weekly,241.03,Online,Daily Habit,High,Location,3.7
+54.0,Gen X,Other,44.77,Retired,2.0,Restaurant,Salty,1.45,Medium,Cider,Yes,Monthly,426.49,Online,Social,Medium,Limited Variety,3.7
+34.0,Millennial,Male,66.58,Other,4.0,Bar,Salty,2.21,Low,Wine,Maybe,Weekly,990.11,Online,Celebration,High,No Problems,3.8
+46.0,Gen X,Male,49.45,Student,3.0,Restaurant,Neutral,0.99,Medium,Cider,No,Weekly,483.16,Both,Social,Medium,Location,3.2
+65.0,Baby Boomer,Female,36.88,Retired,2.0,Restaurant,Sour,0.54,Medium,Other,Yes,Monthly,328.02,Online,Social,Medium,Limited Variety,4.1
+47.0,Gen X,Female,35.34,Entrepreneur,2.0,Bar,Neutral,1.74,Medium,Cider,Yes,Monthly,283.14,Offline,Celebration,Medium,Expensive,3.9
+29.0,Millennial,Female,48.61,Retired,0.0,Home,Bitter,1.42,Medium,Wine,No,Rarely,885.4354330539677,Online,Stress Relief,Medium,Location,4.6
+46.0,Gen X,Male,67.8,Professional,2.0,Home,Neutral,1.63,Medium,Cocktails,Maybe,Monthly,520.8,Online,Stress Relief,Medium,Location,3.6
+42.0,Gen X,Male,81.82,Other,0.0,Bar,Bitter,2.3,Low,Wine,Yes,Rarely,506.53,Offline,Celebration,High,Expensive,4.6
+50.0,Gen X,Female,45.88,Other,4.0,Social Event,Sweet,2.44,High,Other,Yes,Weekly,617.71,Offline,Celebration,Low,Expensive,3.1
+63.0,Baby Boomer,Male,49.11,Other,3.0,Restaurant,Salty,1.77,Medium,Other,Yes,Weekly,672.75,Offline,Social,Medium,No Problems,3.9
+37.0,Millennial,Female,25.72,Other,3.0,Other,Salty,2.03,Low,Spirits,Yes,Weekly,277.07,Online,Daily Habit,High,Limited Variety,3.5
+46.0,Gen X,Male,88.78,Other,0.0,Home,Sour,0.67,High,Wine,No,Rarely,439.1,Online,Stress Relief,Low,Location,5.0
+56.0,Gen X,Female,21.98,Other,4.0,Other,Neutral,0.82,Low,Cocktails,Yes,Weekly,346.56,Offline,Social,High,Limited Variety,5.0
+21.0,Gen Z,Male,73.43,Student,2.0,Bar,Sweet,1.97,Medium,Spirits,No,Monthly,448.51,Both,Celebration,Medium,No Problems,4.0
+28.0,Millennial,Female,42.69,Entrepreneur,1.0,Other,Bitter,1.36,Medium,Spirits,Maybe,Monthly,139.2,Both,Celebration,Medium,No Problems,4.2
+55.0,Gen X,Female,38.01,Other,1.0,Other,Sour,1.39,Medium,Beer,No,Monthly,177.53,Offline,Social,Medium,No Problems,4.0
+35.0,Millennial,Female,27.8,Entrepreneur,3.0,Restaurant,Sweet,1.12,High,Cider,No,Weekly,144.81,Offline,Social,Low,Expensive,4.1
+42.0,Gen X,Male,98.2,Other,2.0,Bar,Sweet,1.71,Medium,Spirits,Yes,Monthly,433.66,Both,Celebration,Medium,No Problems,3.8
+34.0,Millennial,Female,54.43,Retired,1.0,Other,Bitter,0.87,Low,Spirits,No,Monthly,256.6,Online,Celebration,High,Limited Variety,4.2
+46.0,Gen X,Female,50.43,Other,2.0,Home,Bitter,1.75,High,Other,Yes,Monthly,210.02,Both,Stress Relief,Low,Limited Variety,3.7
+48.0,Gen X,Female,67.73,Professional,1.0,Bar,Salty,0.85,High,Cocktails,No,Monthly,294.24,Both,Celebration,Low,Limited Variety,5.0
+43.0,Gen X,Female,36.98,Student,2.0,Home,Neutral,0.63,Medium,Spirits,Yes,Monthly,88.8,Online,Stress Relief,Medium,Expensive,3.7
+34.0,Millennial,Female,50.04,Retired,3.0,Social Event,Sour,1.16,Medium,Cocktails,Yes,Weekly,420.87,Online,Celebration,Medium,No Problems,4.0
+44.0,Gen X,Female,51.13,Retired,2.0,Other,Neutral,0.96,Low,Cider,Yes,Monthly,316.66,Both,Celebration,High,Expensive,3.9
+22.0,Gen Z,Male,39.76,Professional,1.0,Bar,Sour,2.28,Medium,Other,No,Monthly,133.91,Offline,Celebration,Medium,Location,3.9
+65.0,Baby Boomer,Female,73.99,Other,0.0,Home,Sweet,0.61,Low,Beer,No,Rarely,426.84,Online,Stress Relief,High,Location,4.8
+46.0,Gen X,Female,45.63,Student,0.0,Other,Bitter,0.85,Low,Beer,No,Rarely,302.54,Online,Social,High,Location,5.0
+34.0,Millennial,Male,18.94,Retired,1.0,Restaurant,Bitter,1.6,Medium,Cider,Yes,Monthly,42.96,Online,Social,Medium,Expensive,4.4
+27.0,Millennial,Male,43.97,Student,2.0,Home,Sweet,1.46,Low,Cider,No,Monthly,185.86,Offline,Stress Relief,High,Limited Variety,3.9
+23.0,Gen Z,Male,54.98,Retired,2.0,Home,Sweet,0.59,Low,Other,Yes,Monthly,231.65,Both,Stress Relief,High,No Problems,3.8
+43.0,Gen X,Female,32.13,Other,2.0,Social Event,Sour,0.51,Medium,Other,No,Monthly,124.3,Both,Celebration,Medium,Limited Variety,3.6
+63.0,Baby Boomer,Female,33.71,Retired,1.0,Restaurant,Sweet,2.48,Low,Wine,Yes,Monthly,258.63,Offline,Social,High,Limited Variety,4.5
+65.0,Baby Boomer,Female,39.07,Retired,1.0,Social Event,Sour,1.82,Low,Spirits,Yes,Monthly,179.7,Offline,Celebration,High,Limited Variety,4.8
+38.0,Millennial,Female,74.42,Entrepreneur,2.0,Restaurant,Neutral,1.23,Low,Spirits,Yes,Monthly,403.56,Offline,Social,High,Limited Variety,3.3
+58.0,Baby Boomer,Male,40.26,Other,0.0,Home,Bitter,1.44,Low,Spirits,No,Rarely,61.33,Offline,Stress Relief,High,No Problems,5.0
+55.0,Gen X,Male,78.58,Professional,1.0,Social Event,Bitter,1.03,Medium,Cocktails,No,Monthly,547.12,Online,Celebration,Medium,Limited Variety,2.7
+35.0,Millennial,Male,37.7,Professional,3.0,Other,Bitter,1.19,High,Wine,Yes,Weekly,153.37,Both,Daily Habit,Low,Limited Variety,3.5
+45.0,Gen X,Male,56.5,Other,0.0,Restaurant,Neutral,1.8,Medium,Spirits,No,Rarely,241.54,Both,Social,Medium,Limited Variety,5.0
+57.0,Baby Boomer,Male,41.08,Professional,0.0,Home,Neutral,2.27,Medium,Cocktails,No,Rarely,195.79,Offline,Stress Relief,Medium,Limited Variety,4.7
+48.0,Gen X,Male,65.08,Other,1.0,Bar,Salty,0.87,Low,Cocktails,No,Monthly,651.19,Offline,Celebration,High,Expensive,3.4
+30.0,Millennial,Female,27.63,Professional,1.0,Restaurant,Sour,2.18,Low,Beer,Maybe,Monthly,72.77,Online,Social,High,Limited Variety,4.5
+59.0,Baby Boomer,Female,64.86,Entrepreneur,0.0,Restaurant,Sour,0.74,Low,Cocktails,Maybe,Rarely,59.46,Offline,Social,High,Limited Variety,5.0
+37.0,Millennial,Other,52.28,Professional,2.0,Other,Salty,0.93,Medium,Cider,No,Monthly,354.74,Offline,Celebration,Medium,Location,3.4
+59.0,Baby Boomer,Female,37.2,Retired,2.0,Restaurant,Bitter,0.57,Medium,Other,Yes,Monthly,566.46,Offline,Social,Medium,Limited Variety,3.6
+42.0,Gen X,Female,46.68,Other,2.0,Restaurant,Sour,0.78,Medium,Cocktails,Yes,Monthly,536.81,Both,Social,Medium,Limited Variety,4.5
+46.0,Gen X,Male,80.68,Student,0.0,Other,Sour,2.33,Medium,Cider,No,Rarely,371.73,Offline,Daily Habit,Medium,Limited Variety,5.0
+64.0,Baby Boomer,Female,52.76,Student,3.0,Other,Bitter,1.42,Low,Cider,No,Weekly,311.93,Offline,Social,High,Limited Variety,2.7
+45.0,Gen X,Female,35.95,Other,0.0,Social Event,Sweet,0.66,Medium,Beer,Maybe,Rarely,223.31,Both,Celebration,Medium,No Problems,5.0
+37.0,Millennial,Male,25.91,Entrepreneur,2.0,Home,Sweet,2.42,Medium,Beer,Yes,Monthly,98.56,Online,Stress Relief,Medium,Limited Variety,3.5
+33.0,Millennial,Male,60.11,Professional,3.0,Home,Salty,2.26,Medium,Cocktails,No,Weekly,576.63,Online,Stress Relief,Medium,Expensive,3.1
+40.0,Millennial,Female,53.92,Entrepreneur,4.0,Social Event,Neutral,2.01,Medium,Beer,Yes,Weekly,641.04,Online,Celebration,Medium,Expensive,3.1
+45.0,Gen X,Male,63.9,Student,2.0,Home,Sour,2.37,Medium,Beer,Yes,Monthly,672.01,Offline,Stress Relief,Medium,No Problems,4.1
+24.0,Gen Z,Female,20.76,Other,2.0,Restaurant,Sour,0.94,High,Other,Yes,Monthly,510.66,Both,Social,Low,Expensive,3.8
+30.0,Millennial,Female,26.55,Other,1.0,Social Event,Salty,2.17,High,Spirits,No,Monthly,163.71,Online,Celebration,Low,No Problems,4.2
+23.0,Gen Z,Male,72.94,Entrepreneur,4.0,Social Event,Salty,1.88,Medium,Cocktails,No,Weekly,522.18,Both,Celebration,Medium,Expensive,2.9
+61.0,Baby Boomer,Male,56.63,Entrepreneur,3.0,Home,Sour,2.24,Medium,Cocktails,Yes,Weekly,422.67,Offline,Stress Relief,Medium,No Problems,3.1
+65.0,Baby Boomer,Male,60.67,Professional,3.0,Bar,Bitter,2.09,Low,Cocktails,Yes,Weekly,189.38,Offline,Celebration,High,No Problems,5.0
+38.0,Millennial,Male,30.75,Retired,2.0,Home,Bitter,1.19,High,Beer,Yes,Monthly,134.48,Both,Stress Relief,Low,Limited Variety,3.2
+56.0,Gen X,Male,30.38,Retired,1.0,Bar,Neutral,2.05,Medium,Other,No,Monthly,125.46,Online,Celebration,Medium,Expensive,4.4
+42.0,Gen X,Female,69.83,Professional,3.0,Social Event,Sour,1.02,Low,Beer,Yes,Weekly,406.21,Online,Celebration,High,Limited Variety,2.8
+54.0,Gen X,Male,70.77,Retired,1.0,Bar,Sour,1.16,Medium,Cider,Yes,Monthly,387.01,Offline,Celebration,Medium,Limited Variety,5.0
+28.0,Millennial,Female,28.23,Student,0.0,Restaurant,Sour,0.72,Low,Wine,No,Rarely,77.64,Online,Social,High,Limited Variety,4.9
+60.0,Baby Boomer,Male,24.41,Retired,3.0,Other,Sour,2.37,Medium,Wine,Yes,Weekly,323.23,Online,Daily Habit,Medium,Expensive,3.0
+64.0,Baby Boomer,Female,47.83,Professional,2.0,Bar,Salty,1.08,Medium,Wine,No,Monthly,296.07,Offline,Celebration,Medium,Expensive,4.3
+39.0,Millennial,Male,34.01,Retired,3.0,Other,Sweet,1.54,Medium,Spirits,Yes,Weekly,255.92,Offline,Celebration,Medium,Limited Variety,2.4
+62.0,Baby Boomer,Male,33.6,Other,3.0,Restaurant,Sour,1.28,Low,Beer,Yes,Weekly,215.6,Offline,Social,High,Location,3.6
+61.0,Baby Boomer,Female,24.97,Entrepreneur,0.0,Other,Sweet,2.42,High,Cider,Yes,Rarely,111.96,Both,Celebration,Low,Expensive,5.0
+57.0,Baby Boomer,Female,40.63,Student,3.0,Restaurant,Bitter,1.17,Medium,Cider,No,Weekly,464.01,Offline,Social,Medium,Expensive,3.6
+26.0,Millennial,Male,26.91,Other,2.0,Other,Neutral,2.06,High,Wine,No,Monthly,107.96,Both,Celebration,Low,No Problems,3.7
+46.0,Gen X,Female,28.09,Other,2.0,Other,Bitter,2.21,Medium,Other,No,Monthly,125.11,Online,Social,Medium,Limited Variety,3.4
+54.0,Gen X,Male,55.97,Professional,3.0,Home,Sour,1.37,Medium,Spirits,Yes,Weekly,363.51,Offline,Stress Relief,Medium,Location,4.0
+65.0,Baby Boomer,Female,48.9,Entrepreneur,1.0,Bar,Bitter,1.26,Medium,Spirits,No,Monthly,126.43,Both,Celebration,Medium,Limited Variety,5.0
+26.0,Millennial,Male,59.7,Entrepreneur,1.0,Other,Salty,2.0,Low,Wine,Yes,Monthly,200.85,Offline,Celebration,High,Expensive,4.2
+57.0,Baby Boomer,Male,17.02,Student,2.0,Social Event,Sweet,2.33,Low,Wine,Yes,Monthly,83.02,Offline,Celebration,High,Limited Variety,3.7
+53.0,Gen X,Female,50.2,Professional,1.0,Home,Sour,2.01,Medium,Beer,No,Monthly,393.88,Offline,Stress Relief,Medium,Limited Variety,5.0
+42.0,Gen X,Female,91.51,Student,0.0,Bar,Salty,0.95,Low,Other,Yes,Rarely,432.93,Online,Celebration,High,No Problems,5.0
+41.0,Gen X,Male,42.55,Retired,2.0,Home,Sweet,2.28,High,Spirits,Yes,Monthly,290.13,Offline,Stress Relief,Low,Location,3.1
+26.0,Millennial,Female,66.49,Other,4.0,Bar,Salty,1.28,Low,Cider,Yes,Weekly,939.5,Online,Celebration,High,Limited Variety,2.9
+26.0,Millennial,Female,66.32,Student,2.0,Restaurant,Bitter,1.65,Medium,Wine,Yes,Monthly,383.24,Both,Social,Medium,No Problems,3.9
+24.0,Gen Z,Male,67.3,Other,0.0,Other,Sour,2.16,Medium,Beer,Yes,Rarely,339.42,Online,Social,Medium,Limited Variety,5.0
+50.0,Gen X,Female,53.33,Professional,1.0,Social Event,Bitter,0.88,Medium,Cider,No,Monthly,256.66,Both,Celebration,Medium,No Problems,4.5
+31.0,Millennial,Male,61.32,Retired,5.0,Home,Neutral,2.07,Medium,Spirits,Yes,Weekly,789.69,Both,Stress Relief,Medium,No Problems,2.2
+50.0,Gen X,Female,63.98,Professional,4.0,Home,Sour,1.69,Low,Wine,No,Weekly,441.44,Online,Stress Relief,High,Expensive,3.1
+51.0,Gen X,Female,62.71,Retired,4.0,Home,Bitter,2.29,Medium,Other,No,Weekly,171.05,Offline,Stress Relief,Medium,Limited Variety,2.8
+44.0,Gen X,Female,27.65,Retired,4.0,Home,Sour,0.84,Medium,Wine,Yes,Weekly,238.73,Both,Stress Relief,Medium,Limited Variety,4.7
+29.0,Millennial,Male,15.85,Other,3.0,Other,Sweet,1.34,Medium,Other,Yes,Weekly,244.05,Both,Daily Habit,Medium,Location,3.6
+23.0,Gen Z,Male,18.93,Professional,2.0,Bar,Sour,2.17,Medium,Beer,Yes,Monthly,186.18,Online,Celebration,Medium,Limited Variety,4.0
+51.0,Gen X,Male,44.6,Professional,1.0,Other,Sour,0.54,High,Beer,No,Monthly,366.24,Offline,Celebration,Low,No Problems,5.0
+60.0,Baby Boomer,Male,61.88,Student,1.0,Restaurant,Sweet,0.72,High,Spirits,Yes,Monthly,581.79,Offline,Social,Low,Location,3.8
+57.0,Baby Boomer,Male,27.91,Professional,1.0,Other,Bitter,2.48,Medium,Other,No,Monthly,147.84,Offline,Celebration,Medium,Expensive,4.4
+56.0,Gen X,Female,68.48,Student,0.0,Other,Sour,1.06,Medium,Wine,Maybe,Rarely,313.58,Online,Celebration,Medium,Expensive,4.5
+44.0,Gen X,Male,39.95,Entrepreneur,1.0,Restaurant,Salty,2.45,Medium,Beer,No,Monthly,148.66,Both,Social,Medium,Location,4.8
+51.0,Gen X,Male,40.14,Entrepreneur,4.0,Other,Sour,0.87,Medium,Wine,Yes,Weekly,316.46,Online,Daily Habit,Medium,Expensive,2.8
+26.0,Millennial,Female,33.28,Entrepreneur,0.0,Bar,Bitter,1.22,High,Spirits,Yes,Rarely,187.86,Online,Celebration,Low,Location,5.0
+22.0,Gen Z,Male,12.3,Professional,1.0,Social Event,Sweet,2.01,Low,Other,No,Monthly,113.79,Online,Celebration,High,Limited Variety,4.8
+40.0,Millennial,Female,54.59,Professional,3.0,Restaurant,Bitter,1.82,Medium,Wine,No,Weekly,384.9,Online,Social,Medium,Limited Variety,3.9
+48.0,Gen X,Male,84.25,Student,1.0,Home,Neutral,1.66,Medium,Cider,Yes,Monthly,340.88,Offline,Stress Relief,Medium,Expensive,4.8
+31.0,Millennial,Female,48.75,Retired,2.0,Bar,Sour,1.56,Medium,Wine,No,Monthly,301.82,Online,Celebration,Medium,Location,3.9
+24.0,Gen Z,Male,12.99,Student,1.0,Social Event,Sour,2.19,Medium,Cocktails,Maybe,Monthly,88.91,Online,Celebration,Medium,Expensive,3.8
+35.0,Millennial,Male,65.61,Entrepreneur,2.0,Bar,Sweet,0.97,Medium,Cocktails,No,Monthly,197.28,Online,Celebration,Medium,Location,4.5
+26.0,Millennial,Female,17.5,Student,3.0,Bar,Sour,1.38,Medium,Spirits,No,Weekly,41.97,Online,Celebration,Medium,Limited Variety,4.2
+50.0,Gen X,Male,25.82,Retired,1.0,Home,Salty,0.81,High,Spirits,Maybe,Monthly,99.36,Both,Stress Relief,Low,Location,4.0
+58.0,Baby Boomer,Female,45.23,Professional,5.0,Social Event,Salty,1.69,Medium,Spirits,Yes,Weekly,277.07,Offline,Celebration,Medium,Limited Variety,2.9
+22.0,Gen Z,Male,52.46,Student,5.0,Bar,Bitter,1.0,Low,Cider,Yes,Weekly,458.9,Online,Celebration,High,Expensive,1.9
+35.0,Millennial,Male,29.83,Entrepreneur,1.0,Home,Sweet,1.17,Low,Other,No,Monthly,140.4,Offline,Stress Relief,High,Location,4.6
+31.0,Millennial,Female,44.45,Entrepreneur,0.0,Restaurant,Neutral,1.44,Low,Cider,No,Rarely,147.02,Both,Social,High,Expensive,5.0
+28.0,Millennial,Male,64.3,Professional,1.0,Home,Bitter,0.55,Medium,Wine,Yes,Monthly,673.6,Online,Stress Relief,Medium,Limited Variety,4.3
+46.0,Gen X,Female,67.04,Student,3.0,Other,Sweet,0.68,Medium,Beer,Yes,Weekly,596.76,Offline,Celebration,Medium,Expensive,3.5
+65.0,Baby Boomer,Other,75.03,Retired,1.0,Home,Sweet,1.87,Low,Other,No,Monthly,441.85,Offline,Stress Relief,High,Location,4.9
+64.0,Baby Boomer,Female,88.19,Professional,0.0,Home,Bitter,1.36,Medium,Cocktails,No,Rarely,499.42,Offline,Stress Relief,Medium,No Problems,4.9
+25.0,Millennial,Female,66.2,Student,3.0,Home,Bitter,2.23,Medium,Cocktails,Maybe,Weekly,283.19,Online,Stress Relief,Medium,Limited Variety,3.2
+26.0,Millennial,Male,45.67,Other,2.0,Bar,Sour,1.89,Low,Cocktails,Yes,Monthly,475.25,Offline,Celebration,High,Location,3.4
+46.0,Gen X,Male,67.19,Entrepreneur,0.0,Social Event,Neutral,0.52,Medium,Wine,Yes,Rarely,268.4,Online,Celebration,Medium,Location,4.8
+24.0,Gen Z,Male,59.33,Retired,0.0,Home,Salty,1.73,High,Wine,Yes,Rarely,344.19,Offline,Stress Relief,Low,Expensive,4.4
+39.0,Millennial,Female,60.13,Retired,1.0,Home,Sour,0.69,Medium,Spirits,No,Monthly,178.29,Both,Stress Relief,Medium,No Problems,4.3
+40.0,Millennial,Other,53.54,Retired,2.0,Other,Sweet,2.06,Medium,Beer,Yes,Monthly,152.38,Online,Social,Medium,Expensive,3.8
+53.0,Gen X,Male,31.76,Entrepreneur,1.0,Other,Neutral,2.48,Medium,Spirits,No,Monthly,242.26,Both,Daily Habit,Medium,No Problems,4.9
+40.0,Millennial,Female,29.44,Student,0.0,Restaurant,Neutral,1.56,Medium,Wine,Yes,Rarely,147.44,Online,Social,Medium,Location,5.0
+32.0,Millennial,Male,48.06,Professional,3.0,Restaurant,Bitter,1.87,Medium,Cider,Maybe,Weekly,231.43,Both,Social,Medium,Location,4.8
+21.0,Gen Z,Female,52.98,Student,0.0,Other,Neutral,0.97,Medium,Spirits,No,Rarely,142.3,Online,Daily Habit,Medium,Location,4.0
+46.0,Gen X,Male,36.41,Professional,2.0,Social Event,Neutral,1.38,High,Other,No,Monthly,395.6,Online,Celebration,Low,Limited Variety,4.2
+34.0,Millennial,Other,58.47,Retired,1.0,Restaurant,Sweet,2.21,High,Wine,Yes,Monthly,163.47,Online,Social,Low,Limited Variety,4.3
+58.0,Baby Boomer,Female,91.62,Student,1.0,Social Event,Sour,0.83,Medium,Wine,Yes,Monthly,1055.57,Both,Celebration,Medium,Expensive,4.0
+57.0,Baby Boomer,Male,15.11,Retired,3.0,Other,Neutral,1.03,Low,Cider,Yes,Weekly,72.81,Online,Daily Habit,High,Location,3.5
+31.0,Millennial,Male,61.64,Other,2.0,Restaurant,Bitter,1.39,Medium,Cider,No,Monthly,524.98,Online,Social,Medium,Location,3.9
+56.0,Gen X,Male,48.68,Retired,3.0,Home,Sour,1.92,Medium,Cider,No,Weekly,312.25,Offline,Stress Relief,Medium,No Problems,4.0
+33.0,Millennial,Male,59.01,Retired,3.0,Other,Bitter,1.25,Medium,Beer,Maybe,Weekly,603.14,Offline,Daily Habit,Medium,Limited Variety,3.5
+63.0,Baby Boomer,Male,41.39,Professional,5.0,Restaurant,Neutral,2.36,Low,Other,Maybe,Weekly,355.61,Offline,Social,High,Expensive,2.2
+23.0,Gen Z,Female,47.08,Other,2.0,Social Event,Sour,0.69,Low,Wine,No,Monthly,268.62,Online,Celebration,High,Limited Variety,4.2
+53.0,Gen X,Female,52.59,Retired,0.0,Social Event,Neutral,1.24,Medium,Cider,Yes,Rarely,222.7,Online,Celebration,Medium,Location,4.9
+26.0,Millennial,Female,43.97,Retired,1.0,Restaurant,Sweet,1.92,Low,Beer,No,Monthly,135.0,Online,Social,High,Limited Variety,3.9
+30.0,Millennial,Male,19.59,Other,1.0,Social Event,Sour,0.95,Medium,Cocktails,Maybe,Monthly,143.78,Online,Celebration,Medium,Expensive,4.4
+25.0,Millennial,Female,45.32,Other,2.0,Restaurant,Bitter,1.81,Medium,Other,Yes,Monthly,217.02,Online,Social,Medium,No Problems,4.1
+43.0,Gen X,Female,21.67,Student,3.0,Restaurant,Sweet,0.83,Medium,Cocktails,Maybe,Weekly,146.13,Both,Social,Medium,Limited Variety,3.5
+30.0,Millennial,Male,63.06,Professional,4.0,Social Event,Salty,0.61,Low,Cocktails,Yes,Weekly,354.16,Online,Celebration,High,Location,3.2
+64.0,Baby Boomer,Female,12.69,Other,0.0,Bar,Bitter,0.74,Low,Wine,Yes,Rarely,14.62,Offline,Celebration,High,Limited Variety,4.7
+22.0,Gen Z,Female,70.57,Other,1.0,Home,Neutral,2.36,Low,Beer,No,Monthly,325.04,Online,Stress Relief,High,Location,4.7
+33.0,Millennial,Male,58.59,Entrepreneur,2.0,Other,Bitter,1.6,Low,Beer,Yes,Monthly,1211.63,Both,Daily Habit,High,Limited Variety,4.1
+60.0,Baby Boomer,Male,58.67,Other,2.0,Home,Salty,2.09,Medium,Cocktails,No,Monthly,537.58,Both,Stress Relief,Medium,Location,4.1
+22.0,Gen Z,Female,6.71,Professional,3.0,Other,Bitter,1.17,Medium,Other,Yes,Weekly,50.24,Both,Social,Medium,Expensive,3.5
+40.0,Millennial,Male,43.43,Retired,1.0,Other,Sweet,1.69,Low,Spirits,Maybe,Monthly,192.97,Online,Daily Habit,High,No Problems,5.0
+21.0,Gen Z,Female,73.07,Retired,1.0,Home,Bitter,1.49,Low,Cocktails,Yes,Monthly,374.47,Online,Stress Relief,High,Limited Variety,5.0
+57.0,Baby Boomer,Female,39.63,Retired,2.0,Restaurant,Sour,2.39,Low,Wine,Yes,Monthly,322.46,Offline,Social,High,Limited Variety,4.1
+29.0,Millennial,Female,28.44,Retired,0.0,Social Event,Salty,2.0,High,Cocktails,No,Rarely,65.38,Online,Celebration,Low,Location,4.6
+37.0,Millennial,Male,37.27,Entrepreneur,3.0,Bar,Bitter,1.96,Medium,Other,Yes,Weekly,491.86,Offline,Celebration,Medium,Location,3.4
+29.0,Millennial,Male,48.63,Other,3.0,Bar,Salty,0.59,High,Other,Maybe,Weekly,525.73,Both,Celebration,Low,Expensive,4.3
+31.0,Millennial,Female,32.97,Retired,3.0,Bar,Sweet,1.6,High,Cocktails,Maybe,Weekly,356.93,Both,Celebration,Low,Location,3.2
+35.0,Millennial,Female,74.68,Student,3.0,Home,Sour,1.43,Medium,Beer,No,Weekly,702.96,Both,Stress Relief,Medium,Expensive,3.4
+44.0,Gen X,Male,48.71,Retired,2.0,Home,Neutral,2.36,Medium,Cocktails,No,Monthly,304.46,Offline,Stress Relief,Medium,No Problems,3.9
+58.0,Baby Boomer,Female,38.89,Other,5.0,Restaurant,Bitter,1.01,Low,Cider,No,Weekly,614.01,Offline,Social,High,No Problems,2.7
+55.0,Gen X,Female,23.97,Retired,3.0,Bar,Sweet,1.04,Medium,Cider,Yes,Weekly,243.61,Offline,Celebration,Medium,Limited Variety,3.3
+50.0,Gen X,Male,59.69,Entrepreneur,1.0,Restaurant,Salty,1.32,Low,Spirits,Yes,Monthly,253.41,Online,Social,High,No Problems,4.6
+51.0,Gen X,Male,59.23,Professional,4.0,Bar,Salty,0.99,High,Wine,Yes,Weekly,410.54,Both,Celebration,Low,Expensive,2.8
+25.0,Millennial,Female,34.16,Professional,2.0,Home,Sweet,0.76,Low,Wine,No,Monthly,222.48,Online,Stress Relief,High,Expensive,4.7
+64.0,Baby Boomer,Male,5.27,Other,2.0,Social Event,Bitter,2.21,Medium,Beer,Yes,Monthly,70.77,Offline,Celebration,Medium,No Problems,3.7
+34.0,Millennial,Male,58.22,Professional,0.0,Social Event,Neutral,1.62,Low,Wine,No,Rarely,130.0,Online,Celebration,High,Location,5.0
+31.0,Millennial,Male,46.26,Professional,1.0,Social Event,Bitter,2.22,High,Spirits,No,Monthly,112.55,Offline,Celebration,Low,Limited Variety,4.2
+29.0,Millennial,Male,56.72,Student,2.0,Social Event,Sour,2.16,Medium,Cider,Yes,Monthly,381.21,Both,Celebration,Medium,Limited Variety,3.6
+54.0,Gen X,Female,89.14,Other,1.0,Other,Bitter,1.06,Medium,Beer,No,Monthly,463.36,Offline,Celebration,Medium,Limited Variety,4.1
+32.0,Millennial,Female,49.46,Other,3.0,Bar,Sour,1.6,Medium,Other,Yes,Weekly,407.76,Both,Celebration,Medium,No Problems,2.6
+55.0,Gen X,Male,39.72,Professional,5.0,Social Event,Salty,0.67,Medium,Cider,Yes,Weekly,506.07,Online,Celebration,Medium,Expensive,2.7
+55.0,Gen X,Female,27.05,Professional,2.0,Other,Sour,2.33,Medium,Spirits,No,Monthly,149.75,Offline,Daily Habit,Medium,Limited Variety,3.4
+21.0,Gen Z,Female,43.75,Professional,2.0,Other,Neutral,1.31,High,Beer,Maybe,Monthly,570.36,Both,Daily Habit,Low,Limited Variety,3.8
+60.0,Baby Boomer,Female,53.21,Entrepreneur,2.0,Other,Sweet,1.29,Low,Cocktails,No,Monthly,147.92,Offline,Daily Habit,High,Limited Variety,4.4
+42.0,Gen X,Male,51.07,Retired,1.0,Restaurant,Sour,1.11,High,Wine,Maybe,Monthly,171.02,Both,Social,Low,Limited Variety,4.9
+49.0,Gen X,Male,84.47,Entrepreneur,1.0,Restaurant,Bitter,1.42,Medium,Spirits,Yes,Monthly,406.51,Online,Social,Medium,Expensive,3.8
+28.0,Millennial,Other,59.98,Other,3.0,Other,Sour,1.0,High,Beer,No,Weekly,199.39,Offline,Daily Habit,Low,Expensive,3.7
+31.0,Millennial,Female,47.3,Student,4.0,Social Event,Salty,1.25,Medium,Cider,No,Weekly,399.99,Offline,Celebration,Medium,Expensive,3.6
+61.0,Baby Boomer,Male,35.87,Retired,2.0,Bar,Sour,2.1,Medium,Beer,No,Monthly,509.53,Both,Celebration,Medium,No Problems,3.7
+57.0,Baby Boomer,Male,55.33,Student,4.0,Home,Neutral,2.17,High,Cocktails,Yes,Weekly,516.26,Online,Stress Relief,Low,Expensive,3.3
+34.0,Millennial,Male,31.86,Other,2.0,Restaurant,Sour,1.11,Medium,Spirits,No,Monthly,221.31,Both,Social,Medium,Location,3.4
+50.0,Gen X,Female,53.6,Other,3.0,Social Event,Neutral,1.44,Medium,Beer,Yes,Weekly,215.79,Offline,Celebration,Medium,Location,3.7
+55.0,Gen X,Female,59.75,Student,2.0,Social Event,Bitter,2.25,Low,Other,Yes,Monthly,271.74,Online,Celebration,High,No Problems,4.1
+41.0,Gen X,Female,45.67,Student,3.0,Home,Salty,0.61,Low,Spirits,No,Weekly,286.2,Offline,Stress Relief,High,No Problems,3.8
+57.0,Baby Boomer,Male,37.39,Student,2.0,Home,Sweet,2.28,Medium,Spirits,Yes,Monthly,197.43,Offline,Stress Relief,Medium,Expensive,4.3
+25.0,Millennial,Female,6.29,Other,3.0,Social Event,Bitter,0.94,Medium,Cider,No,Weekly,90.25,Offline,Celebration,Medium,Expensive,2.8
+39.0,Millennial,Female,72.88,Professional,0.0,Home,Bitter,1.86,Medium,Wine,Maybe,Rarely,399.62,Both,Stress Relief,Medium,Limited Variety,5.0
+34.0,Millennial,Male,58.07,Student,2.0,Social Event,Sweet,1.67,Low,Other,Yes,Monthly,206.18,Offline,Celebration,High,Limited Variety,4.7
+46.0,Gen X,Female,58.55,Retired,2.0,Home,Sour,1.61,Medium,Cocktails,Maybe,Monthly,409.93,Offline,Stress Relief,Medium,Location,2.9
+24.0,Gen Z,Other,18.77,Other,3.0,Home,Sour,2.22,Medium,Beer,No,Weekly,182.04,Offline,Stress Relief,Medium,Location,4.0
+45.0,Gen X,Male,77.6,Entrepreneur,2.0,Social Event,Sour,0.7,Medium,Wine,No,Monthly,849.37,Online,Celebration,Medium,No Problems,4.8
+65.0,Baby Boomer,Female,40.7,Entrepreneur,0.0,Other,Salty,1.19,High,Cider,No,Rarely,372.17,Offline,Daily Habit,Low,Expensive,4.3
+62.0,Baby Boomer,Male,44.22,Retired,1.0,Social Event,Bitter,1.58,Medium,Wine,No,Monthly,134.89,Offline,Celebration,Medium,No Problems,4.2
+45.0,Gen X,Female,28.61,Professional,4.0,Bar,Neutral,2.12,Low,Spirits,No,Weekly,176.12,Offline,Celebration,High,Limited Variety,3.3
+38.0,Millennial,Female,14.26,Student,2.0,Home,Sweet,0.93,High,Spirits,No,Monthly,47.06,Online,Stress Relief,Low,Limited Variety,3.6
+60.0,Baby Boomer,Female,73.15,Other,2.0,Restaurant,Bitter,2.11,Medium,Cocktails,Yes,Monthly,402.76,Offline,Social,Medium,Limited Variety,4.7
+28.0,Millennial,Female,75.73,Student,1.0,Home,Sour,1.3,Medium,Other,Maybe,Monthly,484.54,Online,Stress Relief,Medium,Location,5.0
+59.0,Baby Boomer,Male,46.69,Other,2.0,Bar,Sweet,0.88,Low,Beer,Yes,Monthly,473.45,Offline,Celebration,High,Limited Variety,3.3
+60.0,Baby Boomer,Female,36.41,Entrepreneur,1.0,Restaurant,Neutral,2.02,Medium,Beer,No,Monthly,177.63,Offline,Social,Medium,No Problems,4.1
+34.0,Millennial,Female,42.46,Student,2.0,Restaurant,Bitter,0.68,Low,Cider,No,Monthly,223.96,Online,Social,High,No Problems,4.4
+52.0,Gen X,Male,43.01,Retired,1.0,Social Event,Bitter,1.53,Medium,Cocktails,Yes,Monthly,235.14,Both,Celebration,Medium,No Problems,4.9
+58.0,Baby Boomer,Female,26.0,Professional,2.0,Other,Salty,0.63,Low,Beer,No,Monthly,105.99,Both,Social,High,Expensive,5.0
+53.0,Gen X,Female,44.15,Retired,1.0,Social Event,Bitter,1.21,Low,Other,No,Monthly,636.01,Both,Celebration,High,No Problems,4.1
+43.0,Gen X,Male,53.06,Professional,3.0,Restaurant,Bitter,1.7,Low,Spirits,Yes,Weekly,179.55,Online,Social,High,Location,4.2
+35.0,Millennial,Female,70.36,Student,1.0,Restaurant,Neutral,1.61,Low,Cocktails,No,Monthly,391.05,Both,Social,High,Expensive,4.0
+53.0,Gen X,Female,50.28,Student,2.0,Other,Neutral,1.31,Low,Wine,No,Monthly,855.99,Both,Social,High,Expensive,4.3
+45.0,Gen X,Male,18.47,Professional,1.0,Home,Sweet,1.36,Medium,Cocktails,Yes,Monthly,93.92,Both,Stress Relief,Medium,Expensive,4.9
+37.0,Millennial,Other,57.07,Entrepreneur,0.0,Other,Sour,0.95,Low,Cocktails,No,Rarely,215.32,Online,Daily Habit,High,Expensive,3.5
+53.0,Gen X,Male,44.88,Other,1.0,Social Event,Neutral,1.41,Medium,Other,Yes,Monthly,190.21,Offline,Celebration,Medium,Limited Variety,5.0
+22.0,Gen Z,Male,77.41,Retired,2.0,Home,Sweet,2.41,Low,Other,No,Monthly,437.8,Both,Stress Relief,High,No Problems,4.7
+34.0,Millennial,Male,78.59,Retired,0.0,Social Event,Bitter,2.2,High,Beer,No,Rarely,647.76,Offline,Celebration,Low,Limited Variety,5.0
+60.0,Baby Boomer,Female,79.29,Retired,2.0,Other,Sweet,0.79,High,Cider,No,Monthly,162.39,Offline,Social,Low,Limited Variety,5.0
+60.0,Baby Boomer,Female,38.77,Student,2.0,Home,Sweet,0.56,Low,Cider,Maybe,Monthly,516.57,Offline,Stress Relief,High,No Problems,4.5
+59.0,Baby Boomer,Male,89.8,Retired,0.0,Other,Sweet,2.37,Medium,Other,No,Rarely,182.81,Offline,Celebration,Medium,Expensive,4.7
+26.0,Millennial,Male,57.02,Other,1.0,Bar,Sweet,1.55,Low,Beer,No,Monthly,252.88,Online,Celebration,High,No Problems,5.0
+26.0,Millennial,Female,82.53,Other,2.0,Restaurant,Neutral,1.58,High,Beer,Yes,Monthly,412.15,Offline,Social,Low,Limited Variety,3.7
+23.0,Gen Z,Male,39.95,Professional,0.0,Home,Sour,2.06,Medium,Beer,No,Rarely,222.46,Online,Stress Relief,Medium,Limited Variety,5.0
+27.0,Millennial,Female,44.03,Student,4.0,Restaurant,Sweet,1.13,Low,Other,Yes,Weekly,182.85,Online,Social,High,Limited Variety,3.4
+28.0,Millennial,Female,55.48,Other,4.0,Bar,Salty,1.46,Medium,Cider,Maybe,Weekly,645.46,Online,Celebration,Medium,Limited Variety,3.2
+62.0,Baby Boomer,Female,53.04,Entrepreneur,1.0,Home,Bitter,2.44,Low,Beer,Yes,Monthly,739.56,Offline,Stress Relief,High,Expensive,5.0
+35.0,Millennial,Other,75.1,Student,2.0,Restaurant,Bitter,1.84,Medium,Other,Yes,Monthly,235.12,Online,Social,Medium,Location,5.0
+49.0,Gen X,Male,45.36,Student,3.0,Restaurant,Bitter,0.81,Medium,Wine,Yes,Weekly,377.03,Offline,Social,Medium,Expensive,2.9
+53.0,Gen X,Other,73.29,Other,4.0,Home,Bitter,0.77,Medium,Wine,No,Weekly,486.04,Both,Stress Relief,Medium,No Problems,2.8
+50.0,Gen X,Female,64.64,Entrepreneur,3.0,Restaurant,Bitter,0.91,Medium,Spirits,Yes,Weekly,604.64,Online,Social,Medium,Limited Variety,3.7
+59.0,Baby Boomer,Female,45.73,Professional,1.0,Restaurant,Sweet,2.03,Low,Wine,No,Monthly,233.97,Online,Social,High,Expensive,4.3
+47.0,Gen X,Male,63.09,Other,3.0,Home,Sour,1.09,Low,Cocktails,Yes,Weekly,346.08,Online,Stress Relief,High,Location,3.5
+56.0,Gen X,Female,40.53,Entrepreneur,1.0,Restaurant,Salty,0.54,Low,Spirits,Yes,Monthly,262.13,Both,Social,High,Expensive,4.9
+49.0,Gen X,Male,97.0,Student,1.0,Restaurant,Neutral,2.39,High,Wine,No,Monthly,1211.64,Offline,Social,Low,Location,4.8
+58.0,Baby Boomer,Male,-3.29,Entrepreneur,1.0,Social Event,Salty,0.84,Low,Cocktails,No,Monthly,-15.15,Offline,Celebration,High,No Problems,4.6
+53.0,Gen X,Male,63.46,Student,3.0,Social Event,Neutral,0.52,Medium,Wine,Yes,Weekly,687.55,Online,Celebration,Medium,Location,3.6
+57.0,Baby Boomer,Female,14.71,Other,0.0,Bar,Neutral,0.97,Medium,Other,No,Rarely,31.97,Offline,Celebration,Medium,Expensive,4.9
+47.0,Gen X,Female,45.49,Other,3.0,Social Event,Salty,0.97,Low,Cocktails,No,Weekly,213.18,Both,Celebration,High,Location,4.2
+53.0,Gen X,Female,48.29,Retired,0.0,Social Event,Sweet,1.34,Medium,Beer,No,Rarely,253.73,Both,Celebration,Medium,Location,5.0
+24.0,Gen Z,Female,80.15,Retired,2.0,Bar,Bitter,2.34,Medium,Other,Yes,Monthly,1041.91,Offline,Celebration,Medium,No Problems,4.5
+42.0,Gen X,Male,36.16,Retired,0.0,Restaurant,Sweet,2.26,Medium,Cocktails,Yes,Rarely,179.22,Online,Social,Medium,Expensive,4.4
+22.0,Gen Z,Female,76.16,Other,0.0,Restaurant,Bitter,1.41,Medium,Other,No,Rarely,270.2,Online,Social,Medium,Limited Variety,4.9
+30.0,Millennial,Male,26.42,Professional,0.0,Social Event,Sour,1.32,Medium,Beer,Yes,Rarely,109.58,Online,Celebration,Medium,Limited Variety,5.0
+25.0,Millennial,Female,76.93,Other,1.0,Bar,Neutral,1.61,Medium,Cocktails,No,Monthly,208.63,Online,Celebration,Medium,Expensive,4.0
+30.0,Millennial,Female,40.51,Entrepreneur,1.0,Restaurant,Salty,0.99,Medium,Cocktails,No,Monthly,277.73,Online,Social,Medium,Limited Variety,4.5
+53.0,Gen X,Female,51.47,Other,3.0,Other,Sour,0.6,Medium,Other,No,Weekly,604.87,Online,Daily Habit,Medium,Limited Variety,3.5
+58.0,Baby Boomer,Female,43.27,Other,1.0,Home,Bitter,2.38,Low,Wine,No,Monthly,174.91,Offline,Stress Relief,High,No Problems,5.0
+33.0,Millennial,Male,75.65,Student,0.0,Home,Sweet,0.87,Medium,Cocktails,No,Rarely,248.13,Both,Stress Relief,Medium,No Problems,4.8
+51.0,Gen X,Male,71.75,Student,3.0,Home,Salty,0.9,Low,Wine,Yes,Weekly,619.54,Offline,Stress Relief,High,Location,4.1
+56.0,Gen X,Female,58.87,Student,2.0,Social Event,Neutral,1.44,Low,Cocktails,No,Monthly,292.9,Both,Celebration,High,Limited Variety,3.5
+65.0,Baby Boomer,Male,26.96,Other,1.0,Home,Sour,1.48,Medium,Cider,Maybe,Monthly,132.18,Offline,Stress Relief,Medium,Expensive,4.1
+44.0,Gen X,Male,35.7,Professional,1.0,Home,Neutral,0.54,High,Spirits,Maybe,Monthly,516.91,Online,Stress Relief,Low,No Problems,4.3
+35.0,Millennial,Female,29.43,Entrepreneur,3.0,Other,Bitter,0.8,High,Wine,No,Weekly,196.64,Both,Celebration,Low,No Problems,3.5
+49.0,Gen X,Female,5.04,Entrepreneur,3.0,Restaurant,Neutral,1.26,Low,Wine,No,Weekly,31.85,Online,Social,High,No Problems,2.3
+28.0,Millennial,Male,75.23,Professional,1.0,Other,Sweet,1.87,Medium,Beer,No,Monthly,275.79,Offline,Celebration,Medium,Location,4.7
+25.0,Millennial,Male,43.44,Professional,2.0,Social Event,Sour,0.96,Medium,Cider,No,Monthly,390.07,Online,Celebration,Medium,Limited Variety,4.9
+49.0,Gen X,Female,43.23,Entrepreneur,3.0,Home,Sour,1.35,Low,Beer,Yes,Weekly,298.5,Both,Stress Relief,High,No Problems,3.8
+24.0,Gen Z,Female,79.92,Retired,2.0,Restaurant,Sweet,1.61,Medium,Cider,Maybe,Monthly,357.52,Online,Social,Medium,Limited Variety,3.9
+32.0,Millennial,Male,40.48,Student,1.0,Home,Neutral,2.28,Medium,Cider,No,Monthly,397.15,Online,Stress Relief,Medium,Limited Variety,4.0
+65.0,Baby Boomer,Male,33.19,Student,2.0,Home,Sweet,1.15,High,Other,Yes,Monthly,417.76,Both,Stress Relief,Low,Location,3.1
+22.0,Gen Z,Male,45.51,Entrepreneur,1.0,Social Event,Salty,0.77,Low,Other,Yes,Monthly,170.81,Online,Celebration,High,Expensive,3.7
+47.0,Gen X,Male,27.35,Professional,2.0,Home,Sweet,1.48,Low,Other,Yes,Monthly,66.57,Offline,Stress Relief,High,Expensive,3.9
+51.0,Gen X,Male,56.89,Retired,4.0,Bar,Neutral,1.99,High,Cocktails,Yes,Weekly,869.33,Both,Celebration,Low,Limited Variety,4.1
+56.0,Gen X,Female,42.53,Entrepreneur,1.0,Restaurant,Sweet,0.72,Medium,Beer,Yes,Monthly,153.05,Both,Social,Medium,Limited Variety,3.1
+56.0,Gen X,Female,39.85,Student,0.0,Restaurant,Bitter,1.35,High,Spirits,Yes,Rarely,245.5,Both,Social,Low,No Problems,5.0
+46.0,Gen X,Female,38.12,Other,1.0,Bar,Sweet,0.54,Low,Cider,Yes,Monthly,72.13,Both,Celebration,High,Expensive,4.2
+63.0,Baby Boomer,Male,47.88,Professional,4.0,Social Event,Sweet,0.57,Medium,Cider,Yes,Weekly,690.8,Online,Celebration,Medium,Expensive,2.8
+47.0,Gen X,Female,51.67,Other,2.0,Home,Neutral,1.47,Medium,Wine,No,Monthly,174.54,Both,Stress Relief,Medium,Expensive,3.5
+25.0,Millennial,Male,39.6,Entrepreneur,0.0,Home,Salty,1.1,Low,Cocktails,Maybe,Rarely,236.76,Offline,Stress Relief,High,Expensive,4.3
+40.0,Millennial,Other,42.82,Student,1.0,Restaurant,Salty,2.19,Medium,Spirits,Maybe,Monthly,218.54,Offline,Social,Medium,Expensive,4.6
+31.0,Millennial,Female,48.37,Retired,0.0,Social Event,Neutral,1.7,Medium,Other,No,Rarely,124.56,Online,Celebration,Medium,Location,5.0
+30.0,Millennial,Male,46.35,Other,3.0,Social Event,Neutral,1.41,Low,Cider,Yes,Weekly,285.87,Offline,Celebration,High,Limited Variety,3.8
+60.0,Baby Boomer,Female,50.62,Retired,1.0,Social Event,Neutral,1.32,Low,Wine,No,Monthly,361.53,Both,Celebration,High,Location,3.7
+58.0,Baby Boomer,Male,36.47,Student,2.0,Home,Bitter,1.49,Medium,Beer,No,Monthly,238.0,Both,Stress Relief,Medium,No Problems,4.4
+26.0,Millennial,Female,70.09,Other,2.0,Social Event,Sour,0.58,Medium,Cider,Yes,Monthly,581.05,Online,Celebration,Medium,Location,4.4
+28.0,Millennial,Male,51.94,Retired,3.0,Bar,Sweet,2.29,High,Wine,Yes,Weekly,1054.85,Online,Celebration,Low,Expensive,3.7
+43.0,Gen X,Male,39.92,Retired,2.0,Other,Neutral,2.5,Medium,Beer,No,Monthly,113.02,Offline,Daily Habit,Medium,Expensive,3.8
+46.0,Gen X,Female,56.89,Other,1.0,Social Event,Neutral,0.86,Low,Cocktails,No,Monthly,647.15,Both,Celebration,High,No Problems,4.7
+63.0,Baby Boomer,Male,48.51,Student,4.0,Other,Neutral,0.74,High,Other,Yes,Weekly,471.91,Offline,Celebration,Low,Limited Variety,2.9
+32.0,Millennial,Female,15.32,Retired,2.0,Home,Salty,0.79,High,Beer,No,Monthly,60.5,Online,Stress Relief,Low,No Problems,4.5
+46.0,Gen X,Male,56.82,Entrepreneur,2.0,Social Event,Neutral,1.82,Low,Cider,Yes,Monthly,180.83,Online,Celebration,High,No Problems,3.8
+33.0,Millennial,Female,29.61,Other,1.0,Restaurant,Sweet,1.82,Medium,Spirits,No,Monthly,136.51,Online,Social,Medium,No Problems,4.6
+60.0,Baby Boomer,Female,68.69,Professional,4.0,Home,Neutral,2.2,Low,Beer,Yes,Weekly,1005.54,Offline,Stress Relief,High,No Problems,2.1
+38.0,Millennial,Female,45.17,Professional,1.0,Bar,Sweet,2.0,Low,Spirits,No,Monthly,214.76,Both,Celebration,High,Location,4.7
+45.0,Gen X,Male,65.6,Student,3.0,Bar,Bitter,1.4,Low,Spirits,No,Weekly,1055.74,Offline,Celebration,High,Limited Variety,3.1
+53.0,Gen X,Male,37.4,Entrepreneur,2.0,Other,Sour,1.73,Low,Beer,No,Monthly,902.0629633208005,Offline,Celebration,High,No Problems,4.3
+60.0,Baby Boomer,Male,51.4,Retired,1.0,Other,Salty,1.88,High,Cocktails,No,Monthly,258.9,Offline,Celebration,Low,Limited Variety,4.9
+63.0,Baby Boomer,Male,74.2,Professional,1.0,Restaurant,Sweet,1.53,Medium,Beer,Yes,Monthly,201.02,Online,Social,Medium,Expensive,4.2
+32.0,Millennial,Female,44.62,Student,0.0,Restaurant,Bitter,1.45,High,Wine,Yes,Rarely,222.04,Both,Social,Low,Location,5.0
+64.0,Baby Boomer,Female,38.18,Entrepreneur,1.0,Bar,Sour,1.79,Medium,Other,Yes,Monthly,301.45,Offline,Celebration,Medium,Limited Variety,4.6
+56.0,Gen X,Female,63.1,Entrepreneur,1.0,Social Event,Sour,1.61,Medium,Spirits,Yes,Monthly,259.09,Offline,Celebration,Medium,No Problems,4.7
+24.0,Gen Z,Female,62.71,Student,1.0,Bar,Sour,1.79,Medium,Other,No,Monthly,86.42,Online,Celebration,Medium,Location,4.9
+25.0,Millennial,Female,39.03,Student,3.0,Bar,Sweet,1.73,High,Cider,Yes,Weekly,325.92,Offline,Celebration,Low,Expensive,3.8
+57.0,Baby Boomer,Female,10.29,Retired,2.0,Restaurant,Bitter,1.94,Medium,Spirits,Yes,Monthly,79.23,Offline,Social,Medium,No Problems,3.8
+28.0,Millennial,Male,37.8,Student,3.0,Other,Neutral,1.79,Medium,Cider,No,Weekly,349.78,Both,Daily Habit,Medium,No Problems,4.3
+62.0,Baby Boomer,Female,63.55,Retired,0.0,Restaurant,Bitter,1.54,High,Wine,No,Rarely,489.1,Offline,Social,Low,Location,5.0
+48.0,Gen X,Female,34.5,Retired,1.0,Restaurant,Bitter,1.86,Low,Wine,No,Monthly,102.34,Offline,Social,High,Limited Variety,5.0
+51.0,Gen X,Female,49.78,Other,1.0,Restaurant,Bitter,1.4,Medium,Other,No,Monthly,354.45,Online,Social,Medium,Limited Variety,4.7
+29.0,Millennial,Male,36.85,Entrepreneur,5.0,Bar,Sweet,0.98,High,Wine,Yes,Weekly,754.43,Offline,Celebration,Low,Location,2.7
+49.0,Gen X,Male,11.36,Entrepreneur,5.0,Social Event,Sweet,0.5,High,Beer,Yes,Weekly,52.65,Online,Celebration,Low,Expensive,2.4
+34.0,Millennial,Male,36.49,Entrepreneur,3.0,Bar,Sweet,1.62,Low,Spirits,No,Weekly,323.67,Offline,Celebration,High,Limited Variety,3.3
+60.0,Baby Boomer,Female,63.46,Other,3.0,Home,Bitter,1.68,Medium,Cider,No,Weekly,372.85,Both,Stress Relief,Medium,Location,4.0
+61.0,Baby Boomer,Female,2.59,Retired,2.0,Restaurant,Sweet,2.44,Medium,Other,Yes,Monthly,15.39,Both,Social,Medium,Limited Variety,4.1
+42.0,Gen X,Male,55.04,Retired,2.0,Restaurant,Sour,1.22,Low,Other,No,Monthly,405.35,Offline,Social,High,Limited Variety,3.9
+31.0,Millennial,Other,26.28,Student,2.0,Home,Sweet,1.29,Medium,Wine,Yes,Monthly,127.49,Online,Stress Relief,Medium,Expensive,3.5
+43.0,Gen X,Male,62.17,Other,0.0,Restaurant,Salty,0.9,Low,Wine,Yes,Rarely,183.99,Online,Social,High,Limited Variety,5.0
+21.0,Gen Z,Male,64.29,Student,2.0,Restaurant,Sweet,0.64,Medium,Cider,Maybe,Monthly,404.77,Offline,Social,Medium,Location,4.1
+57.0,Baby Boomer,Male,46.56,Other,1.0,Restaurant,Sweet,2.05,Medium,Spirits,No,Monthly,137.0,Both,Social,Medium,Expensive,3.9
+41.0,Gen X,Female,46.61,Student,2.0,Home,Sweet,1.0,Medium,Spirits,No,Monthly,167.63,Online,Stress Relief,Medium,Expensive,4.0
+46.0,Gen X,Female,33.87,Professional,2.0,Bar,Sweet,1.72,Medium,Other,Yes,Monthly,294.44,Offline,Celebration,Medium,Location,3.9
+56.0,Gen X,Male,23.09,Entrepreneur,4.0,Restaurant,Salty,1.88,Medium,Cider,No,Weekly,120.04,Both,Social,Medium,No Problems,2.9
+43.0,Gen X,Female,83.96,Entrepreneur,4.0,Social Event,Neutral,1.44,Low,Other,Yes,Weekly,1081.76,Both,Celebration,High,Location,3.3
+21.0,Gen Z,Male,32.7,Retired,2.0,Home,Sweet,2.25,Low,Cocktails,Yes,Monthly,255.07,Online,Stress Relief,High,Expensive,3.9
+60.0,Baby Boomer,Female,81.36,Professional,2.0,Other,Sour,1.39,Low,Spirits,No,Monthly,212.48,Offline,Daily Habit,High,Limited Variety,3.8
+35.0,Millennial,Female,32.81,Entrepreneur,4.0,Home,Salty,1.07,Low,Cider,No,Weekly,215.9,Online,Stress Relief,High,No Problems,3.7
+41.0,Gen X,Female,60.5,Retired,2.0,Bar,Neutral,2.29,Medium,Cider,No,Monthly,680.31,Online,Celebration,Medium,Expensive,3.1
+29.0,Millennial,Male,27.24,Professional,4.0,Home,Sweet,2.22,Medium,Other,No,Weekly,154.0,Both,Stress Relief,Medium,Location,3.0
+29.0,Millennial,Other,60.47,Entrepreneur,0.0,Other,Neutral,0.83,Low,Wine,No,Rarely,198.9,Both,Celebration,High,Limited Variety,5.0
+30.0,Millennial,Female,43.49,Student,0.0,Social Event,Sour,0.55,Low,Cider,No,Rarely,227.33,Both,Celebration,High,Limited Variety,5.0
+46.0,Gen X,Male,43.75,Other,2.0,Other,Salty,0.68,Medium,Other,Yes,Monthly,400.63,Online,Daily Habit,Medium,No Problems,4.5
+61.0,Baby Boomer,Female,62.2,Professional,2.0,Home,Salty,1.07,Medium,Beer,Maybe,Monthly,339.49,Both,Stress Relief,Medium,Location,5.0
+55.0,Gen X,Male,40.62,Retired,3.0,Other,Neutral,2.44,High,Wine,Yes,Weekly,227.77,Offline,Daily Habit,Low,Location,4.3
+45.0,Gen X,Female,21.44,Professional,3.0,Home,Sweet,1.62,Medium,Wine,Yes,Weekly,330.07,Offline,Stress Relief,Medium,Expensive,2.9
+46.0,Gen X,Male,65.23,Retired,4.0,Social Event,Bitter,1.25,Medium,Spirits,No,Weekly,1436.86,Offline,Celebration,Medium,Expensive,2.2
+31.0,Millennial,Female,27.08,Professional,1.0,Social Event,Salty,2.28,Low,Cocktails,Maybe,Monthly,223.87,Online,Celebration,High,Location,4.7
+58.0,Baby Boomer,Female,60.33,Retired,2.0,Bar,Bitter,1.41,Medium,Spirits,Yes,Monthly,389.68,Offline,Celebration,Medium,Limited Variety,3.3
+22.0,Gen Z,Male,69.46,Entrepreneur,1.0,Social Event,Salty,1.13,Low,Beer,Yes,Monthly,234.97,Offline,Celebration,High,Expensive,3.5
+27.0,Millennial,Male,42.49,Student,1.0,Restaurant,Sweet,2.38,Low,Other,No,Monthly,142.15,Online,Social,High,Expensive,4.7
+38.0,Millennial,Male,73.65,Entrepreneur,5.0,Other,Sweet,2.2,Low,Wine,Yes,Weekly,1078.61,Online,Celebration,High,Expensive,2.8
+47.0,Gen X,Male,59.64,Student,1.0,Other,Salty,2.19,Medium,Wine,No,Monthly,372.55,Online,Daily Habit,Medium,No Problems,5.0
+54.0,Gen X,Male,36.08,Entrepreneur,3.0,Home,Neutral,1.52,Medium,Cider,Maybe,Weekly,549.71,Online,Stress Relief,Medium,Location,3.9
+47.0,Gen X,Female,78.03,Entrepreneur,1.0,Social Event,Sweet,2.08,Low,Cocktails,Maybe,Monthly,547.39,Offline,Celebration,High,No Problems,5.0
+37.0,Millennial,Male,27.17,Professional,0.0,Bar,Sweet,0.86,Medium,Cocktails,No,Rarely,53.17,Both,Celebration,Medium,Expensive,5.0
+63.0,Baby Boomer,Male,42.47,Other,1.0,Bar,Sour,1.65,Medium,Cider,No,Monthly,364.17,Online,Celebration,Medium,No Problems,3.9
+64.0,Baby Boomer,Female,45.87,Retired,0.0,Bar,Sweet,2.47,Medium,Beer,Maybe,Rarely,115.54,Online,Celebration,Medium,Expensive,5.0
+44.0,Gen X,Male,62.1,Retired,1.0,Restaurant,Sour,1.08,Low,Cocktails,No,Monthly,259.72,Offline,Social,High,Location,5.0
+45.0,Gen X,Female,72.31,Retired,3.0,Social Event,Sweet,2.09,Medium,Wine,Maybe,Weekly,619.5,Both,Celebration,Medium,No Problems,3.7
+27.0,Millennial,Female,71.06,Student,2.0,Bar,Sweet,1.48,High,Beer,Yes,Monthly,1192.98,Online,Celebration,Low,Expensive,4.7
+26.0,Millennial,Female,54.47,Retired,1.0,Restaurant,Neutral,0.58,Low,Spirits,No,Monthly,1306.96,Online,Social,High,Limited Variety,4.4
+44.0,Gen X,Female,44.39,Retired,3.0,Other,Neutral,2.03,Low,Spirits,No,Weekly,454.51,Offline,Social,High,Expensive,3.8
+53.0,Gen X,Female,13.48,Professional,3.0,Home,Sweet,0.84,Low,Beer,No,Weekly,92.99,Online,Stress Relief,High,Expensive,3.4
+49.0,Gen X,Male,23.72,Entrepreneur,0.0,Social Event,Salty,1.76,Low,Wine,No,Rarely,128.56,Online,Celebration,High,Location,5.0
+63.0,Baby Boomer,Male,85.33,Retired,2.0,Social Event,Salty,0.67,Medium,Spirits,No,Monthly,823.2,Offline,Celebration,Medium,Location,4.4
+42.0,Gen X,Male,13.28,Other,1.0,Other,Sweet,2.39,High,Other,No,Monthly,57.33,Offline,Daily Habit,Low,Location,3.9
+46.0,Gen X,Female,34.31,Retired,2.0,Social Event,Salty,1.08,High,Wine,No,Monthly,521.07,Offline,Celebration,Low,Limited Variety,4.9
+48.0,Gen X,Male,72.89,Student,0.0,Social Event,Sweet,0.95,Low,Cider,No,Rarely,339.28,Both,Celebration,High,Location,4.6
+41.0,Gen X,Female,54.19,Student,3.0,Social Event,Neutral,0.76,Medium,Cocktails,No,Weekly,525.43,Offline,Celebration,Medium,Expensive,3.5
+27.0,Millennial,Other,68.56,Student,2.0,Social Event,Bitter,2.39,Medium,Beer,No,Monthly,592.01,Online,Celebration,Medium,Expensive,4.2
+37.0,Millennial,Female,60.86,Retired,4.0,Restaurant,Sour,1.92,Medium,Cocktails,No,Weekly,693.82,Online,Social,Medium,No Problems,3.3
+40.0,Millennial,Female,79.39,Professional,1.0,Restaurant,Salty,1.98,Medium,Cider,Yes,Monthly,611.97,Online,Social,Medium,Expensive,4.7
+61.0,Baby Boomer,Male,55.91,Other,4.0,Home,Salty,1.5,Low,Spirits,No,Weekly,379.16,Online,Stress Relief,High,Location,2.4
+40.0,Millennial,Female,63.27,Retired,1.0,Social Event,Neutral,1.45,Medium,Other,No,Monthly,242.53,Offline,Celebration,Medium,Expensive,4.7
+42.0,Gen X,Female,35.52,Professional,1.0,Other,Salty,0.72,Medium,Wine,Yes,Monthly,103.84,Both,Social,Medium,Location,5.0
+48.0,Gen X,Male,61.73,Professional,0.0,Bar,Sweet,1.62,Medium,Wine,No,Rarely,319.06,Both,Celebration,Medium,Location,5.0
+60.0,Baby Boomer,Male,42.08,Retired,4.0,Home,Sweet,0.99,Medium,Cider,Yes,Weekly,573.58,Offline,Stress Relief,Medium,Expensive,2.3
+27.0,Millennial,Female,40.94,Retired,4.0,Bar,Bitter,2.45,Low,Beer,Yes,Weekly,475.25,Online,Celebration,High,Limited Variety,2.7
+21.0,Gen Z,Female,67.89,Professional,2.0,Bar,Bitter,2.09,Low,Cocktails,No,Monthly,970.67,Online,Celebration,High,Location,3.5
+52.0,Gen X,Female,68.03,Professional,2.0,Social Event,Bitter,1.33,High,Other,Yes,Monthly,419.89,Both,Celebration,Low,Expensive,4.2
+33.0,Millennial,Female,83.77,Professional,2.0,Other,Sweet,0.8,Medium,Spirits,No,Monthly,724.36,Offline,Celebration,Medium,Expensive,3.2
+50.0,Gen X,Female,82.47,Retired,2.0,Bar,Bitter,2.07,High,Beer,No,Monthly,295.73,Offline,Celebration,Low,Location,3.4
+43.0,Gen X,Female,68.35,Professional,4.0,Bar,Bitter,0.74,Low,Other,Maybe,Weekly,520.06,Both,Celebration,High,Expensive,2.7
+39.0,Millennial,Male,15.59,Student,0.0,Home,Sweet,0.88,Medium,Other,Yes,Rarely,91.58,Both,Stress Relief,Medium,No Problems,4.1
+52.0,Gen X,Male,86.55,Retired,4.0,Other,Neutral,0.92,Medium,Cider,Yes,Weekly,1221.85,Both,Daily Habit,Medium,Limited Variety,3.0
+50.0,Gen X,Male,68.36,Student,1.0,Other,Salty,1.61,High,Cider,No,Monthly,299.06,Online,Celebration,Low,Expensive,3.4
+49.0,Gen X,Female,34.68,Entrepreneur,1.0,Bar,Sour,2.07,Low,Wine,No,Monthly,169.56,Both,Celebration,High,Location,4.7
+65.0,Baby Boomer,Female,64.58,Retired,2.0,Other,Sweet,1.13,Low,Spirits,No,Monthly,187.13,Both,Celebration,High,Location,3.8
+49.0,Gen X,Female,29.25,Entrepreneur,3.0,Home,Sweet,0.67,Medium,Beer,Yes,Weekly,184.97,Online,Stress Relief,Medium,Expensive,3.2
+50.0,Gen X,Male,62.37,Professional,2.0,Home,Sour,1.43,High,Wine,No,Monthly,602.52,Offline,Stress Relief,Low,Limited Variety,3.8
+36.0,Millennial,Female,23.67,Professional,7.0,Home,Sour,2.0,High,Spirits,Yes,Daily,530.95,Online,Stress Relief,Low,Expensive,1.5
+60.0,Baby Boomer,Female,33.84,Other,5.0,Social Event,Bitter,0.94,High,Cocktails,No,Weekly,490.21,Both,Celebration,Low,Expensive,2.8
+39.0,Millennial,Female,64.2,Professional,2.0,Bar,Sour,0.94,High,Cocktails,Yes,Monthly,407.38,Online,Celebration,Low,Expensive,4.7
+38.0,Millennial,Female,71.46,Entrepreneur,3.0,Other,Salty,2.39,Low,Wine,No,Weekly,542.14,Offline,Celebration,High,Limited Variety,4.0
+21.0,Gen Z,Male,56.51,Professional,2.0,Home,Salty,2.41,Low,Beer,Maybe,Monthly,251.42,Online,Stress Relief,High,Limited Variety,5.0
+34.0,Millennial,Female,44.28,Retired,2.0,Bar,Salty,2.48,Low,Spirits,No,Monthly,388.7,Both,Celebration,High,Location,4.3
+22.0,Gen Z,Male,7.7,Professional,2.0,Bar,Salty,2.12,Medium,Cocktails,Yes,Monthly,58.82,Online,Celebration,Medium,Location,4.1
+48.0,Gen X,Male,45.82,Other,2.0,Social Event,Salty,0.88,High,Cocktails,No,Monthly,362.7,Online,Celebration,Low,Limited Variety,3.8
+50.0,Gen X,Female,60.67,Professional,2.0,Other,Bitter,0.92,High,Beer,No,Monthly,288.67,Offline,Celebration,Low,Location,3.8
+58.0,Baby Boomer,Female,43.66,Entrepreneur,1.0,Other,Sweet,1.18,Low,Wine,Yes,Monthly,75.39,Both,Celebration,High,No Problems,4.8
+24.0,Gen Z,Female,49.55,Entrepreneur,0.0,Home,Sour,1.14,Medium,Cider,No,Rarely,355.81,Online,Stress Relief,Medium,Limited Variety,4.5
+21.0,Gen Z,Female,46.29,Professional,5.0,Home,Sweet,2.41,High,Other,Maybe,Weekly,410.9,Online,Stress Relief,Low,Location,2.6
+28.0,Millennial,Female,43.57,Entrepreneur,5.0,Bar,Sour,2.08,Medium,Spirits,Yes,Weekly,319.2,Both,Celebration,Medium,Expensive,2.5
+49.0,Gen X,Female,51.52,Entrepreneur,1.0,Other,Bitter,1.95,Low,Cocktails,Yes,Monthly,369.28,Offline,Daily Habit,High,No Problems,4.1
+59.0,Baby Boomer,Female,44.55,Other,2.0,Other,Bitter,0.87,Medium,Other,No,Monthly,226.66,Both,Social,Medium,Expensive,3.5
+23.0,Gen Z,Male,78.87,Retired,0.0,Home,Neutral,2.32,Medium,Other,Yes,Rarely,555.92,Online,Stress Relief,Medium,Limited Variety,5.0
+52.0,Gen X,Male,5.87,Other,1.0,Restaurant,Neutral,2.16,Medium,Cider,No,Monthly,40.5,Offline,Social,Medium,Location,3.8
+30.0,Millennial,Male,39.08,Student,2.0,Bar,Bitter,0.83,Medium,Other,Yes,Monthly,340.44,Online,Celebration,Medium,Expensive,4.0
+30.0,Millennial,Male,32.59,Other,0.0,Other,Bitter,2.24,Low,Beer,No,Rarely,68.3,Online,Daily Habit,High,Expensive,5.0
+39.0,Millennial,Male,54.38,Professional,2.0,Social Event,Sour,1.04,High,Wine,Yes,Monthly,616.97,Offline,Celebration,Low,Limited Variety,4.3
+54.0,Gen X,Male,51.54,Retired,4.0,Social Event,Bitter,0.66,Medium,Spirits,No,Weekly,542.31,Offline,Celebration,Medium,Limited Variety,2.8
+53.0,Gen X,Male,82.44,Professional,3.0,Restaurant,Sweet,1.81,Medium,Beer,No,Weekly,518.16,Both,Social,Medium,Location,2.9
+43.0,Gen X,Other,89.02,Student,3.0,Home,Sour,1.81,High,Wine,No,Weekly,723.0,Offline,Stress Relief,Low,No Problems,3.6
+48.0,Gen X,Male,34.54,Retired,5.0,Home,Bitter,0.69,Low,Beer,No,Weekly,160.27,Offline,Stress Relief,High,Expensive,1.2
+52.0,Gen X,Female,50.01,Entrepreneur,3.0,Home,Sour,1.14,Low,Cocktails,Yes,Weekly,463.77,Offline,Stress Relief,High,Expensive,3.6
+27.0,Millennial,Male,53.93,Other,6.0,Social Event,Sour,2.49,High,Cocktails,No,Weekly,444.01,Both,Celebration,Low,Location,2.0
+49.0,Gen X,Female,34.04,Professional,1.0,Home,Salty,1.86,Low,Cider,Yes,Monthly,87.71,Online,Stress Relief,High,Limited Variety,5.0
+28.0,Millennial,Male,62.57,Student,4.0,Social Event,Neutral,1.96,Medium,Beer,Yes,Weekly,269.87,Online,Celebration,Medium,Location,2.4
+21.0,Gen Z,Male,45.21,Entrepreneur,0.0,Restaurant,Sour,0.93,Low,Other,Maybe,Rarely,327.18,Online,Social,High,Expensive,4.8
+23.0,Gen Z,Female,28.65,Other,2.0,Bar,Sour,0.66,Low,Cocktails,Maybe,Monthly,129.46,Offline,Celebration,High,Limited Variety,4.2
+44.0,Gen X,Male,44.41,Entrepreneur,4.0,Other,Salty,1.05,Medium,Wine,No,Weekly,882.87,Online,Daily Habit,Medium,Limited Variety,3.1
+43.0,Gen X,Male,30.05,Other,2.0,Restaurant,Bitter,1.0,Low,Cider,No,Monthly,142.28,Both,Social,High,Location,3.3
+28.0,Millennial,Male,70.73,Retired,3.0,Social Event,Sour,0.97,Medium,Other,Yes,Weekly,227.7,Online,Celebration,Medium,Limited Variety,1.0
+57.0,Baby Boomer,Male,88.03,Entrepreneur,0.0,Restaurant,Salty,0.89,Medium,Spirits,Yes,Rarely,208.99,Both,Social,Medium,Limited Variety,5.0
+23.0,Gen Z,Male,54.9,Entrepreneur,0.0,Other,Sweet,1.65,High,Beer,No,Rarely,422.53,Online,Daily Habit,Low,Expensive,5.0
+53.0,Gen X,Male,52.23,Entrepreneur,2.0,Bar,Salty,1.16,Medium,Cocktails,Maybe,Monthly,299.03,Offline,Celebration,Medium,Expensive,3.2
+48.0,Gen X,Female,53.05,Retired,5.0,Other,Neutral,2.14,Low,Other,Yes,Weekly,454.84,Both,Daily Habit,High,Expensive,2.9
+28.0,Millennial,Female,73.64,Student,1.0,Social Event,Neutral,0.87,High,Wine,Yes,Monthly,404.26,Online,Celebration,Low,Limited Variety,3.7
+54.0,Gen X,Female,73.21,Other,1.0,Other,Bitter,1.43,Medium,Beer,No,Monthly,476.79,Both,Social,Medium,Limited Variety,4.3
+55.0,Gen X,Male,47.69,Entrepreneur,2.0,Restaurant,Bitter,0.53,Medium,Wine,No,Monthly,516.08,Offline,Social,Medium,Limited Variety,4.3
+52.0,Gen X,Female,55.05,Retired,2.0,Home,Neutral,1.46,High,Cider,Yes,Monthly,702.99,Both,Stress Relief,Low,Expensive,4.6
+44.0,Gen X,Male,63.05,Student,1.0,Restaurant,Neutral,0.61,Medium,Cocktails,Yes,Monthly,266.9,Offline,Social,Medium,Location,3.3
+34.0,Millennial,Male,27.25,Other,0.0,Social Event,Sour,2.46,Medium,Cocktails,No,Rarely,58.26,Online,Celebration,Medium,No Problems,5.0
+52.0,Gen X,Female,74.25,Retired,3.0,Bar,Neutral,2.08,Medium,Cider,No,Weekly,456.48,Online,Celebration,Medium,Expensive,3.9
+63.0,Baby Boomer,Male,84.7,Other,1.0,Other,Bitter,1.48,Low,Wine,Yes,Monthly,488.87,Offline,Daily Habit,High,Expensive,4.2
+36.0,Millennial,Male,73.3,Entrepreneur,1.0,Bar,Neutral,0.67,Low,Beer,No,Monthly,229.41,Online,Celebration,High,Expensive,4.5
+24.0,Gen Z,Female,25.09,Student,1.0,Social Event,Bitter,1.68,Medium,Wine,Yes,Monthly,78.79,Online,Celebration,Medium,Location,3.0
+57.0,Baby Boomer,Female,10.6,Retired,2.0,Other,Sweet,2.02,Low,Beer,Maybe,Monthly,77.91,Online,Celebration,High,Limited Variety,2.6
+41.0,Gen X,Female,64.17,Student,2.0,Restaurant,Neutral,0.88,Low,Other,No,Monthly,387.63,Offline,Social,High,Expensive,4.6
+34.0,Millennial,Female,34.8,Entrepreneur,2.0,Restaurant,Bitter,1.64,Low,Cider,Maybe,Monthly,218.95,Both,Social,High,Location,3.7
+51.0,Gen X,Other,55.74,Student,0.0,Social Event,Salty,2.13,Medium,Spirits,No,Rarely,158.27,Online,Celebration,Medium,Expensive,4.8
+38.0,Millennial,Male,80.7,Student,3.0,Other,Sour,2.04,Medium,Beer,Yes,Weekly,543.69,Online,Daily Habit,Medium,Limited Variety,3.6
+27.0,Millennial,Male,36.86,Professional,4.0,Restaurant,Bitter,2.11,Medium,Cocktails,Yes,Weekly,214.4,Offline,Social,Medium,Limited Variety,2.8
+30.0,Millennial,Male,42.45,Student,1.0,Social Event,Neutral,2.26,Medium,Other,No,Monthly,335.72,Online,Celebration,Medium,Location,4.3
+27.0,Millennial,Male,55.53,Other,5.0,Social Event,Neutral,2.38,Medium,Cocktails,Yes,Weekly,1050.89,Online,Celebration,Medium,Expensive,2.7
+53.0,Gen X,Male,24.05,Retired,2.0,Bar,Sweet,1.31,Medium,Other,No,Monthly,59.14,Online,Celebration,Medium,No Problems,3.3
+43.0,Gen X,Female,34.84,Professional,1.0,Restaurant,Salty,1.64,Medium,Cocktails,Yes,Monthly,110.93,Both,Social,Medium,Location,5.0
+41.0,Gen X,Female,50.5,Retired,3.0,Other,Bitter,2.08,Medium,Wine,Yes,Weekly,180.65,Both,Daily Habit,Medium,Expensive,3.4
+39.0,Millennial,Female,43.99,Retired,2.0,Restaurant,Salty,1.89,High,Wine,Yes,Monthly,196.72,Online,Social,Low,Expensive,3.5
+39.0,Millennial,Male,62.17,Entrepreneur,1.0,Restaurant,Sweet,2.49,High,Wine,No,Monthly,302.17,Offline,Social,Low,Limited Variety,3.9
+56.0,Gen X,Female,105.32,Entrepreneur,2.0,Restaurant,Sour,0.53,High,Other,Yes,Monthly,315.77,Offline,Social,Low,No Problems,4.0
+49.0,Gen X,Female,51.98,Professional,1.0,Social Event,Salty,1.21,High,Other,No,Monthly,166.13,Offline,Celebration,Low,No Problems,4.3
+38.0,Millennial,Female,33.17,Entrepreneur,4.0,Home,Sweet,1.06,Medium,Cocktails,Yes,Weekly,185.4,Offline,Stress Relief,Medium,Limited Variety,2.2
+22.0,Gen Z,Male,78.36,Entrepreneur,3.0,Home,Bitter,1.02,Medium,Beer,No,Weekly,657.07,Offline,Stress Relief,Medium,No Problems,3.2
+21.0,Gen Z,Female,18.22,Entrepreneur,3.0,Bar,Sour,0.95,Medium,Other,Yes,Weekly,142.6,Online,Celebration,Medium,Expensive,5.0
+25.0,Millennial,Male,22.22,Retired,5.0,Restaurant,Neutral,1.92,Medium,Cocktails,No,Weekly,174.68,Online,Social,Medium,Expensive,3.1
+40.0,Millennial,Male,38.1,Professional,1.0,Home,Sweet,0.67,High,Beer,No,Monthly,210.92,Online,Stress Relief,Low,No Problems,4.6
+31.0,Millennial,Male,44.34,Retired,3.0,Bar,Neutral,1.98,Medium,Wine,No,Weekly,255.03,Both,Celebration,Medium,Location,4.3
+62.0,Baby Boomer,Female,37.62,Other,3.0,Social Event,Sour,1.89,High,Other,No,Weekly,248.28,Offline,Celebration,Low,Limited Variety,3.1
+22.0,Gen Z,Female,49.37,Retired,5.0,Restaurant,Sweet,1.0,Medium,Spirits,No,Weekly,1285.52,Both,Social,Medium,Location,2.4
+23.0,Gen Z,Male,55.49,Other,2.0,Other,Sweet,1.01,High,Wine,No,Monthly,671.34,Both,Social,Low,No Problems,5.0
+43.0,Gen X,Male,71.38,Student,0.0,Social Event,Sour,1.76,Medium,Cider,Yes,Rarely,154.64,Online,Celebration,Medium,Location,5.0
+32.0,Millennial,Male,51.82,Student,2.0,Bar,Bitter,2.02,Medium,Beer,Yes,Monthly,485.65,Offline,Celebration,Medium,No Problems,4.4
+40.0,Millennial,Male,38.76,Other,4.0,Social Event,Sweet,2.25,Medium,Spirits,No,Weekly,536.97,Offline,Celebration,Medium,Location,2.6
+25.0,Millennial,Male,70.29,Other,1.0,Other,Sour,2.2,Medium,Wine,No,Monthly,200.61,Both,Social,Medium,Expensive,4.1
+57.0,Baby Boomer,Male,33.65,Retired,4.0,Social Event,Salty,2.43,High,Other,No,Weekly,467.9,Both,Celebration,Low,No Problems,2.8
+58.0,Baby Boomer,Female,17.35,Other,2.0,Bar,Neutral,1.66,Low,Spirits,Maybe,Monthly,231.69,Offline,Celebration,High,Expensive,4.7
+50.0,Gen X,Male,74.12,Professional,1.0,Other,Sweet,2.32,Medium,Cocktails,Yes,Monthly,214.28,Online,Celebration,Medium,No Problems,4.0
+29.0,Millennial,Male,72.84,Student,2.0,Other,Salty,2.12,Medium,Beer,Yes,Monthly,284.96,Both,Daily Habit,Medium,Limited Variety,3.7
+54.0,Gen X,Male,34.15,Student,2.0,Social Event,Sweet,2.29,High,Cider,No,Monthly,351.58,Online,Celebration,Low,Location,4.4
+64.0,Baby Boomer,Female,42.02,Other,2.0,Other,Bitter,0.52,Medium,Cocktails,Maybe,Monthly,297.9,Offline,Daily Habit,Medium,Limited Variety,4.3
+55.0,Gen X,Female,31.66,Entrepreneur,3.0,Social Event,Sour,2.43,Low,Spirits,Yes,Weekly,315.34,Both,Celebration,High,Expensive,3.8
+42.0,Gen X,Female,56.53,Entrepreneur,4.0,Restaurant,Sweet,1.45,Medium,Wine,Yes,Weekly,618.88,Offline,Social,Medium,Expensive,3.0
+64.0,Baby Boomer,Male,84.64,Other,2.0,Other,Sour,2.1,Medium,Beer,Yes,Monthly,636.89,Offline,Daily Habit,Medium,No Problems,3.5
+44.0,Gen X,Female,64.06,Professional,0.0,Social Event,Sweet,0.75,Low,Other,No,Rarely,136.92,Offline,Celebration,High,No Problems,4.7
+37.0,Millennial,Male,70.71,Entrepreneur,2.0,Restaurant,Bitter,1.29,Medium,Cider,Yes,Monthly,738.85,Online,Social,Medium,Limited Variety,4.6
+30.0,Millennial,Female,66.39,Other,2.0,Other,Bitter,1.04,High,Wine,No,Monthly,737.44,Online,Celebration,Low,No Problems,4.4
+50.0,Gen X,Female,50.0,Professional,1.0,Restaurant,Salty,1.08,High,Cider,Yes,Monthly,225.92,Both,Social,Low,No Problems,3.8
+43.0,Gen X,Female,71.67,Professional,1.0,Other,Bitter,0.75,Low,Other,Maybe,Monthly,355.38,Both,Social,High,Location,4.9
+52.0,Gen X,Female,64.9,Retired,1.0,Bar,Sour,2.11,High,Beer,Yes,Monthly,152.95,Both,Celebration,Low,Expensive,5.0
+37.0,Millennial,Female,78.79,Professional,1.0,Bar,Bitter,0.52,Medium,Spirits,Yes,Monthly,516.34,Online,Celebration,Medium,No Problems,4.5
+37.0,Millennial,Male,40.81,Entrepreneur,2.0,Social Event,Sweet,1.13,Low,Cider,Yes,Monthly,336.23,Both,Celebration,High,Location,4.2
+34.0,Millennial,Female,15.24,Entrepreneur,1.0,Home,Bitter,0.85,Low,Beer,Maybe,Monthly,74.86,Both,Stress Relief,High,No Problems,5.0
+29.0,Millennial,Male,70.91,Other,2.0,Bar,Sour,1.68,Low,Cider,No,Monthly,770.04,Online,Celebration,High,No Problems,3.7
+60.0,Baby Boomer,Female,57.0,Other,4.0,Home,Sweet,1.01,High,Wine,Yes,Weekly,2282.862084392817,Online,Stress Relief,Low,No Problems,4.2
+22.0,Gen Z,Male,44.08,Professional,4.0,Restaurant,Salty,1.02,Low,Cider,No,Weekly,539.78,Online,Social,High,Location,3.6
+65.0,Baby Boomer,Male,45.2,Student,2.0,Restaurant,Salty,1.48,Low,Wine,No,Monthly,168.03,Both,Social,High,Limited Variety,4.3
+45.0,Gen X,Male,101.09,Retired,2.0,Home,Salty,1.81,Medium,Wine,No,Monthly,618.37,Offline,Stress Relief,Medium,Limited Variety,4.0
+59.0,Baby Boomer,Male,37.16,Student,2.0,Social Event,Sweet,0.74,Medium,Beer,Yes,Monthly,210.8,Offline,Celebration,Medium,Limited Variety,4.2
+29.0,Millennial,Female,32.93,Professional,0.0,Other,Salty,0.85,Medium,Cocktails,No,Rarely,152.92,Online,Celebration,Medium,Expensive,4.2
+42.0,Gen X,Female,51.71,Professional,1.0,Home,Bitter,0.99,Medium,Other,Yes,Monthly,217.83,Both,Stress Relief,Medium,Limited Variety,5.0
+63.0,Baby Boomer,Male,73.61,Student,0.0,Home,Sweet,2.45,Low,Cider,Yes,Rarely,285.97,Online,Stress Relief,High,Location,5.0
+24.0,Gen Z,Male,95.57,Retired,1.0,Home,Sweet,1.29,High,Spirits,No,Monthly,731.96,Online,Stress Relief,Low,No Problems,5.0
+46.0,Gen X,Female,63.15,Student,1.0,Home,Sweet,1.7,Low,Wine,Yes,Monthly,257.23,Offline,Stress Relief,High,Expensive,4.5
+49.0,Gen X,Male,24.59,Other,3.0,Home,Neutral,0.98,Medium,Cocktails,Maybe,Weekly,83.25,Online,Stress Relief,Medium,Limited Variety,3.3
+65.0,Baby Boomer,Female,89.42,Entrepreneur,2.0,Social Event,Sour,1.48,Medium,Wine,No,Monthly,1327.41,Both,Celebration,Medium,Expensive,3.7
+54.0,Gen X,Female,49.61,Other,2.0,Bar,Neutral,0.65,Low,Cocktails,No,Monthly,612.63,Online,Celebration,High,Expensive,4.4
+43.0,Gen X,Female,33.25,Entrepreneur,3.0,Other,Neutral,0.57,High,Cocktails,Maybe,Weekly,131.73,Offline,Daily Habit,Low,Expensive,3.2
+57.0,Baby Boomer,Female,28.41,Professional,1.0,Bar,Neutral,1.44,Medium,Spirits,Yes,Monthly,203.25,Offline,Celebration,Medium,Location,4.4
+31.0,Millennial,Male,66.73,Retired,6.0,Home,Sour,1.3,Low,Cocktails,Yes,Weekly,714.81,Offline,Stress Relief,High,Expensive,2.3
+26.0,Millennial,Female,54.78,Student,2.0,Bar,Neutral,0.77,High,Spirits,Maybe,Monthly,386.8,Online,Celebration,Low,Location,3.7
+38.0,Millennial,Male,56.9,Retired,4.0,Social Event,Salty,1.88,Medium,Beer,Yes,Weekly,608.66,Online,Celebration,Medium,Expensive,3.5
+41.0,Gen X,Male,75.73,Student,2.0,Restaurant,Sweet,2.49,Medium,Wine,Yes,Monthly,416.89,Both,Social,Medium,No Problems,4.0
+62.0,Baby Boomer,Female,33.96,Other,0.0,Bar,Sweet,1.29,Medium,Spirits,Yes,Rarely,95.22,Offline,Celebration,Medium,No Problems,4.2
+56.0,Gen X,Male,77.32,Other,3.0,Other,Bitter,1.75,High,Other,Yes,Weekly,413.86,Both,Social,Low,No Problems,3.2
+61.0,Baby Boomer,Female,39.62,Student,1.0,Social Event,Salty,2.43,Low,Wine,Maybe,Monthly,126.99,Both,Celebration,High,No Problems,5.0
+58.0,Baby Boomer,Female,93.28,Retired,1.0,Restaurant,Sour,2.16,Low,Other,Yes,Monthly,311.86,Offline,Social,High,No Problems,4.0
+54.0,Gen X,Female,61.97,Student,2.0,Social Event,Sweet,1.43,Medium,Cider,No,Monthly,370.89,Online,Celebration,Medium,No Problems,4.4
+37.0,Millennial,Female,31.6,Professional,1.0,Home,Neutral,1.97,Low,Other,No,Monthly,111.96,Offline,Stress Relief,High,Location,4.6
+57.0,Baby Boomer,Male,9.49,Other,3.0,Restaurant,Bitter,0.76,Medium,Beer,No,Weekly,100.9,Both,Social,Medium,Expensive,3.4
+45.0,Gen X,Male,66.18,Professional,2.0,Other,Bitter,1.52,Medium,Cider,Yes,Monthly,861.65,Both,Social,Medium,Expensive,5.0
+58.0,Baby Boomer,Female,42.52,Other,4.0,Restaurant,Sweet,1.06,Low,Cider,Yes,Weekly,293.77,Offline,Social,High,Limited Variety,2.4
+32.0,Millennial,Male,46.89,Other,0.0,Other,Salty,0.82,Low,Cocktails,Yes,Rarely,219.28,Both,Celebration,High,Location,4.6
+43.0,Gen X,Female,65.32,Entrepreneur,2.0,Home,Bitter,1.35,Medium,Other,No,Monthly,519.04,Online,Stress Relief,Medium,Limited Variety,4.0
+62.0,Baby Boomer,Female,70.21,Professional,2.0,Other,Sweet,0.76,High,Cocktails,No,Monthly,550.23,Both,Social,Low,No Problems,5.0
+42.0,Gen X,Female,74.47,Professional,2.0,Social Event,Salty,1.9,Medium,Other,Yes,Monthly,478.77,Both,Celebration,Medium,No Problems,4.0
+41.0,Gen X,Male,26.5,Entrepreneur,3.0,Bar,Sweet,1.41,Medium,Cider,No,Weekly,290.42,Online,Celebration,Medium,Limited Variety,3.6
+47.0,Gen X,Male,78.52,Retired,3.0,Social Event,Sweet,1.56,Low,Cocktails,Yes,Weekly,755.46,Online,Celebration,High,Location,3.3
+51.0,Gen X,Male,38.42,Professional,0.0,Social Event,Salty,0.79,Medium,Wine,No,Rarely,85.85,Online,Celebration,Medium,No Problems,5.0
+26.0,Millennial,Male,4.88,Student,2.0,Restaurant,Salty,0.78,Low,Other,No,Monthly,46.65,Online,Social,High,Limited Variety,3.9
+47.0,Gen X,Female,26.43,Entrepreneur,2.0,Home,Salty,1.67,Medium,Other,No,Monthly,254.93,Both,Stress Relief,Medium,Location,4.3
+60.0,Baby Boomer,Male,54.36,Professional,3.0,Bar,Sweet,2.47,Medium,Cocktails,No,Weekly,280.57,Offline,Celebration,Medium,Expensive,3.9
+54.0,Gen X,Male,30.42,Retired,3.0,Other,Bitter,0.69,High,Other,No,Weekly,234.37,Online,Social,Low,Location,5.0
+32.0,Millennial,Male,48.24,Professional,1.0,Restaurant,Sour,1.07,Medium,Cider,Yes,Monthly,344.02,Online,Social,Medium,Expensive,5.0
+65.0,Baby Boomer,Female,56.77,Other,1.0,Home,Sour,2.24,Medium,Cocktails,No,Monthly,259.1,Both,Stress Relief,Medium,No Problems,4.5
+27.0,Millennial,Female,46.37,Student,2.0,Bar,Sweet,0.64,Medium,Cocktails,Yes,Monthly,490.78,Offline,Celebration,Medium,Limited Variety,4.7
+30.0,Millennial,Male,40.11,Entrepreneur,1.0,Social Event,Sweet,2.25,High,Spirits,No,Monthly,662.76,Online,Celebration,Low,Expensive,4.1
+65.0,Baby Boomer,Male,24.99,Other,2.0,Home,Bitter,1.55,Medium,Spirits,Maybe,Monthly,104.41,Online,Stress Relief,Medium,Expensive,4.2
+37.0,Millennial,Male,50.44,Retired,5.0,Home,Salty,1.32,Medium,Cider,No,Weekly,285.18,Both,Stress Relief,Medium,Limited Variety,1.9
+46.0,Gen X,Male,8.7,Other,4.0,Home,Sweet,1.12,High,Wine,Yes,Weekly,93.51,Both,Stress Relief,Low,No Problems,2.5
+41.0,Gen X,Female,36.28,Other,3.0,Social Event,Neutral,1.09,Low,Other,No,Weekly,393.43,Online,Celebration,High,Location,4.2
+48.0,Gen X,Female,31.44,Retired,4.0,Other,Salty,1.11,Low,Beer,Maybe,Weekly,258.66,Online,Daily Habit,High,Limited Variety,3.3
+22.0,Gen Z,Male,45.21,Other,0.0,Restaurant,Sweet,2.27,Low,Other,No,Rarely,387.92,Online,Social,High,Limited Variety,5.0
+63.0,Baby Boomer,Male,45.73,Entrepreneur,0.0,Other,Neutral,1.95,High,Beer,Yes,Rarely,97.15,Online,Daily Habit,Low,Limited Variety,3.8
+21.0,Gen Z,Other,69.2,Professional,0.0,Bar,Bitter,1.84,Low,Cider,Yes,Rarely,405.98,Offline,Celebration,High,Location,4.7
+56.0,Gen X,Male,81.67,Other,1.0,Restaurant,Neutral,2.1,High,Wine,Yes,Monthly,305.7,Both,Social,Low,Location,4.8
+46.0,Gen X,Female,27.64,Entrepreneur,2.0,Bar,Sweet,1.01,Medium,Wine,Yes,Monthly,404.16,Offline,Celebration,Medium,Limited Variety,3.3
+49.0,Gen X,Male,89.86,Professional,1.0,Social Event,Sour,1.74,Low,Wine,No,Monthly,1233.19,Both,Celebration,High,Location,4.3
+41.0,Gen X,Female,34.41,Professional,1.0,Other,Sweet,1.42,Medium,Spirits,Yes,Monthly,118.85,Offline,Social,Medium,Location,4.9
+31.0,Millennial,Male,53.45,Other,0.0,Home,Sour,2.06,Low,Cider,No,Rarely,168.48,Both,Stress Relief,High,No Problems,4.2
+60.0,Baby Boomer,Female,60.22,Entrepreneur,3.0,Restaurant,Bitter,1.12,Medium,Beer,Yes,Weekly,699.7,Offline,Social,Medium,No Problems,2.7
+31.0,Millennial,Other,98.89,Other,3.0,Home,Bitter,1.79,Medium,Wine,Yes,Weekly,616.03,Online,Stress Relief,Medium,Location,2.8
+56.0,Gen X,Male,39.15,Retired,2.0,Bar,Salty,2.26,Medium,Cider,No,Monthly,236.88,Offline,Celebration,Medium,Location,4.2
+59.0,Baby Boomer,Male,14.07,Professional,2.0,Home,Salty,1.3,Low,Other,No,Monthly,88.2,Offline,Stress Relief,High,Limited Variety,3.7
+60.0,Baby Boomer,Male,79.81,Other,1.0,Home,Sour,0.63,Medium,Beer,Maybe,Monthly,154.88,Online,Stress Relief,Medium,No Problems,4.9
+55.0,Gen X,Male,33.33,Professional,0.0,Social Event,Sour,1.53,High,Spirits,No,Rarely,137.33,Offline,Celebration,Low,Limited Variety,5.0
+54.0,Gen X,Male,42.77,Entrepreneur,1.0,Social Event,Bitter,1.19,Medium,Cocktails,No,Monthly,153.52,Offline,Celebration,Medium,Expensive,5.0
+44.0,Gen X,Male,27.65,Student,0.0,Other,Neutral,1.84,High,Beer,Yes,Rarely,89.65,Both,Social,Low,Expensive,4.4
+42.0,Gen X,Female,42.83,Other,4.0,Bar,Sour,2.4,Low,Other,No,Weekly,813.95,Offline,Celebration,High,No Problems,3.2
+25.0,Millennial,Male,33.19,Other,2.0,Social Event,Sour,1.47,High,Beer,No,Monthly,109.6,Both,Celebration,Low,Expensive,3.6
+53.0,Gen X,Male,63.53,Professional,1.0,Social Event,Neutral,1.43,Medium,Beer,No,Monthly,483.46,Offline,Celebration,Medium,Limited Variety,4.8
+56.0,Gen X,Female,51.62,Entrepreneur,5.0,Other,Salty,1.81,Low,Cocktails,Yes,Weekly,506.37,Both,Celebration,High,Limited Variety,2.6
+40.0,Millennial,Male,36.38,Retired,1.0,Restaurant,Salty,0.71,High,Wine,No,Monthly,160.29,Offline,Social,Low,Expensive,5.0
+39.0,Millennial,Female,69.92,Entrepreneur,2.0,Other,Sour,1.01,High,Other,Yes,Monthly,642.51,Both,Celebration,Low,Expensive,3.9
+55.0,Gen X,Male,55.1,Other,3.0,Home,Salty,2.34,Medium,Cocktails,Yes,Weekly,493.75,Offline,Stress Relief,Medium,No Problems,3.5
+63.0,Baby Boomer,Female,13.08,Retired,1.0,Home,Salty,1.84,Low,Beer,Yes,Monthly,88.17,Offline,Stress Relief,High,No Problems,4.2
+37.0,Millennial,Female,68.39,Entrepreneur,1.0,Social Event,Salty,0.53,Low,Other,Maybe,Monthly,562.37,Offline,Celebration,High,Limited Variety,4.9
+65.0,Baby Boomer,Female,53.7,Student,2.0,Social Event,Bitter,0.91,Medium,Spirits,No,Monthly,281.63,Offline,Celebration,Medium,No Problems,3.5
+63.0,Baby Boomer,Other,77.81,Professional,1.0,Other,Sweet,1.87,High,Beer,No,Monthly,290.32,Online,Social,Low,Location,5.0
+54.0,Gen X,Male,52.48,Entrepreneur,1.0,Other,Sour,2.03,Low,Spirits,No,Monthly,154.58,Online,Daily Habit,High,Limited Variety,5.0
+29.0,Millennial,Other,34.17,Entrepreneur,2.0,Bar,Sour,2.18,High,Cider,Maybe,Monthly,139.98,Online,Celebration,Low,Location,4.2
+46.0,Gen X,Male,45.91,Student,0.0,Home,Bitter,1.08,Low,Spirits,Maybe,Rarely,832.2,Both,Stress Relief,High,No Problems,5.0
+22.0,Gen Z,Male,66.08,Other,3.0,Other,Sweet,2.36,High,Beer,Yes,Weekly,930.81,Online,Social,Low,Limited Variety,3.3
+29.0,Millennial,Male,34.59,Professional,1.0,Restaurant,Sweet,1.61,High,Cocktails,No,Monthly,89.2,Online,Social,Low,Expensive,4.8
+29.0,Millennial,Female,41.19,Entrepreneur,1.0,Bar,Bitter,1.89,Medium,Beer,Yes,Monthly,107.75,Both,Celebration,Medium,No Problems,4.6
+60.0,Baby Boomer,Male,45.57,Retired,1.0,Other,Neutral,1.69,Medium,Beer,No,Monthly,293.84,Offline,Social,Medium,Location,4.9
+37.0,Millennial,Female,27.01,Entrepreneur,3.0,Social Event,Neutral,0.75,High,Cider,Maybe,Weekly,268.46,Offline,Celebration,Low,Expensive,4.2
+21.0,Gen Z,Female,34.87,Professional,3.0,Other,Sweet,2.43,Medium,Wine,Yes,Weekly,346.86,Online,Daily Habit,Medium,Limited Variety,3.8
+45.0,Gen X,Female,53.45,Entrepreneur,1.0,Social Event,Neutral,0.75,Medium,Beer,No,Monthly,238.44,Both,Celebration,Medium,Limited Variety,5.0
+63.0,Baby Boomer,Female,74.05,Student,2.0,Social Event,Neutral,1.01,Medium,Cider,Maybe,Monthly,430.46,Both,Celebration,Medium,No Problems,5.0
+60.0,Baby Boomer,Male,56.34,Entrepreneur,2.0,Home,Neutral,2.13,Low,Cocktails,No,Monthly,410.84,Both,Stress Relief,High,Location,3.9
+62.0,Baby Boomer,Male,49.08,Entrepreneur,2.0,Home,Sweet,1.74,High,Cider,No,Monthly,317.11,Offline,Stress Relief,Low,Expensive,4.8
+45.0,Gen X,Male,33.37,Retired,1.0,Other,Neutral,2.18,Low,Cider,Maybe,Monthly,55.75,Both,Daily Habit,High,Location,4.8
+59.0,Baby Boomer,Male,71.9,Student,2.0,Other,Sour,1.53,High,Spirits,Yes,Monthly,396.72,Online,Celebration,Low,Limited Variety,4.1
+55.0,Gen X,Male,58.67,Student,2.0,Restaurant,Sweet,1.25,Low,Wine,No,Monthly,237.24,Online,Social,High,Limited Variety,3.6
+23.0,Gen Z,Male,35.87,Entrepreneur,0.0,Bar,Bitter,2.34,Medium,Wine,No,Rarely,162.45,Online,Celebration,Medium,Limited Variety,5.0
+57.0,Baby Boomer,Male,67.97,Retired,3.0,Bar,Neutral,0.57,Low,Other,Yes,Weekly,2285.97,Offline,Celebration,High,No Problems,3.1
+64.0,Baby Boomer,Other,61.19,Entrepreneur,1.0,Other,Salty,2.21,Medium,Cocktails,No,Monthly,372.63,Offline,Celebration,Medium,Expensive,4.0
+64.0,Baby Boomer,Female,33.73,Entrepreneur,4.0,Home,Sweet,0.96,Medium,Other,Maybe,Weekly,266.26,Offline,Stress Relief,Medium,Location,3.1
+50.0,Gen X,Male,47.97,Professional,3.0,Restaurant,Bitter,2.2,Medium,Cider,No,Weekly,574.97,Online,Social,Medium,Limited Variety,2.3
+58.0,Baby Boomer,Female,40.14,Professional,4.0,Bar,Sour,0.78,Medium,Cocktails,Yes,Weekly,471.81,Offline,Celebration,Medium,Expensive,3.3
+54.0,Gen X,Male,102.67,Retired,3.0,Other,Bitter,1.66,High,Cocktails,No,Weekly,957.59,Both,Celebration,Low,Expensive,3.7
+32.0,Millennial,Male,60.63,Other,0.0,Home,Neutral,2.28,Medium,Wine,No,Rarely,340.72,Online,Stress Relief,Medium,Limited Variety,4.8
+39.0,Millennial,Female,53.74,Professional,2.0,Home,Salty,1.45,Medium,Wine,Yes,Monthly,930.09,Both,Stress Relief,Medium,No Problems,3.9
+57.0,Baby Boomer,Female,59.45,Other,2.0,Home,Neutral,1.99,Medium,Wine,Yes,Monthly,209.04,Offline,Stress Relief,Medium,Expensive,3.9
+64.0,Baby Boomer,Male,77.58,Student,1.0,Social Event,Bitter,2.11,Low,Beer,No,Monthly,498.19,Both,Celebration,High,Location,4.1
+37.0,Millennial,Other,48.33,Professional,1.0,Home,Sweet,1.97,Medium,Cider,Yes,Monthly,154.12,Offline,Stress Relief,Medium,Expensive,4.6
+30.0,Millennial,Female,38.2,Professional,1.0,Other,Salty,2.35,Medium,Cocktails,No,Monthly,255.56,Online,Celebration,Medium,No Problems,4.4
+32.0,Millennial,Female,66.89,Retired,4.0,Restaurant,Salty,1.39,Medium,Cider,Yes,Weekly,390.16,Online,Social,Medium,Location,3.1
+36.0,Millennial,Female,46.5,Other,1.0,Other,Bitter,0.85,Medium,Cocktails,Yes,Monthly,191.26,Offline,Daily Habit,Medium,Location,4.4
+44.0,Gen X,Female,28.6,Professional,2.0,Home,Neutral,0.6,Medium,Cocktails,No,Monthly,152.74,Both,Stress Relief,Medium,Expensive,3.8
+39.0,Millennial,Male,24.71,Professional,0.0,Restaurant,Bitter,0.99,Low,Other,Maybe,Rarely,167.0,Online,Social,High,Limited Variety,5.0
+28.0,Millennial,Male,80.59,Retired,1.0,Bar,Salty,0.79,Medium,Cocktails,No,Monthly,646.42,Online,Celebration,Medium,Expensive,4.9
+51.0,Gen X,Male,52.63,Retired,4.0,Bar,Bitter,1.62,High,Cocktails,Yes,Weekly,260.68,Both,Celebration,Low,No Problems,2.7
+41.0,Gen X,Male,38.21,Other,0.0,Other,Salty,0.87,Medium,Spirits,No,Rarely,162.95,Offline,Social,Medium,Limited Variety,5.0
+37.0,Millennial,Female,45.31,Student,2.0,Restaurant,Neutral,0.58,Medium,Spirits,Yes,Monthly,196.68,Online,Social,Medium,Location,4.3
+43.0,Gen X,Male,66.15,Student,0.0,Other,Sweet,0.57,Low,Other,Maybe,Rarely,146.28,Offline,Celebration,High,Location,4.4
+57.0,Baby Boomer,Other,44.13,Entrepreneur,3.0,Restaurant,Sweet,2.16,High,Beer,No,Weekly,299.31,Offline,Social,Low,Expensive,4.0
+36.0,Millennial,Female,21.01,Professional,2.0,Restaurant,Bitter,1.68,Low,Wine,Yes,Monthly,111.45,Offline,Social,High,Location,5.0
+26.0,Millennial,Female,56.52,Other,2.0,Other,Salty,1.22,Medium,Cocktails,No,Monthly,1177.09,Online,Celebration,Medium,Location,4.0
+28.0,Millennial,Female,74.17,Professional,2.0,Restaurant,Sweet,2.29,High,Cider,Yes,Monthly,570.03,Both,Social,Low,Location,3.9
+45.0,Gen X,Female,72.83,Other,1.0,Home,Salty,0.64,Medium,Spirits,No,Monthly,185.34,Offline,Stress Relief,Medium,Limited Variety,4.4
+38.0,Millennial,Male,38.81,Other,2.0,Restaurant,Neutral,2.46,Medium,Wine,Yes,Monthly,181.12,Online,Social,Medium,Limited Variety,4.3
+45.0,Gen X,Female,75.38,Other,2.0,Restaurant,Bitter,1.73,Medium,Beer,No,Monthly,777.5,Offline,Social,Medium,Expensive,4.3
+32.0,Millennial,Male,54.26,Professional,3.0,Other,Salty,0.87,Low,Wine,Maybe,Weekly,1165.44,Both,Daily Habit,High,No Problems,2.7
+35.0,Millennial,Female,74.82,Retired,3.0,Bar,Bitter,1.86,Medium,Cocktails,Yes,Weekly,255.94,Both,Celebration,Medium,Location,3.1
+46.0,Gen X,Male,61.47,Professional,1.0,Social Event,Salty,2.03,Low,Wine,Yes,Monthly,121.68,Offline,Celebration,High,Limited Variety,4.8
+61.0,Baby Boomer,Female,19.57,Other,3.0,Restaurant,Salty,1.36,Medium,Cocktails,Yes,Weekly,377.03,Offline,Social,Medium,No Problems,3.4
+65.0,Baby Boomer,Female,84.93,Entrepreneur,3.0,Social Event,Neutral,2.22,Low,Other,Maybe,Weekly,780.15,Offline,Celebration,High,Expensive,2.9
+46.0,Gen X,Male,51.04,Student,4.0,Restaurant,Bitter,0.8,High,Spirits,Yes,Weekly,305.31,Offline,Social,Low,No Problems,3.8
+52.0,Gen X,Male,61.54,Other,0.0,Other,Sour,1.06,Low,Spirits,No,Rarely,333.57,Online,Daily Habit,High,No Problems,4.6
+30.0,Millennial,Other,23.12,Entrepreneur,1.0,Other,Salty,0.69,Medium,Cocktails,Maybe,Monthly,31.36,Online,Social,Medium,No Problems,4.5
+36.0,Millennial,Female,60.11,Retired,0.0,Restaurant,Salty,0.92,Medium,Cider,Yes,Rarely,249.81,Online,Social,Medium,No Problems,4.9
+27.0,Millennial,Female,72.06,Other,1.0,Other,Sweet,0.98,Medium,Spirits,No,Monthly,430.2,Both,Social,Medium,Limited Variety,4.0
+37.0,Millennial,Female,88.71,Entrepreneur,0.0,Other,Bitter,2.34,Medium,Cider,No,Rarely,584.27,Online,Daily Habit,Medium,Expensive,5.0
+43.0,Gen X,Male,78.01,Other,2.0,Restaurant,Sour,0.66,Medium,Cocktails,Yes,Monthly,290.83,Both,Social,Medium,Location,4.2
+46.0,Gen X,Male,61.08,Professional,5.0,Bar,Neutral,1.35,Medium,Other,Yes,Weekly,719.01,Offline,Celebration,Medium,Limited Variety,2.3
+41.0,Gen X,Male,19.11,Entrepreneur,0.0,Restaurant,Sour,1.56,Medium,Cocktails,Yes,Rarely,49.92,Offline,Social,Medium,Expensive,4.8
+42.0,Gen X,Female,52.65,Professional,6.0,Bar,Neutral,2.3,Medium,Other,Maybe,Weekly,824.03,Offline,Celebration,Medium,Location,2.3
+27.0,Millennial,Male,38.15,Professional,0.0,Other,Sour,2.5,Medium,Spirits,No,Rarely,101.16,Online,Celebration,Medium,Limited Variety,4.0
+34.0,Millennial,Female,54.7,Entrepreneur,4.0,Bar,Sour,2.01,Low,Cider,Yes,Weekly,411.85,Online,Celebration,High,No Problems,2.6
+35.0,Millennial,Female,25.67,Student,2.0,Other,Bitter,2.44,High,Cocktails,No,Monthly,96.57,Online,Celebration,Low,No Problems,4.1
+27.0,Millennial,Female,45.8,Entrepreneur,3.0,Bar,Sweet,2.07,Medium,Spirits,No,Weekly,3749.276888938222,Offline,Celebration,Medium,No Problems,3.2
+29.0,Millennial,Female,39.66,Student,1.0,Bar,Sour,2.43,Low,Other,No,Monthly,308.71,Online,Celebration,High,Location,4.2
+28.0,Millennial,Other,39.04,Other,4.0,Restaurant,Salty,1.91,Medium,Cocktails,No,Weekly,320.58,Both,Social,Medium,No Problems,3.5
+43.0,Gen X,Male,39.24,Other,2.0,Bar,Salty,0.66,High,Other,Yes,Monthly,247.56,Online,Celebration,Low,No Problems,3.7
+49.0,Gen X,Female,47.28,Entrepreneur,1.0,Other,Salty,1.3,Low,Wine,Yes,Monthly,116.12,Online,Celebration,High,Location,5.0
+38.0,Millennial,Female,55.72,Other,0.0,Restaurant,Sweet,1.79,Medium,Other,Yes,Rarely,199.01,Online,Social,Medium,Expensive,4.1
+51.0,Gen X,Female,0.03,Retired,3.0,Bar,Sour,1.2,Medium,Wine,Yes,Weekly,0.22,Both,Celebration,Medium,No Problems,2.4
+50.0,Gen X,Female,2.47,Professional,4.0,Restaurant,Neutral,1.05,Low,Spirits,Maybe,Weekly,84.56,Both,Social,High,No Problems,3.4
+59.0,Baby Boomer,Male,43.23,Professional,2.0,Social Event,Neutral,1.65,High,Cocktails,No,Monthly,153.45,Offline,Celebration,Low,Limited Variety,3.5
+55.0,Gen X,Male,46.04,Student,4.0,Restaurant,Bitter,2.37,Medium,Spirits,Yes,Weekly,883.99,Offline,Social,Medium,Expensive,2.5
+38.0,Millennial,Female,53.78,Other,3.0,Social Event,Sweet,0.57,Low,Beer,Yes,Weekly,669.26,Online,Celebration,High,Location,4.0
+62.0,Baby Boomer,Male,35.45,Student,2.0,Social Event,Sour,2.04,High,Other,Maybe,Monthly,252.47,Both,Celebration,Low,Expensive,3.8
+59.0,Baby Boomer,Female,50.19,Professional,5.0,Restaurant,Salty,1.95,Medium,Spirits,No,Weekly,1363.72,Offline,Social,Medium,No Problems,3.0
+37.0,Millennial,Female,52.53,Professional,1.0,Other,Sweet,2.43,High,Spirits,Yes,Monthly,320.63,Online,Social,Low,No Problems,4.2
+34.0,Millennial,Male,35.31,Other,2.0,Other,Sweet,2.36,Medium,Wine,Maybe,Monthly,265.49,Offline,Celebration,Medium,Expensive,4.2
+51.0,Gen X,Female,70.27,Retired,2.0,Other,Sour,2.02,Medium,Other,Yes,Monthly,423.53,Online,Celebration,Medium,Location,3.7
+44.0,Gen X,Male,53.54,Retired,1.0,Home,Bitter,1.54,High,Wine,Yes,Monthly,500.23,Both,Stress Relief,Low,Expensive,4.0
+55.0,Gen X,Female,60.94,Other,0.0,Social Event,Bitter,0.91,Low,Cocktails,No,Rarely,437.45,Online,Celebration,High,Location,5.0
+64.0,Baby Boomer,Female,51.38,Other,3.0,Restaurant,Bitter,1.59,Medium,Spirits,No,Weekly,284.08,Offline,Social,Medium,Limited Variety,4.1
+65.0,Baby Boomer,Female,92.07,Student,3.0,Other,Salty,2.03,Medium,Other,Yes,Weekly,359.88,Offline,Daily Habit,Medium,Location,3.1
+54.0,Gen X,Male,61.93,Other,3.0,Other,Salty,2.29,Low,Spirits,No,Weekly,423.0,Both,Celebration,High,Limited Variety,3.4
+23.0,Gen Z,Male,40.24,Retired,2.0,Restaurant,Sour,2.08,Medium,Cocktails,No,Monthly,166.95,Both,Social,Medium,Expensive,4.7
+57.0,Baby Boomer,Female,66.42,Other,3.0,Social Event,Bitter,0.89,Low,Cider,No,Weekly,486.43,Offline,Celebration,High,Limited Variety,3.0
+63.0,Baby Boomer,Female,17.25,Student,3.0,Restaurant,Sour,1.7,Medium,Cocktails,Maybe,Weekly,242.11,Offline,Social,Medium,Expensive,3.0
+60.0,Baby Boomer,Female,52.39,Student,0.0,Home,Bitter,1.16,Medium,Wine,No,Rarely,172.93,Both,Stress Relief,Medium,Limited Variety,5.0
+46.0,Gen X,Male,56.38,Student,1.0,Home,Sweet,0.52,High,Wine,Maybe,Monthly,279.65,Online,Stress Relief,Low,Expensive,5.0
+43.0,Gen X,Male,52.62,Student,4.0,Restaurant,Neutral,0.9,Low,Spirits,No,Weekly,500.17,Offline,Social,High,Location,3.0
+64.0,Baby Boomer,Male,43.32,Entrepreneur,1.0,Social Event,Neutral,0.73,Medium,Wine,Yes,Monthly,335.52,Offline,Celebration,Medium,No Problems,5.0
+59.0,Baby Boomer,Female,29.75,Other,2.0,Other,Bitter,2.19,Low,Other,Yes,Monthly,59.87,Both,Daily Habit,High,No Problems,3.5
+35.0,Millennial,Male,34.21,Professional,3.0,Home,Sour,1.02,Medium,Cocktails,Yes,Weekly,190.95,Online,Stress Relief,Medium,No Problems,3.7
+24.0,Gen Z,Male,52.04,Other,1.0,Home,Salty,1.07,Medium,Spirits,No,Monthly,293.1,Both,Stress Relief,Medium,No Problems,4.3
+49.0,Gen X,Female,27.73,Entrepreneur,1.0,Social Event,Bitter,2.42,Medium,Cocktails,Yes,Monthly,256.06,Offline,Celebration,Medium,Expensive,5.0
+42.0,Gen X,Male,85.4,Student,4.0,Home,Bitter,1.26,High,Cocktails,No,Weekly,616.61,Online,Stress Relief,Low,Expensive,3.8
+45.0,Gen X,Other,-2.82,Entrepreneur,5.0,Home,Salty,0.52,High,Spirits,No,Weekly,-12.44,Online,Stress Relief,Low,Limited Variety,3.6
+33.0,Millennial,Female,43.53,Retired,1.0,Social Event,Bitter,1.07,Low,Cider,Yes,Monthly,300.71,Online,Celebration,High,No Problems,4.2
+38.0,Millennial,Female,52.21,Retired,1.0,Restaurant,Sweet,0.74,Medium,Wine,No,Monthly,192.57,Online,Social,Medium,No Problems,4.5
+53.0,Gen X,Male,60.15,Other,5.0,Other,Salty,0.71,Medium,Beer,Yes,Weekly,374.22,Online,Celebration,Medium,Expensive,2.7
+36.0,Millennial,Male,31.68,Other,0.0,Other,Sweet,0.65,Medium,Beer,No,Rarely,96.19,Online,Social,Medium,Limited Variety,4.7
+65.0,Baby Boomer,Female,72.69,Professional,2.0,Home,Neutral,1.69,Low,Beer,Yes,Monthly,410.26,Both,Stress Relief,High,Limited Variety,4.1
+62.0,Baby Boomer,Female,22.12,Professional,1.0,Other,Salty,0.88,Medium,Wine,No,Monthly,82.84,Both,Celebration,Medium,Location,5.0
+64.0,Baby Boomer,Female,38.68,Retired,2.0,Restaurant,Salty,1.22,Medium,Cider,No,Monthly,79.47,Offline,Social,Medium,Location,3.7
+22.0,Gen Z,Male,62.41,Student,2.0,Home,Sour,2.22,Medium,Cocktails,No,Monthly,604.93,Online,Stress Relief,Medium,Expensive,3.6
+55.0,Gen X,Female,70.8,Entrepreneur,1.0,Other,Sour,1.35,High,Spirits,No,Monthly,678.68,Online,Celebration,Low,Limited Variety,4.1
+62.0,Baby Boomer,Female,21.92,Professional,3.0,Bar,Salty,2.33,Medium,Cider,Maybe,Weekly,229.52,Offline,Celebration,Medium,Location,2.8
+54.0,Gen X,Female,102.9,Professional,3.0,Bar,Neutral,1.5,Low,Beer,No,Weekly,440.44,Both,Celebration,High,Location,3.9
+50.0,Gen X,Female,32.05,Student,3.0,Bar,Bitter,1.3,Low,Other,No,Weekly,219.07,Online,Celebration,High,Expensive,3.1
+33.0,Millennial,Female,23.76,Student,1.0,Bar,Sour,2.0,High,Wine,No,Monthly,120.01,Online,Celebration,Low,No Problems,4.1
+33.0,Millennial,Female,60.05,Other,0.0,Bar,Neutral,0.65,High,Wine,Yes,Rarely,336.1,Both,Celebration,Low,Limited Variety,5.0
+38.0,Millennial,Male,43.03,Entrepreneur,2.0,Home,Neutral,0.68,Medium,Spirits,No,Monthly,372.01,Offline,Stress Relief,Medium,No Problems,4.0
+52.0,Gen X,Female,40.08,Student,1.0,Social Event,Sour,1.8,Medium,Other,No,Monthly,140.7,Online,Celebration,Medium,No Problems,4.2
+52.0,Gen X,Male,61.91,Professional,4.0,Social Event,Bitter,1.47,High,Cocktails,No,Weekly,595.58,Offline,Celebration,Low,Expensive,3.4
+55.0,Gen X,Male,19.45,Professional,4.0,Home,Sour,2.08,Medium,Cider,Yes,Weekly,225.73,Offline,Stress Relief,Medium,Expensive,2.7
+59.0,Baby Boomer,Male,15.96,Retired,1.0,Home,Neutral,2.33,High,Other,No,Monthly,167.48,Offline,Stress Relief,Low,Location,3.4
+49.0,Gen X,Male,38.05,Student,0.0,Restaurant,Sweet,1.28,Medium,Cider,Maybe,Rarely,224.53,Both,Social,Medium,Expensive,5.0
+49.0,Gen X,Male,71.56,Other,2.0,Social Event,Sour,1.69,Medium,Cider,No,Monthly,657.15,Both,Celebration,Medium,No Problems,3.6
+64.0,Baby Boomer,Male,38.92,Entrepreneur,2.0,Bar,Neutral,1.5,Medium,Cocktails,Yes,Monthly,251.21,Offline,Celebration,Medium,Location,3.6
+36.0,Millennial,Female,81.98,Other,4.0,Home,Sour,2.46,Low,Cocktails,No,Weekly,1532.34,Both,Stress Relief,High,No Problems,2.6
+64.0,Baby Boomer,Female,74.02,Professional,1.0,Bar,Neutral,2.16,Low,Cocktails,No,Monthly,460.39,Offline,Celebration,High,Limited Variety,4.5
+30.0,Millennial,Male,55.66,Other,1.0,Social Event,Bitter,2.32,Medium,Spirits,Yes,Monthly,1364.5101104924854,Both,Celebration,Medium,Limited Variety,4.4
+50.0,Gen X,Female,56.79,Professional,2.0,Other,Neutral,1.01,High,Wine,No,Monthly,709.03,Offline,Daily Habit,Low,Location,4.5
+45.0,Gen X,Female,55.64,Professional,6.0,Other,Salty,2.05,Medium,Beer,Yes,Weekly,1086.48,Both,Daily Habit,Medium,Expensive,2.8
+59.0,Baby Boomer,Male,53.19,Professional,1.0,Home,Sweet,1.03,Medium,Cocktails,No,Monthly,215.98,Both,Stress Relief,Medium,Location,4.2
+40.0,Millennial,Male,42.68,Professional,0.0,Restaurant,Neutral,0.92,Low,Wine,No,Rarely,139.33,Online,Social,High,No Problems,4.5
+25.0,Millennial,Female,45.0,Professional,1.0,Bar,Sour,2.39,Low,Cocktails,No,Monthly,264.49,Both,Celebration,High,Limited Variety,4.2
+21.0,Gen Z,Female,28.6,Retired,1.0,Home,Sour,0.54,Medium,Beer,No,Monthly,182.7,Both,Stress Relief,Medium,Location,4.7
+50.0,Gen X,Female,5.8,Other,0.0,Restaurant,Neutral,2.43,Medium,Other,No,Rarely,26.56,Both,Social,Medium,Expensive,4.9
+23.0,Gen Z,Male,72.08,Retired,1.0,Bar,Salty,0.8,Medium,Cocktails,Maybe,Monthly,426.78,Online,Celebration,Medium,Limited Variety,4.2
+65.0,Baby Boomer,Male,53.15,Retired,1.0,Social Event,Neutral,2.14,Low,Wine,Yes,Monthly,630.14,Both,Celebration,High,No Problems,3.9
+34.0,Millennial,Male,50.12,Student,4.0,Other,Bitter,1.05,High,Spirits,No,Weekly,790.8,Both,Daily Habit,Low,No Problems,1.9
+50.0,Gen X,Male,57.97,Student,6.0,Restaurant,Salty,1.2,Medium,Other,No,Weekly,878.39,Online,Social,Medium,Limited Variety,1.5
+24.0,Gen Z,Male,33.43,Student,1.0,Bar,Neutral,0.93,High,Other,No,Monthly,271.23,Both,Celebration,Low,No Problems,5.0
+38.0,Millennial,Male,29.98,Entrepreneur,1.0,Home,Sweet,1.67,Medium,Other,No,Monthly,90.66,Online,Stress Relief,Medium,Limited Variety,4.7
+57.0,Baby Boomer,Female,44.33,Student,1.0,Bar,Salty,1.2,Low,Beer,Maybe,Monthly,274.09,Online,Celebration,High,Limited Variety,4.4
+45.0,Gen X,Female,77.36,Other,2.0,Home,Neutral,1.81,Medium,Wine,No,Monthly,1183.19,Offline,Stress Relief,Medium,Expensive,4.4
+21.0,Gen Z,Male,26.63,Retired,0.0,Other,Sweet,0.53,Medium,Cider,Yes,Rarely,99.07,Offline,Celebration,Medium,No Problems,4.4
+35.0,Millennial,Female,-2.54,Other,5.0,Other,Neutral,0.63,Medium,Cider,Yes,Weekly,-18.75,Offline,Celebration,Medium,Expensive,2.5
+29.0,Millennial,Male,39.57,Student,2.0,Bar,Bitter,0.7,Medium,Cider,Yes,Monthly,176.77,Online,Celebration,Medium,Limited Variety,3.1
+35.0,Millennial,Male,72.85,Entrepreneur,2.0,Bar,Sour,1.34,Low,Spirits,Yes,Monthly,261.5,Both,Celebration,High,Location,4.2
+44.0,Gen X,Male,15.35,Entrepreneur,1.0,Home,Neutral,2.13,Medium,Cocktails,Maybe,Monthly,52.54,Online,Stress Relief,Medium,Location,4.6
+24.0,Gen Z,Female,26.39,Retired,1.0,Home,Salty,2.28,High,Cocktails,Maybe,Monthly,111.12,Online,Stress Relief,Low,Limited Variety,4.6
+32.0,Millennial,Other,55.27,Other,1.0,Restaurant,Neutral,0.99,Low,Cocktails,No,Monthly,138.7,Online,Social,High,Limited Variety,5.0
+57.0,Baby Boomer,Female,101.4,Professional,6.0,Restaurant,Neutral,1.65,Low,Spirits,Yes,Weekly,1407.73,Offline,Social,High,Expensive,2.4
+57.0,Baby Boomer,Male,22.84,Other,2.0,Restaurant,Neutral,2.04,High,Cider,Maybe,Monthly,221.96,Both,Social,Low,Location,3.4
+63.0,Baby Boomer,Female,22.06,Student,1.0,Bar,Neutral,1.08,Low,Other,Yes,Monthly,71.0,Offline,Celebration,High,Location,5.0
+26.0,Millennial,Male,56.77,Professional,0.0,Restaurant,Salty,1.32,Medium,Cocktails,Maybe,Rarely,503.46,Both,Social,Medium,Limited Variety,4.9
+59.0,Baby Boomer,Female,74.09,Entrepreneur,4.0,Bar,Salty,1.55,Medium,Other,Yes,Weekly,883.18,Online,Celebration,Medium,Location,2.0
+44.0,Gen X,Female,37.52,Retired,0.0,Other,Neutral,0.77,Medium,Other,Yes,Rarely,260.61,Offline,Social,Medium,Expensive,4.9
+31.0,Millennial,Male,17.57,Retired,4.0,Social Event,Sour,0.55,Medium,Spirits,Maybe,Weekly,116.76,Online,Celebration,Medium,No Problems,3.3
+33.0,Millennial,Female,58.67,Entrepreneur,1.0,Other,Neutral,0.81,Low,Spirits,No,Monthly,455.79,Online,Celebration,High,Location,4.0
+54.0,Gen X,Female,62.3,Student,3.0,Bar,Salty,1.75,Low,Wine,No,Weekly,272.83,Online,Celebration,High,Expensive,4.2
+45.0,Gen X,Male,85.57,Entrepreneur,2.0,Bar,Bitter,0.65,Medium,Cocktails,Maybe,Monthly,826.59,Offline,Celebration,Medium,Limited Variety,3.5
+27.0,Millennial,Female,63.14,Student,2.0,Social Event,Neutral,0.88,Medium,Cider,Yes,Monthly,3790.6958031593513,Offline,Celebration,Medium,No Problems,3.8
+24.0,Gen Z,Male,66.56,Professional,3.0,Home,Neutral,1.18,Medium,Beer,No,Weekly,663.53,Both,Stress Relief,Medium,No Problems,3.2
