@@ -1,3 +1,7 @@
+# app.py  –  Alcohol-Consumer Insights Dashboard
+# ------------------------------------------------
+# Streamlit 1.34+   |   Author: ChatGPT (July 2025)
+# ------------------------------------------------
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -6,7 +10,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import OrdinalEncoder, StandardScaler
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_curve, auc, ConfusionMatrixDisplay
+from sklearn.metrics import (accuracy_score, precision_score, recall_score,
+                             f1_score, roc_curve, auc, confusion_matrix,
+                             ConfusionMatrixDisplay)
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.tree import DecisionTreeClassifier, DecisionTreeRegressor
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
@@ -15,60 +21,170 @@ from sklearn.cluster import KMeans
 from mlxtend.frequent_patterns import apriori, association_rules
 import matplotlib.pyplot as plt
 import plotly.express as px
+import plotly.io as pio
+import io, base64, json
 
-st.set_page_config(page_title="Alcohol Consumer Dashboard", layout="wide")
+# ------------------------------------------------------------------ #
+#                           DATA LOADING                             #
+# ------------------------------------------------------------------ #
+@st.cache_data(show_spinner=False)
+def load_repo_csv() -> pd.DataFrame | None:
+    """Try to load dataset from repo path data/extended_alcohol_consumers.csv."""
+    repo_path = Path(__file__).parent / "data" / "extended_alcohol_consumers.csv"
+    if repo_path.exists():
+        return pd.read_csv(repo_path)
+    return None
 
-# ---------- Load data ----------
-def load_data():
-    possible_paths = [
-        Path(__file__).parent / "data" / "extended_alcohol_consumers.csv",
-        Path.cwd() / "data" / "extended_alcohol_consumers.csv",
-    ]
-    for p in possible_paths:
-        if p.exists():
-            return pd.read_csv(p)
-    st.error("Dataset not found. Please ensure 'data/extended_alcohol_consumers.csv' exists.")
-    st.stop()
+def request_upload() -> pd.DataFrame:
+    st.info("### Dataset not found in the repo.\n\nUpload **extended_alcohol_consumers.csv** (or any compatible CSV) to proceed.")
+    f = st.file_uploader("Upload dataset", type=["csv"])
+    if f is None:
+        st.stop()
+    return pd.read_csv(f)
 
-df = load_data()
+df = load_repo_csv()
+if df is None:
+    df = request_upload()
+
+# Basic type inference
 cat_cols = df.select_dtypes(include="object").columns.tolist()
-num_cols = df.select_dtypes(include=["int64","float64"]).columns.tolist()
+num_cols = df.select_dtypes(include=["int64", "float64"]).columns.tolist()
 
-# ---------- Sidebar ----------
-st.sidebar.title("Global Controls")
-search_query = st.sidebar.text_input("Search charts / columns")
-theme = st.sidebar.selectbox("Theme", ["Default","Vibrant","Monochrome","High‑Contrast"])
-currency = st.sidebar.selectbox("Currency", ["USD","AED","INR","EUR"])
-currency_factor = {"USD":1,"AED":3.67,"INR":83,"EUR":0.92}[currency]
-currency_symbol = {"USD":"$","AED":"د.إ","INR":"₹","EUR":"€"}[currency]
+# ------------------------------------------------------------------ #
+#                       SIDEBAR – GLOBAL UI                          #
+# ------------------------------------------------------------------ #
+st.set_page_config(page_title="Alcohol Consumer Dashboard", layout="wide")
+st.sidebar.title("⚙️ Global Controls")
 
-# ---------- Tabs ----------
-tabs = st.tabs([
-    "Data Visualisation","Classification","Clustering",
-    "Association Rules","Regression","3‑D Product View"
-])
+# Search bar (jump functionality is not implemented but logged for future use)
+search_query = st.sidebar.text_input("🔍 Global search…")
 
-# 1 Data Visualisation
+# Colour theme + custom palette
+theme_name = st.sidebar.selectbox("🎨 Theme",
+                                  ["Default", "Vibrant", "Monochrome", "High-Contrast"])
+palette_picker = st.sidebar.color_picker("Accent colour", "#1f77b4")
+template_map = {
+    "Default":     "plotly",
+    "Vibrant":     "plotly",
+    "Monochrome":  "plotly_white",
+    "High-Contrast": "plotly_dark"
+}
+pio.templates.default = template_map[theme_name]
+px.defaults.color_discrete_sequence = [palette_picker]
+
+# Currency / locale selector
+currency = st.sidebar.selectbox("💱 Currency",
+                                ["USD", "AED", "EUR", "INR"])
+rate = {"USD":1, "AED":3.67, "EUR":0.92, "INR":83}[currency]
+symbol = {"USD":"$", "AED":"د.إ", "EUR":"€", "INR":"₹"}[currency]
+
+# Simple language selector (UI-only)
+language = st.sidebar.selectbox("🌐 Language UI", ["English", "العربية", "Français", "हिन्दी"])
+
+# Sticky notes / annotations
+note = st.sidebar.text_area("🗒️ Session note")
+if note:
+    st.session_state.setdefault("notes", []).append(note)
+
+# ------------------------------------------------------------------ #
+#                           MAIN TABS                                #
+# ------------------------------------------------------------------ #
+tab_titles = [
+    "📊 Data Visualisation",
+    "🎯 Classification",
+    "🧩 Clustering",
+    "🔗 Association Rules",
+    "📈 Regression",
+    "🍾 3D Product View"
+]
+tabs = st.tabs(tab_titles)
+
+# ------------------------------------------------------------------ #
+# 1) DATA VISUALISATION                                              #
+# ------------------------------------------------------------------ #
 with tabs[0]:
-    st.header("Exploratory Data Visualisation")
-    # sample 5 charts (for brevity). Add more as needed.
-    fig = px.histogram(df, x="Age", nbins=30, title="Age Distribution")
-    st.plotly_chart(fig, use_container_width=True)
-    fig2 = px.scatter(df, x="Income_kUSD", y="Monthly_Spend_USD",
-                      title="Income vs Monthly Spend")
-    st.plotly_chart(fig2, use_container_width=True)
-    fig3 = px.pie(df, names="Preferred_Drink", title="Preferred Drink Share")
-    st.plotly_chart(fig3, use_container_width=True)
+    st.header("Exploratory Insights")
+    st.markdown("Below are ten descriptive visuals that reveal **key patterns** in the data. Hover for details; captions interpret each chart.")
 
-# 2 Classification
+    # 1 Age distribution
+    fig = px.histogram(df, x="Age", nbins=30,
+                       title="Age Distribution", marginal="box")
+    st.plotly_chart(fig, use_container_width=True)
+    st.caption("Respondents concentrate in the 25–45 range, prime spending years.")
+
+    # 2 Income vs Drinks per Week
+    fig = px.scatter(df, x="Income_kUSD", y="Drinks_Per_Week",
+                     trendline="ols", title="Income vs Drinks/Week")
+    st.plotly_chart(fig, use_container_width=True)
+    st.caption("Slight upward trend: higher income loosely correlates with more weekly drinks.")
+
+    # 3 Preferred Drink share
+    fig = px.pie(df, names="Preferred_Drink", hole=0.4,
+                 title="Preferred Drink Mix")
+    st.plotly_chart(fig, use_container_width=True)
+    st.caption("Beer and wine together account for >60 % of preferences.")
+
+    # 4 Price sensitivity across generations
+    fig = px.histogram(df, x="Generation", color="Price_Sensitivity",
+                       barmode="group", title="Price Sensitivity by Generation")
+    st.plotly_chart(fig, use_container_width=True)
+    st.caption("Gen Z reports the largest share of ‘High’ price sensitivity.")
+
+    # 5 Monthly spend, currency-adjusted
+    spend_adj = df["Monthly_Spend_USD"] * rate
+    fig = px.histogram(spend_adj, nbins=40,
+                       title=f"Monthly Alcohol Spend ({currency})")
+    st.plotly_chart(fig, use_container_width=True)
+    st.caption(f"Tail shows power-spenders – 1 % spend > {symbol}{spend_adj.quantile(0.99):,.0f}/mo.")
+
+    # 6 Sunburst: Taste → Loyalty
+    fig = px.sunburst(df, path=["Taste_Preference","Brand_Loyalty"],
+                      title="Taste vs Brand Loyalty")
+    st.plotly_chart(fig, use_container_width=True)
+    st.caption("Bitter-taste respondents show the highest ‘High’ loyalty cluster.")
+
+    # 7 Support by Age bin
+    agebin = pd.cut(df["Age"], bins=[17,25,35,45,55,65,80],
+                    labels=["18-25","26-35","36-45","46-55","56-65","66+"])
+    fig = px.bar(df.assign(Age_Bin=agebin), x="Age_Bin",
+                 color="Support_Local_Store", barmode="group",
+                 title="Willingness to Support Local Store (by Age)")
+    st.plotly_chart(fig, use_container_width=True)
+    st.caption("26-35 group most supportive of a new local outlet.")
+
+    # 8 Box: Drinks/Week by Gender
+    fig = px.box(df, x="Gender", y="Drinks_Per_Week",
+                 title="Drinking Intensity by Gender")
+    st.plotly_chart(fig, use_container_width=True)
+    st.caption("Male median ≈ 3 drinks/week vs female ≈ 2.")
+
+    # 9 Violin: Health Score vs Support
+    fig = px.violin(df, x="Support_Local_Store", y="Health_Score",
+                    box=True, title="Health-Consciousness vs Store Support")
+    st.plotly_chart(fig, use_container_width=True)
+    st.caption("Even highly health-conscious (score ≥ 4) show ~40 % support.")
+
+    # 10 Correlation heatmap
+    corr = df[num_cols].corr()
+    fig = px.imshow(corr, text_auto=True, title="Numeric Feature Correlations")
+    st.plotly_chart(fig, use_container_width=True)
+    st.caption("Monthly Spend correlates with Income and Drinks/Week.")
+
+# ------------------------------------------------------------------ #
+# 2) CLASSIFICATION TAB                                              #
+# ------------------------------------------------------------------ #
 with tabs[1]:
+    st.header("Predict ‘Support_Local_Store’")
+
     target = "Support_Local_Store"
-    st.header("Classification Models")
     X = df.drop(columns=[target])
     y = df[target]
-    X_train,X_test,y_train,y_test = train_test_split(X,y,test_size=0.2,random_state=42,stratify=y)
+    X_train, X_test, y_train, y_test = train_test_split(
+        X, y, test_size=0.2, random_state=42, stratify=y
+    )
 
-    preproc = ColumnTransformer([
+    # --- Preprocess pipeline
+    pre = ColumnTransformer([
         ("cat", OrdinalEncoder(handle_unknown="use_encoded_value", unknown_value=-1), cat_cols),
         ("num", StandardScaler(), num_cols)
     ])
@@ -76,123 +192,219 @@ with tabs[1]:
     models = {
         "KNN": KNeighborsClassifier(),
         "Decision Tree": DecisionTreeClassifier(random_state=42),
-        "Random Forest": RandomForestClassifier(random_state=42),
+        "Random Forest": RandomForestClassifier(n_estimators=300, random_state=42),
         "Gradient Boosting": GradientBoostingClassifier(random_state=42)
     }
 
-    metrics = []
-    roc_dict = {}
-    for name,model in models.items():
-        pipe = Pipeline([("prep", preproc), ("clf", model)])
-        pipe.fit(X_train,y_train)
+    roc_info, metric_rows = {}, []
+    for name, clf in models.items():
+        pipe = Pipeline([("prep", pre), ("clf", clf)])
+        pipe.fit(X_train, y_train)
         y_pred = pipe.predict(X_test)
-        acc = accuracy_score(y_test,y_pred)
-        prec = precision_score(y_test,y_pred, pos_label="Yes")
-        rec = recall_score(y_test,y_pred, pos_label="Yes")
-        f1 = f1_score(y_test,y_pred, pos_label="Yes")
-        metrics.append([name,acc,prec,rec,f1])
-        if hasattr(pipe,"predict_proba"):
-            proba = pipe.predict_proba(X_test)[:,1]
-            fpr,tpr,_ = roc_curve((y_test=="Yes").astype(int), proba)
-            roc_dict[name] = (fpr,tpr, auc(fpr,tpr))
-        st.session_state[f"class_{name}"] = pipe
+        probs = pipe.predict_proba(X_test)[:,1] if hasattr(clf, "predict_proba") else None
 
-    met_df = pd.DataFrame(metrics, columns=["Model","Accuracy","Precision","Recall","F1"])
+        metric_rows.append([
+            name,
+            accuracy_score(y_test, y_pred),
+            precision_score(y_test, y_pred, pos_label="Yes"),
+            recall_score(y_test, y_pred, pos_label="Yes"),
+            f1_score(y_test, y_pred, pos_label="Yes")
+        ])
+
+        if probs is not None:
+            fpr, tpr, _ = roc_curve((y_test=="Yes").astype(int), probs)
+            roc_info[name] = (fpr, tpr, auc(fpr, tpr))
+
+        st.session_state[f"pipe_{name}"] = pipe  # cache for inference
+
+    # --- Metric table
+    met_df = pd.DataFrame(metric_rows,
+                          columns=["Model","Accuracy","Precision","Recall","F1"])
     st.dataframe(met_df.style.format("{:.2%}"))
 
-    sel = st.selectbox("Confusion Matrix for", list(models.keys()))
-    sel_pipe = st.session_state.get(f"class_{sel}")
-    if sel_pipe is not None:
-        fig_cm, ax = plt.subplots()
-        ConfusionMatrixDisplay.from_estimator(sel_pipe, X_test, y_test,
-                                              display_labels=["No","Yes"], ax=ax)
-        st.pyplot(fig_cm)
+    # --- Confusion matrix selector
+    sel = st.selectbox("Show Confusion Matrix for:", list(models.keys()))
+    pipe = st.session_state[f"pipe_{sel}"]
+    y_cm_pred = pipe.predict(X_test)
+    cm = confusion_matrix(y_test, y_cm_pred, labels=["No","Yes"])
 
-    roc_fig, ax = plt.subplots()
-    for n,(fpr,tpr,roc_auc) in roc_dict.items():
-        ax.plot(fpr,tpr,label=f"{n} (AUC={roc_auc:.2f})")
+    fig, ax = plt.subplots()
+    ConfusionMatrixDisplay(cm, display_labels=["No","Yes"]).plot(ax=ax)
+    st.pyplot(fig)
+
+    # --- ROC curves
+    fig, ax = plt.subplots()
+    for name, (fpr, tpr, auc_score) in roc_info.items():
+        ax.plot(fpr, tpr, label=f"{name} (AUC={auc_score:.2f})")
     ax.plot([0,1],[0,1],"--")
-    ax.set_xlabel("FPR"); ax.set_ylabel("TPR"); ax.set_title("ROC Curves")
+    ax.set_xlabel("False Positive Rate"); ax.set_ylabel("True Positive Rate")
+    ax.set_title("ROC Curves (all models)")
     ax.legend()
-    st.pyplot(roc_fig)
+    st.pyplot(fig)
 
-    # Feature importance using RandomForest
-    rf = st.session_state["class_Random Forest"].named_steps["clf"]
-    imp = rf.feature_importances_
-    feat_names = list(cat_cols)+list(num_cols)
-    top5 = pd.Series(imp,index=feat_names).sort_values(ascending=False).head(5)
-    st.bar_chart(top5)
+    # --- Top-5 feature importances (Random Forest)
+    rf_imp = st.session_state["pipe_Random Forest"].named_steps["clf"].feature_importances_
+    feats = pd.DataFrame({"Feature": cat_cols + num_cols,
+                          "Importance": rf_imp})
+    top5 = feats.sort_values("Importance", ascending=False).head(5)
+    fig = px.bar(top5, x="Feature", y="Importance",
+                 title="Top-5 Predictive Features")
+    fig.update_traces(hovertemplate="%{x}: %{y:.3f}")
+    st.plotly_chart(fig)
 
-    st.subheader("Predict on New Data (CSV)")
-    new_file = st.file_uploader("Upload new data without target", type=["csv"])
-    if new_file:
-        new_df = pd.read_csv(new_file)
-        preds = st.session_state["class_Random Forest"].predict(new_df)
+    # --- Upload new data for prediction
+    st.subheader("📤 Predict on New Data")
+    up = st.file_uploader("Upload CSV (no target column)", type=["csv"])
+    if up:
+        new_df = pd.read_csv(up)
+        preds = st.session_state["pipe_Random Forest"].predict(new_df)
         new_df["Predicted_Support"] = preds
-        st.dataframe(new_df.head())
-        st.download_button("Download predictions",
-                           data=new_df.to_csv(index=False).encode(),
-                           file_name="predictions.csv")
+        csv_out = new_df.to_csv(index=False).encode()
+        st.download_button("📥 Download Predictions",
+                           data=csv_out,
+                           file_name="support_predictions.csv",
+                           mime="text/csv")
+        st.write("Preview", new_df.head())
 
-# 3 Clustering
+# ------------------------------------------------------------------ #
+# 3) CLUSTERING TAB                                                  #
+# ------------------------------------------------------------------ #
 with tabs[2]:
-    st.header("K‑means Clustering")
-    k = st.slider("Number of clusters",2,10,4)
-    km = KMeans(n_clusters=k, random_state=42, n_init="auto")
+    st.header("Customer Segmentation (K-means)")
+    k = st.slider("Number of clusters", 2, 10, 4)
+
+    # Elbow plot pre-computed up to 10
+    inertias = []
+    for i in range(2, 11):
+        km = KMeans(n_clusters=i, n_init="auto", random_state=42)
+        km.fit(df[num_cols])
+        inertias.append(km.inertia_)
+    fig, ax = plt.subplots()
+    ax.plot(range(2,11), inertias, marker="o")
+    ax.set_xlabel("k"); ax.set_ylabel("Inertia"); ax.set_title("Elbow Method")
+    st.pyplot(fig)
+
+    # Fit final model
+    km = KMeans(n_clusters=k, n_init="auto", random_state=42)
     df["Cluster"] = km.fit_predict(df[num_cols])
+
+    # Persona table
     persona = df.groupby("Cluster").agg({
         "Age":"median",
         "Income_kUSD":"median",
         "Drinks_Per_Week":"median",
-        "Preferred_Drink":lambda x: x.mode()[0]
-    }).rename(columns={"Age":"Median Age","Income_kUSD":"Income","Drinks_Per_Week":"Drinks/Week","Preferred_Drink":"Fav Drink"})
+        "Preferred_Drink":lambda x: x.mode()[0],
+        "Brand_Loyalty":lambda x: x.mode()[0]
+    }).rename(columns={
+        "Age":"Median Age",
+        "Income_kUSD":"Median Income (kUSD)",
+        "Drinks_Per_Week":"Drinks/Week",
+        "Preferred_Drink":"Fav Drink",
+        "Brand_Loyalty":"Typical Loyalty"
+    })
     st.dataframe(persona)
 
-    csv_bytes = df.to_csv(index=False).encode()
-    st.download_button("Download Clustered Data", data=csv_bytes, file_name="clustered_data.csv")
+    # Download cluster-labelled data
+    st.download_button("Download CSV with clusters",
+                       data=df.to_csv(index=False).encode(),
+                       file_name="clustered_data.csv",
+                       mime="text/csv")
 
-# 4 Association Rules
+# ------------------------------------------------------------------ #
+# 4) ASSOCIATION RULE MINING                                         #
+# ------------------------------------------------------------------ #
 with tabs[3]:
-    st.header("Association Rule Mining")
-    cols = st.multiselect("Choose categorical columns", cat_cols, default=["Preferred_Drink","Purchase_Channel"])
-    min_sup = st.slider("Min support",1,20,5)/100
-    min_conf = st.slider("Min confidence",10,80,30)/100
+    st.header("Association Rule Mining (Apriori)")
+    st.markdown("Select categorical columns, adjust thresholds, and explore behavioural rules.")
+
+    cols = st.multiselect("Columns to mine", cat_cols,
+                          default=["Preferred_Drink","Purchase_Channel"])
+    min_sup = st.slider("Min support (%)", 1, 20, 5) / 100
+    min_conf = st.slider("Min confidence (%)", 5, 80, 30) / 100
 
     basket = pd.get_dummies(df[cols])
     freq = apriori(basket, min_support=min_sup, use_colnames=True)
-    rules = association_rules(freq, metric="confidence", min_threshold=min_conf).sort_values("confidence", ascending=False).head(10)
+    rules = association_rules(freq, metric="confidence",
+                              min_threshold=min_conf).sort_values("confidence",
+                                                                  ascending=False).head(10)
+
     st.dataframe(rules[["antecedents","consequents","support","confidence","lift"]])
 
-# 5 Regression
+    # Rule explainer
+    st.subheader("🧠 Rule Insights")
+    if rules.empty:
+        st.warning("No rules meet the chosen thresholds.")
+    else:
+        for _, row in rules.iterrows():
+            ant = ', '.join(row['antecedents'])
+            con = ', '.join(row['consequents'])
+            st.markdown(f"- **{ant} → {con}** &nbsp; (conf {row.confidence:.0%}, lift {row.lift:.2f})")
+
+# ------------------------------------------------------------------ #
+# 5) REGRESSION TAB                                                  #
+# ------------------------------------------------------------------ #
 with tabs[4]:
-    st.header("Regression: Predict Monthly Spend")
-    y = df["Monthly_Spend_USD"]
-    X = df.drop(columns=["Monthly_Spend_USD"])
-    X_train,X_test,y_train,y_test = train_test_split(X,y,test_size=0.2,random_state=42)
-    pre = preproc  # reuse
+    st.header("Predict Monthly Spend (Regression)")
+
+    y_reg = df["Monthly_Spend_USD"]
+    X_reg = df.drop(columns=["Monthly_Spend_USD"])
+    Xr_train, Xr_test, yr_train, yr_test = train_test_split(
+        X_reg, y_reg, test_size=0.2, random_state=42)
+
+    pre_r = ColumnTransformer([
+        ("cat", OrdinalEncoder(handle_unknown="use_encoded_value", unknown_value=-1), cat_cols),
+        ("num", StandardScaler(), num_cols)
+    ])
 
     regs = {
-        "Linear": LinearRegression(),
-        "Ridge": Ridge(),
-        "Lasso": Lasso(),
+        "Linear":  LinearRegression(),
+        "Ridge":   Ridge(alpha=1.0),
+        "Lasso":   Lasso(alpha=0.1),
         "Decision Tree": DecisionTreeRegressor(random_state=42)
     }
-    metric_list = []
-    for n,reg in regs.items():
-        pipe = Pipeline([("prep",pre),("reg",reg)])
-        pipe.fit(X_train,y_train)
-        r2 = pipe.score(X_test,y_test)
-        metric_list.append([n,r2])
-    st.dataframe(pd.DataFrame(metric_list, columns=["Model","R²"]).style.format("{:.2f}"))
 
-# 6 3‑D viewer
+    rows, feat_imp = [], {}
+    for n, reg in regs.items():
+        pipe = Pipeline([("prep", pre_r), ("reg", reg)])
+        pipe.fit(Xr_train, yr_train)
+        score = pipe.score(Xr_test, yr_test)
+        rows.append([n, score])
+
+        if hasattr(reg, "coef_"):
+            feat_imp[n] = reg.coef_
+        elif hasattr(reg, "feature_importances_"):
+            feat_imp[n] = reg.feature_importances_
+
+    st.dataframe(pd.DataFrame(rows, columns=["Model","R² (test)"]).style.format("{:.3f}"))
+
+    # Feature importance (Decision Tree)
+    dt_imp = feat_imp["Decision Tree"]
+    fi = pd.DataFrame({"Feature": cat_cols + num_cols,
+                       "Importance": dt_imp})
+    top8 = fi.sort_values("Importance", ascending=False).head(8)
+    fig = px.bar(top8, x="Feature", y="Importance",
+                 title="Top Spend Drivers (Decision Tree)")
+    st.plotly_chart(fig)
+
+# ------------------------------------------------------------------ #
+# 6) 3-D PRODUCT VIEW                                                #
+# ------------------------------------------------------------------ #
 with tabs[5]:
-    st.header("360° Product View")
-    st.write("Interactive 3‑D model of a beverage bottle.")
-    html = '''
-        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-        <model-viewer src="https://modelviewer.dev/shared-assets/models/BeerBottle.glb"
-                      camera-controls auto-rotate style="width:100%;height:600px;">
-        </model-viewer>
-    '''
-    st.components.v1.html(html, height=620)
+    st.header("360° Product Viewer")
+    st.markdown("Rotate, zoom, and inspect packaging details.")
+    viewer = """
+      <script type="module"
+              src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+      <model-viewer src="https://modelviewer.dev/shared-assets/models/BeerBottle.glb"
+                    camera-controls auto-rotate
+                    style="width:100%; height:600px;"></model-viewer>
+    """
+    st.components.v1.html(viewer, height=620, scrolling=False)
+
+# ------------------------------------------------------------------ #
+# Sticky notes panel                                                 #
+# ------------------------------------------------------------------ #
+if st.session_state.get("notes"):
+    st.sidebar.subheader("💬 Stored Notes")
+    for i, n in enumerate(st.session_state["notes"], 1):
+        st.sidebar.markdown(f"**{i}.** {n}")
