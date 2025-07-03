@@ -17,7 +17,6 @@ from sklearn.cluster import KMeans
 from mlxtend.frequent_patterns import apriori, association_rules
 import matplotlib.pyplot as plt
 import plotly.express as px
-import plotly.io as pio
 
 def safe_trendline_scatter(df, x, y, **kwargs):
     try:
@@ -124,7 +123,7 @@ with tabs[1]:
     feature_cols = [col for col in df.columns if col != target]
     X = df[feature_cols]
     y = df[target]
-    # -- Drop any row with missing values in features or target --
+    # Drop any row with missing values in features or target
     model_df = pd.concat([X, y], axis=1).dropna(subset=feature_cols + [target])
     X = model_df[feature_cols]
     y = model_df[target]
@@ -132,18 +131,10 @@ with tabs[1]:
     num_cols_X = X.select_dtypes(include=["int64", "float64"]).columns.tolist()
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
 
-    # ---- Dynamic detection of positive class ----
-    from collections import Counter
-    y_labels = sorted(list(set(y_train) | set(y_test)))
-    if len(y_labels) == 2:
-        # Binary: Use less frequent label as positive
-        counter = Counter(list(y_train) + list(y_test))
-        pos_label = min(counter, key=counter.get) if min(counter.values()) != max(counter.values()) else y_labels[1]
-        metrics_average = None
-    else:
-        # Multiclass: use 'weighted' average and skip pos_label
-        pos_label = None
-        metrics_average = "weighted"
+    # Robust: Dynamically find all unique labels
+    all_labels = sorted(set(y_train) | set(y_test))
+    is_binary = len(all_labels) == 2
+    pos_label = all_labels[-1] if is_binary else None
 
     pre = ColumnTransformer([
         ("cat", OrdinalEncoder(handle_unknown="use_encoded_value", unknown_value=-1), cat_cols_X),
@@ -160,27 +151,38 @@ with tabs[1]:
         pipe = Pipeline([("prep", pre), ("clf", clf)])
         pipe.fit(X_train, y_train)
         y_pred = pipe.predict(X_test)
-        probs = pipe.predict_proba(X_test)[:,1] if hasattr(clf, "predict_proba") and len(y_labels) == 2 else None
-        if len(y_labels) == 2:
-            metric_rows.append([
-                name,
-                accuracy_score(y_test, y_pred),
-                precision_score(y_test, y_pred, pos_label=pos_label, zero_division=0),
-                recall_score(y_test, y_pred, pos_label=pos_label, zero_division=0),
-                f1_score(y_test, y_pred, pos_label=pos_label, zero_division=0)
-            ])
-            if probs is not None:
-                fpr, tpr, _ = roc_curve([1 if val == pos_label else 0 for val in y_test], probs)
-                roc_info[name] = (fpr, tpr, auc(fpr, tpr))
+        if hasattr(clf, "predict_proba") and is_binary:
+            probs = pipe.predict_proba(X_test)[:, list(pipe.classes_).index(pos_label)]
         else:
-            metric_rows.append([
-                name,
-                accuracy_score(y_test, y_pred),
-                precision_score(y_test, y_pred, average=metrics_average, zero_division=0),
-                recall_score(y_test, y_pred, average=metrics_average, zero_division=0),
-                f1_score(y_test, y_pred, average=metrics_average, zero_division=0)
-            ])
+            probs = None
+
+        labels_in_test = set(y_test)
+        labels_in_pred = set(y_pred)
+        # Only compute pos_label metrics if present
+        if is_binary and pos_label in labels_in_test and pos_label in labels_in_pred:
+            precision = precision_score(y_test, y_pred, pos_label=pos_label, zero_division=0)
+            recall = recall_score(y_test, y_pred, pos_label=pos_label, zero_division=0)
+            f1 = f1_score(y_test, y_pred, pos_label=pos_label, zero_division=0)
+        elif is_binary:
+            precision = recall = f1 = 0.0
+        else:
+            precision = precision_score(y_test, y_pred, average="weighted", zero_division=0)
+            recall = recall_score(y_test, y_pred, average="weighted", zero_division=0)
+            f1 = f1_score(y_test, y_pred, average="weighted", zero_division=0)
+
+        metric_rows.append([
+            name,
+            accuracy_score(y_test, y_pred),
+            precision,
+            recall,
+            f1
+        ])
+        if probs is not None and is_binary and (pos_label in labels_in_test):
+            binarized_y = [1 if v == pos_label else 0 for v in y_test]
+            fpr, tpr, _ = roc_curve(binarized_y, probs)
+            roc_info[name] = (fpr, tpr, auc(fpr, tpr))
         st.session_state[f"pipe_{name}"] = pipe
+
     met_df = pd.DataFrame(metric_rows, columns=["Model","Accuracy","Precision","Recall","F1"])
     st.dataframe(met_df.style.format("{:.2%}"))
     sel = st.selectbox("Show Confusion Matrix for:", list(models.keys()))
@@ -191,7 +193,7 @@ with tabs[1]:
     fig, ax = plt.subplots()
     ConfusionMatrixDisplay(cm, display_labels=cm_labels).plot(ax=ax)
     st.pyplot(fig)
-    if len(y_labels) == 2 and any(roc_info.values()):
+    if is_binary and any(roc_info.values()):
         fig, ax = plt.subplots()
         for name, (fpr, tpr, auc_score) in roc_info.items():
             ax.plot(fpr, tpr, label=f"{name} (AUC={auc_score:.2f})")
@@ -209,7 +211,6 @@ with tabs[1]:
     up = st.file_uploader("Upload CSV (no target column)", type=["csv"])
     if up:
         new_df = pd.read_csv(up)
-        # dropna on new data for features present
         new_df = new_df.dropna()
         preds = st.session_state["pipe_Random Forest"].predict(new_df)
         new_df["Predicted_Support"] = preds
