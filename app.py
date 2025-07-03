@@ -25,24 +25,6 @@ def safe_trendline_scatter(df, x, y, **kwargs):
     except ImportError:
         return px.scatter(df, x=x, y=y, **kwargs)
 
-@st.cache_data(show_spinner=False)
-def load_repo_csv() -> pd.DataFrame | None:
-    repo_path = Path(__file__).parent / "data" / "extended_alcohol_consumers.csv"
-    if repo_path.exists():
-        return pd.read_csv(repo_path)
-    return None
-
-def request_upload() -> pd.DataFrame:
-    st.info("Dataset not found in the repo. Please upload **extended_alcohol_consumers.csv**.")
-    f = st.file_uploader("Upload dataset", type=["csv"])
-    if f is None:
-        st.stop()
-    return pd.read_csv(f)
-
-df = load_repo_csv()
-if df is None:
-    df = request_upload()
-
 st.set_page_config(page_title="Alcohol Consumer Dashboard", layout="wide")
 st.sidebar.title("⚙️ Global Controls")
 theme_name = st.sidebar.selectbox("🎨 Theme", ["Default", "Vibrant", "Monochrome", "High-Contrast"])
@@ -63,6 +45,22 @@ tab_titles = [
     "🍾 3D Product View"
 ]
 tabs = st.tabs(tab_titles)
+
+# DATA LOADING
+@st.cache_data(show_spinner=False)
+def load_excel() -> pd.DataFrame:
+    # If running locally, ensure the file is in the same folder; otherwise prompt upload
+    excel_path = Path("extended_alcohol_consumers_cleaned.xlsx")
+    if excel_path.exists():
+        return pd.read_excel(excel_path)
+    # Otherwise, prompt upload
+    st.info("Dataset not found in the repo. Please upload **extended_alcohol_consumers_cleaned.xlsx**.")
+    f = st.file_uploader("Upload cleaned dataset", type=["xlsx"])
+    if f is None:
+        st.stop()
+    return pd.read_excel(f)
+
+df = load_excel()
 
 # 1) DATA VISUALISATION
 with tabs[0]:
@@ -123,10 +121,6 @@ with tabs[1]:
     feature_cols = [col for col in df.columns if col != target]
     X = df[feature_cols]
     y = df[target]
-    # Drop any row with missing values in features or target
-    model_df = pd.concat([X, y], axis=1).dropna(subset=feature_cols + [target])
-    X = model_df[feature_cols]
-    y = model_df[target]
     cat_cols_X = X.select_dtypes(include="object").columns.tolist()
     num_cols_X = X.select_dtypes(include=["int64", "float64"]).columns.tolist()
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
@@ -158,7 +152,6 @@ with tabs[1]:
 
         labels_in_test = set(y_test)
         labels_in_pred = set(y_pred)
-        # Only compute pos_label metrics if present
         if is_binary and pos_label in labels_in_test and pos_label in labels_in_pred:
             precision = precision_score(y_test, y_pred, pos_label=pos_label, zero_division=0)
             recall = recall_score(y_test, y_pred, pos_label=pos_label, zero_division=0)
