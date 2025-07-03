@@ -124,6 +124,10 @@ with tabs[1]:
     feature_cols = [col for col in df.columns if col != target]
     X = df[feature_cols]
     y = df[target]
+    # -- Drop any row with missing values in features or target --
+    model_df = pd.concat([X, y], axis=1).dropna(subset=feature_cols + [target])
+    X = model_df[feature_cols]
+    y = model_df[target]
     cat_cols_X = X.select_dtypes(include="object").columns.tolist()
     num_cols_X = X.select_dtypes(include=["int64", "float64"]).columns.tolist()
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
@@ -180,6 +184,8 @@ with tabs[1]:
     up = st.file_uploader("Upload CSV (no target column)", type=["csv"])
     if up:
         new_df = pd.read_csv(up)
+        # dropna on new data for features present
+        new_df = new_df.dropna()
         preds = st.session_state["pipe_Random Forest"].predict(new_df)
         new_df["Predicted_Support"] = preds
         csv_out = new_df.to_csv(index=False).encode()
@@ -189,21 +195,22 @@ with tabs[1]:
 # 3) CLUSTERING
 with tabs[2]:
     st.header("Customer Segmentation (K-means)")
-    # Use only numeric columns for clustering
     cluster_num_cols = df.select_dtypes(include=["int64", "float64"]).columns.tolist()
+    # -- Drop rows with any NaN in numeric columns --
+    cluster_df = df.dropna(subset=cluster_num_cols).copy()
     k = st.slider("Number of clusters", 2, 10, 4)
     inertias = []
     for i in range(2, 11):
         km = KMeans(n_clusters=i, n_init="auto", random_state=42)
-        km.fit(df[cluster_num_cols])
+        km.fit(cluster_df[cluster_num_cols])
         inertias.append(km.inertia_)
     fig, ax = plt.subplots()
     ax.plot(range(2,11), inertias, marker="o")
     ax.set_xlabel("k"); ax.set_ylabel("Inertia"); ax.set_title("Elbow Method")
     st.pyplot(fig)
     km = KMeans(n_clusters=k, n_init="auto", random_state=42)
-    df["Cluster"] = km.fit_predict(df[cluster_num_cols])
-    persona = df.groupby("Cluster").agg({
+    cluster_df["Cluster"] = km.fit_predict(cluster_df[cluster_num_cols])
+    persona = cluster_df.groupby("Cluster").agg({
         "Age":"median",
         "Income_kUSD":"median",
         "Drinks_Per_Week":"median",
@@ -217,7 +224,7 @@ with tabs[2]:
         "Brand_Loyalty":"Typical Loyalty"
     })
     st.dataframe(persona)
-    st.download_button("Download CSV with clusters", data=df.to_csv(index=False).encode(), file_name="clustered_data.csv", mime="text/csv")
+    st.download_button("Download CSV with clusters", data=cluster_df.to_csv(index=False).encode(), file_name="clustered_data.csv", mime="text/csv")
 
 # 4) ASSOCIATION RULE MINING
 with tabs[3]:
@@ -227,7 +234,9 @@ with tabs[3]:
     min_sup = st.slider("Min support (%)", 1, 20, 5) / 100
     min_conf = st.slider("Min confidence (%)", 5, 80, 30) / 100
     if cols:
-        basket = pd.get_dummies(df[cols])
+        # dropna on selected columns only for association rule mining
+        ar_df = df.dropna(subset=cols)
+        basket = pd.get_dummies(ar_df[cols])
         freq = apriori(basket, min_support=min_sup, use_colnames=True)
         rules = association_rules(freq, metric="confidence", min_threshold=min_conf).sort_values("confidence", ascending=False).head(10)
         st.dataframe(rules[["antecedents","consequents","support","confidence","lift"]])
@@ -247,6 +256,10 @@ with tabs[4]:
     feature_cols_reg = [col for col in df.columns if col != target_reg]
     y_reg = df[target_reg]
     X_reg = df[feature_cols_reg]
+    # dropna on both features and target for regression
+    reg_df = pd.concat([X_reg, y_reg], axis=1).dropna(subset=feature_cols_reg + [target_reg])
+    X_reg = reg_df[feature_cols_reg]
+    y_reg = reg_df[target_reg]
     cat_cols_reg = X_reg.select_dtypes(include="object").columns.tolist()
     num_cols_reg = X_reg.select_dtypes(include=["int64", "float64"]).columns.tolist()
     Xr_train, Xr_test, yr_train, yr_test = train_test_split(X_reg, y_reg, test_size=0.2, random_state=42)
