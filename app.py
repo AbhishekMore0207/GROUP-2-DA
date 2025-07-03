@@ -44,9 +44,6 @@ df = load_repo_csv()
 if df is None:
     df = request_upload()
 
-cat_cols = df.select_dtypes(include="object").columns.tolist()
-num_cols = df.select_dtypes(include=["int64", "float64"]).columns.tolist()
-
 st.set_page_config(page_title="Alcohol Consumer Dashboard", layout="wide")
 st.sidebar.title("⚙️ Global Controls")
 theme_name = st.sidebar.selectbox("🎨 Theme", ["Default", "Vibrant", "Monochrome", "High-Contrast"])
@@ -75,8 +72,7 @@ with tabs[0]:
     st.plotly_chart(fig, use_container_width=True)
     st.caption("Respondents concentrate in the 25–45 range, prime spending years.")
 
-    fig = safe_trendline_scatter(df, x="Income_kUSD", y="Drinks_Per_Week",
-                                 title="Income vs Drinks/Week")
+    fig = safe_trendline_scatter(df, x="Income_kUSD", y="Drinks_Per_Week", title="Income vs Drinks/Week")
     st.plotly_chart(fig, use_container_width=True)
     st.caption("Slight upward trend: higher income loosely correlates with more weekly drinks.")
 
@@ -94,7 +90,6 @@ with tabs[0]:
     st.plotly_chart(fig, use_container_width=True)
     st.caption(f"Tail shows power-spenders – 1 % spend > {symbol}{spend_adj.quantile(0.99):,.0f}/mo.")
 
-    # --- SUNBURST WITH NAN HANDLING ---
     sb_data = df.dropna(subset=["Taste_Preference", "Brand_Loyalty"])
     if sb_data.empty:
         st.warning("No data available for Taste vs Brand Loyalty sunburst.")
@@ -116,6 +111,7 @@ with tabs[0]:
     st.plotly_chart(fig, use_container_width=True)
     st.caption("Even highly health-conscious (score ≥ 4) show ~40 % support.")
 
+    num_cols = df.select_dtypes(include=["int64", "float64"]).columns.tolist()
     corr = df[num_cols].corr()
     fig = px.imshow(corr, text_auto=True, title="Numeric Feature Correlations")
     st.plotly_chart(fig, use_container_width=True)
@@ -125,12 +121,15 @@ with tabs[0]:
 with tabs[1]:
     st.header("Predict ‘Support_Local_Store’")
     target = "Support_Local_Store"
-    X = df.drop(columns=[target])
+    feature_cols = [col for col in df.columns if col != target]
+    X = df[feature_cols]
     y = df[target]
+    cat_cols_X = X.select_dtypes(include="object").columns.tolist()
+    num_cols_X = X.select_dtypes(include=["int64", "float64"]).columns.tolist()
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
     pre = ColumnTransformer([
-        ("cat", OrdinalEncoder(handle_unknown="use_encoded_value", unknown_value=-1), cat_cols),
-        ("num", StandardScaler(), num_cols)
+        ("cat", OrdinalEncoder(handle_unknown="use_encoded_value", unknown_value=-1), cat_cols_X),
+        ("num", StandardScaler(), num_cols_X)
     ])
     models = {
         "KNN": KNeighborsClassifier(),
@@ -173,7 +172,7 @@ with tabs[1]:
     ax.legend()
     st.pyplot(fig)
     rf_imp = st.session_state["pipe_Random Forest"].named_steps["clf"].feature_importances_
-    feats = pd.DataFrame({"Feature": cat_cols + num_cols, "Importance": rf_imp})
+    feats = pd.DataFrame({"Feature": cat_cols_X + num_cols_X, "Importance": rf_imp})
     top5 = feats.sort_values("Importance", ascending=False).head(5)
     fig = px.bar(top5, x="Feature", y="Importance", title="Top-5 Predictive Features")
     st.plotly_chart(fig)
@@ -190,24 +189,26 @@ with tabs[1]:
 # 3) CLUSTERING
 with tabs[2]:
     st.header("Customer Segmentation (K-means)")
+    # Use only numeric columns for clustering
+    cluster_num_cols = df.select_dtypes(include=["int64", "float64"]).columns.tolist()
     k = st.slider("Number of clusters", 2, 10, 4)
     inertias = []
     for i in range(2, 11):
         km = KMeans(n_clusters=i, n_init="auto", random_state=42)
-        km.fit(df[num_cols])
+        km.fit(df[cluster_num_cols])
         inertias.append(km.inertia_)
     fig, ax = plt.subplots()
     ax.plot(range(2,11), inertias, marker="o")
     ax.set_xlabel("k"); ax.set_ylabel("Inertia"); ax.set_title("Elbow Method")
     st.pyplot(fig)
     km = KMeans(n_clusters=k, n_init="auto", random_state=42)
-    df["Cluster"] = km.fit_predict(df[num_cols])
+    df["Cluster"] = km.fit_predict(df[cluster_num_cols])
     persona = df.groupby("Cluster").agg({
         "Age":"median",
         "Income_kUSD":"median",
         "Drinks_Per_Week":"median",
-        "Preferred_Drink":lambda x: x.mode()[0],
-        "Brand_Loyalty":lambda x: x.mode()[0]
+        "Preferred_Drink":lambda x: x.mode()[0] if len(x.mode()) else np.nan,
+        "Brand_Loyalty":lambda x: x.mode()[0] if len(x.mode()) else np.nan
     }).rename(columns={
         "Age":"Median Age",
         "Income_kUSD":"Median Income (kUSD)",
@@ -221,31 +222,37 @@ with tabs[2]:
 # 4) ASSOCIATION RULE MINING
 with tabs[3]:
     st.header("Association Rule Mining (Apriori)")
-    cols = st.multiselect("Columns to mine", cat_cols, default=["Preferred_Drink","Purchase_Channel"])
+    ar_cat_cols = df.select_dtypes(include="object").columns.tolist()
+    cols = st.multiselect("Columns to mine", ar_cat_cols, default=["Preferred_Drink","Purchase_Channel"] if "Preferred_Drink" in ar_cat_cols and "Purchase_Channel" in ar_cat_cols else ar_cat_cols[:2])
     min_sup = st.slider("Min support (%)", 1, 20, 5) / 100
     min_conf = st.slider("Min confidence (%)", 5, 80, 30) / 100
-    basket = pd.get_dummies(df[cols])
-    freq = apriori(basket, min_support=min_sup, use_colnames=True)
-    rules = association_rules(freq, metric="confidence", min_threshold=min_conf).sort_values("confidence", ascending=False).head(10)
-    st.dataframe(rules[["antecedents","consequents","support","confidence","lift"]])
-    st.subheader("🧠 Rule Insights")
-    if rules.empty:
-        st.warning("No rules meet the chosen thresholds.")
-    else:
-        for _, row in rules.iterrows():
-            ant = ', '.join(row['antecedents'])
-            con = ', '.join(row['consequents'])
-            st.markdown(f"- **{ant} → {con}** &nbsp; (conf {row.confidence:.0%}, lift {row.lift:.2f})")
+    if cols:
+        basket = pd.get_dummies(df[cols])
+        freq = apriori(basket, min_support=min_sup, use_colnames=True)
+        rules = association_rules(freq, metric="confidence", min_threshold=min_conf).sort_values("confidence", ascending=False).head(10)
+        st.dataframe(rules[["antecedents","consequents","support","confidence","lift"]])
+        st.subheader("🧠 Rule Insights")
+        if rules.empty:
+            st.warning("No rules meet the chosen thresholds.")
+        else:
+            for _, row in rules.iterrows():
+                ant = ', '.join(row['antecedents'])
+                con = ', '.join(row['consequents'])
+                st.markdown(f"- **{ant} → {con}** &nbsp; (conf {row.confidence:.0%}, lift {row.lift:.2f})")
 
 # 5) REGRESSION
 with tabs[4]:
     st.header("Predict Monthly Spend (Regression)")
-    y_reg = df["Monthly_Spend_USD"]
-    X_reg = df.drop(columns=["Monthly_Spend_USD"])
+    target_reg = "Monthly_Spend_USD"
+    feature_cols_reg = [col for col in df.columns if col != target_reg]
+    y_reg = df[target_reg]
+    X_reg = df[feature_cols_reg]
+    cat_cols_reg = X_reg.select_dtypes(include="object").columns.tolist()
+    num_cols_reg = X_reg.select_dtypes(include=["int64", "float64"]).columns.tolist()
     Xr_train, Xr_test, yr_train, yr_test = train_test_split(X_reg, y_reg, test_size=0.2, random_state=42)
     pre_r = ColumnTransformer([
-        ("cat", OrdinalEncoder(handle_unknown="use_encoded_value", unknown_value=-1), cat_cols),
-        ("num", StandardScaler(), num_cols)
+        ("cat", OrdinalEncoder(handle_unknown="use_encoded_value", unknown_value=-1), cat_cols_reg),
+        ("num", StandardScaler(), num_cols_reg)
     ])
     regs = {
         "Linear":  LinearRegression(),
@@ -265,7 +272,7 @@ with tabs[4]:
             feat_imp[n] = reg.feature_importances_
     st.dataframe(pd.DataFrame(rows, columns=["Model","R² (test)"]).style.format("{:.3f}"))
     dt_imp = feat_imp["Decision Tree"]
-    fi = pd.DataFrame({"Feature": cat_cols + num_cols, "Importance": dt_imp})
+    fi = pd.DataFrame({"Feature": cat_cols_reg + num_cols_reg, "Importance": dt_imp})
     top8 = fi.sort_values("Importance", ascending=False).head(8)
     fig = px.bar(top8, x="Feature", y="Importance", title="Top Spend Drivers (Decision Tree)")
     st.plotly_chart(fig)
@@ -283,7 +290,6 @@ with tabs[5]:
     """
     st.components.v1.html(viewer, height=620, scrolling=False)
 
-# Sticky notes panel
 if st.session_state.get("notes"):
     st.sidebar.subheader("💬 Stored Notes")
     for i, n in enumerate(st.session_state["notes"], 1):
