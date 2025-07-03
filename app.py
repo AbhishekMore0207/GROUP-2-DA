@@ -94,7 +94,7 @@ with tabs[0]:
     st.plotly_chart(fig, use_container_width=True)
     st.caption(f"Tail shows power-spenders – 1 % spend > {symbol}{spend_adj.quantile(0.99):,.0f}/mo.")
 
-    # ---- FIX: Drop rows with NaN for Sunburst ----
+    # --- SUNBURST WITH NAN HANDLING ---
     sb_data = df.dropna(subset=["Taste_Preference", "Brand_Loyalty"])
     if sb_data.empty:
         st.warning("No data available for Taste vs Brand Loyalty sunburst.")
@@ -121,8 +121,167 @@ with tabs[0]:
     st.plotly_chart(fig, use_container_width=True)
     st.caption("Monthly Spend correlates with Income and Drinks/Week.")
 
-# ... [rest of the code is unchanged, as in your last working version] ...
-# (Paste your full tab code for classification, clustering, association rules, regression, and 3D view, as given previously)
+# 2) CLASSIFICATION
+with tabs[1]:
+    st.header("Predict ‘Support_Local_Store’")
+    target = "Support_Local_Store"
+    X = df.drop(columns=[target])
+    y = df[target]
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
+    pre = ColumnTransformer([
+        ("cat", OrdinalEncoder(handle_unknown="use_encoded_value", unknown_value=-1), cat_cols),
+        ("num", StandardScaler(), num_cols)
+    ])
+    models = {
+        "KNN": KNeighborsClassifier(),
+        "Decision Tree": DecisionTreeClassifier(random_state=42),
+        "Random Forest": RandomForestClassifier(n_estimators=300, random_state=42),
+        "Gradient Boosting": GradientBoostingClassifier(random_state=42)
+    }
+    roc_info, metric_rows = {}, []
+    for name, clf in models.items():
+        pipe = Pipeline([("prep", pre), ("clf", clf)])
+        pipe.fit(X_train, y_train)
+        y_pred = pipe.predict(X_test)
+        probs = pipe.predict_proba(X_test)[:,1] if hasattr(clf, "predict_proba") else None
+        metric_rows.append([
+            name,
+            accuracy_score(y_test, y_pred),
+            precision_score(y_test, y_pred, pos_label="Yes"),
+            recall_score(y_test, y_pred, pos_label="Yes"),
+            f1_score(y_test, y_pred, pos_label="Yes")
+        ])
+        if probs is not None:
+            fpr, tpr, _ = roc_curve((y_test=="Yes").astype(int), probs)
+            roc_info[name] = (fpr, tpr, auc(fpr, tpr))
+        st.session_state[f"pipe_{name}"] = pipe
+    met_df = pd.DataFrame(metric_rows, columns=["Model","Accuracy","Precision","Recall","F1"])
+    st.dataframe(met_df.style.format("{:.2%}"))
+    sel = st.selectbox("Show Confusion Matrix for:", list(models.keys()))
+    pipe = st.session_state[f"pipe_{sel}"]
+    y_cm_pred = pipe.predict(X_test)
+    cm = confusion_matrix(y_test, y_cm_pred, labels=["No","Yes"])
+    fig, ax = plt.subplots()
+    ConfusionMatrixDisplay(cm, display_labels=["No","Yes"]).plot(ax=ax)
+    st.pyplot(fig)
+    fig, ax = plt.subplots()
+    for name, (fpr, tpr, auc_score) in roc_info.items():
+        ax.plot(fpr, tpr, label=f"{name} (AUC={auc_score:.2f})")
+    ax.plot([0,1],[0,1],"--")
+    ax.set_xlabel("False Positive Rate"); ax.set_ylabel("True Positive Rate")
+    ax.set_title("ROC Curves (all models)")
+    ax.legend()
+    st.pyplot(fig)
+    rf_imp = st.session_state["pipe_Random Forest"].named_steps["clf"].feature_importances_
+    feats = pd.DataFrame({"Feature": cat_cols + num_cols, "Importance": rf_imp})
+    top5 = feats.sort_values("Importance", ascending=False).head(5)
+    fig = px.bar(top5, x="Feature", y="Importance", title="Top-5 Predictive Features")
+    st.plotly_chart(fig)
+    st.subheader("📤 Predict on New Data")
+    up = st.file_uploader("Upload CSV (no target column)", type=["csv"])
+    if up:
+        new_df = pd.read_csv(up)
+        preds = st.session_state["pipe_Random Forest"].predict(new_df)
+        new_df["Predicted_Support"] = preds
+        csv_out = new_df.to_csv(index=False).encode()
+        st.download_button("📥 Download Predictions", data=csv_out, file_name="support_predictions.csv", mime="text/csv")
+        st.write("Preview", new_df.head())
+
+# 3) CLUSTERING
+with tabs[2]:
+    st.header("Customer Segmentation (K-means)")
+    k = st.slider("Number of clusters", 2, 10, 4)
+    inertias = []
+    for i in range(2, 11):
+        km = KMeans(n_clusters=i, n_init="auto", random_state=42)
+        km.fit(df[num_cols])
+        inertias.append(km.inertia_)
+    fig, ax = plt.subplots()
+    ax.plot(range(2,11), inertias, marker="o")
+    ax.set_xlabel("k"); ax.set_ylabel("Inertia"); ax.set_title("Elbow Method")
+    st.pyplot(fig)
+    km = KMeans(n_clusters=k, n_init="auto", random_state=42)
+    df["Cluster"] = km.fit_predict(df[num_cols])
+    persona = df.groupby("Cluster").agg({
+        "Age":"median",
+        "Income_kUSD":"median",
+        "Drinks_Per_Week":"median",
+        "Preferred_Drink":lambda x: x.mode()[0],
+        "Brand_Loyalty":lambda x: x.mode()[0]
+    }).rename(columns={
+        "Age":"Median Age",
+        "Income_kUSD":"Median Income (kUSD)",
+        "Drinks_Per_Week":"Drinks/Week",
+        "Preferred_Drink":"Fav Drink",
+        "Brand_Loyalty":"Typical Loyalty"
+    })
+    st.dataframe(persona)
+    st.download_button("Download CSV with clusters", data=df.to_csv(index=False).encode(), file_name="clustered_data.csv", mime="text/csv")
+
+# 4) ASSOCIATION RULE MINING
+with tabs[3]:
+    st.header("Association Rule Mining (Apriori)")
+    cols = st.multiselect("Columns to mine", cat_cols, default=["Preferred_Drink","Purchase_Channel"])
+    min_sup = st.slider("Min support (%)", 1, 20, 5) / 100
+    min_conf = st.slider("Min confidence (%)", 5, 80, 30) / 100
+    basket = pd.get_dummies(df[cols])
+    freq = apriori(basket, min_support=min_sup, use_colnames=True)
+    rules = association_rules(freq, metric="confidence", min_threshold=min_conf).sort_values("confidence", ascending=False).head(10)
+    st.dataframe(rules[["antecedents","consequents","support","confidence","lift"]])
+    st.subheader("🧠 Rule Insights")
+    if rules.empty:
+        st.warning("No rules meet the chosen thresholds.")
+    else:
+        for _, row in rules.iterrows():
+            ant = ', '.join(row['antecedents'])
+            con = ', '.join(row['consequents'])
+            st.markdown(f"- **{ant} → {con}** &nbsp; (conf {row.confidence:.0%}, lift {row.lift:.2f})")
+
+# 5) REGRESSION
+with tabs[4]:
+    st.header("Predict Monthly Spend (Regression)")
+    y_reg = df["Monthly_Spend_USD"]
+    X_reg = df.drop(columns=["Monthly_Spend_USD"])
+    Xr_train, Xr_test, yr_train, yr_test = train_test_split(X_reg, y_reg, test_size=0.2, random_state=42)
+    pre_r = ColumnTransformer([
+        ("cat", OrdinalEncoder(handle_unknown="use_encoded_value", unknown_value=-1), cat_cols),
+        ("num", StandardScaler(), num_cols)
+    ])
+    regs = {
+        "Linear":  LinearRegression(),
+        "Ridge":   Ridge(alpha=1.0),
+        "Lasso":   Lasso(alpha=0.1),
+        "Decision Tree": DecisionTreeRegressor(random_state=42)
+    }
+    rows, feat_imp = [], {}
+    for n, reg in regs.items():
+        pipe = Pipeline([("prep", pre_r), ("reg", reg)])
+        pipe.fit(Xr_train, yr_train)
+        score = pipe.score(Xr_test, yr_test)
+        rows.append([n, score])
+        if hasattr(reg, "coef_"):
+            feat_imp[n] = reg.coef_
+        elif hasattr(reg, "feature_importances_"):
+            feat_imp[n] = reg.feature_importances_
+    st.dataframe(pd.DataFrame(rows, columns=["Model","R² (test)"]).style.format("{:.3f}"))
+    dt_imp = feat_imp["Decision Tree"]
+    fi = pd.DataFrame({"Feature": cat_cols + num_cols, "Importance": dt_imp})
+    top8 = fi.sort_values("Importance", ascending=False).head(8)
+    fig = px.bar(top8, x="Feature", y="Importance", title="Top Spend Drivers (Decision Tree)")
+    st.plotly_chart(fig)
+
+# 6) 3-D PRODUCT VIEW
+with tabs[5]:
+    st.header("360° Product Viewer")
+    st.markdown("Rotate, zoom, and inspect packaging details.")
+    viewer = """
+      <script type="module"
+              src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+      <model-viewer src="https://modelviewer.dev/shared-assets/models/BeerBottle.glb"
+                    camera-controls auto-rotate
+                    style="width:100%; height:600px;"></model-viewer>
+    """
+    st.components.v1.html(viewer, height=620, scrolling=False)
 
 # Sticky notes panel
 if st.session_state.get("notes"):
